@@ -1,36 +1,16 @@
-/*AN*/
-
-/*AN*/
 
 .page {
   width: 100%;
-  /* height: 80vh; */
- /*AN*/ height: 49vh;/*AN*/
+  height: 49vh;
   display: flex;
-  /* flex-direction: column; */
-  flex-direction: column;/*AN*/
+  flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   text-align: center; 
-  background-color: #010f29; 
-  /* border: 1px solid silver; */
-  
- 
+  background-color: #010f29;
 }
-
 .typing-container{
   color: #a6b1e1;
   font-size: 19px;
-}
-
-/*AN*/
-
-/*AN*/
-.heading {
-  font-size: 45px;
-}
-.highlight {
-  color: #7f78d2;
 }
 .countdown-wrapper {
   max-width: 800px;
@@ -40,36 +20,8 @@
   justify-content: space-between;
   margin-left: 2%;
   margin-right: 2%;
-  
-
 }
-/* .countdown-box {
-  background-color: #413c69;
-  font-size: 50px;
-  font-weight: 700;
-  color: #dcd6f7;
-  border-radius: 11px;
-  width: 160px;
-  height: 160px;
-  margin: 14px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 2px 7px rgba(255, 255, 255, 0.7);
-  animation: changeColor 1.5s linear infinite;
-} */
-/* @keyframes changeColor {
-  0%, 100% {
-    background-color: #413c69; 
-    color: #dcd6f7;
-  }
-  20% {
-    background-color: #070424; 
-    color: #dcd6f7;
-  }
-} */
+
 .countdown-box {
   font-size: 30px;
   font-weight: 700;
@@ -86,7 +38,7 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
-  animation: colorChange 1s infinite; /* Apply the colorChange animation */
+  animation: colorChange 1s infinite;
 }
 @keyframes colorChange {
   0% {
@@ -100,371 +52,11 @@
   }
 }
 
-/*AN*/
-.countdown-NCPC-box{
-  
-  background-color: #010f29; 
-  font-size: 40px;
-  font-weight: 540;
-  color: #dcd6f7;
-  /* border-radius: 7px; */
-  width: 390px;
-  height: 100px;
-  margin: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  
-  padding:4%;
-  
-}
-
-/*AI*/
-@media only screen and (max-width: 1025px) {
-  .page{
-    height:137vh;
-    background-color: #010f29;
-  }
-  .countdown-NCPC-box {
-    width: 690px; 
-    height: 110px; 
-    font-size: 30px; 
-   
-    padding:6%;
-  }
-  .countdown-box {
-    width: 60%; 
-    height: 120px; /*AN*/
-    font-size: 30px; 
-    box-shadow: 0 0 2px 7px rgba(255, 255, 255, 0.7);
-    padding:1%;
-    margin-bottom: 10%;
-   
-  } 
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .countdown-NCPC-box{
-    background-color: #010f29;
-    font-size: 40px;
-    font-weight: 590;
-    color: #dcd6f7;
-    border-radius: 9px;
-    width: 490px;
-    height: 100px;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    padding:4%;
-    
-  }
-
-  .countdown-box {
-    width: 80%; 
-    height: 85px; /*AN*/
-    font-size: 30px; 
-    box-shadow: 0 0 2px 7px rgba(255, 255, 255, 0.7);
-    padding:8%;
-  } 
-
-  .countdown-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .countdown-NCPC-box{
-    background-color: #010f29;
-    font-size: 30px;
-    font-weight: 590;
-    color: #dcd6f7;
-    border-radius: 9px;
-    width: 300px;
-    height: 100px;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    padding:4%;
-    
-  }
-
-  .countdown-box {
-    width: 80%; 
-    height: 85px; /*AN*/
-    font-size: 30px; 
-    box-shadow: 0 0 2px 7px rgba(255, 255, 255, 0.7);
-    padding:8%;
-  } 
-
-  .countdown-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-/*AI*/
-@media (max-width: 468px) {
-  .page{
-    height:96vh;
-    background-color: #010f29;  
-    margin-top:0%;
-    margin-bottom: 0%;
-  }
-  .countdown-wrapper {
-   width: 100%;
-   justify-content: space-around;
-  
-  
-  }
-  .countdown-NCPC-box {
-    width: 120%;
-    height: 10%; 
-    font-size: 15px; 
-    border:none!important;
-  
-    padding:1%;
-  }
-  .countdown-box {
-    width: 70%; 
-    height: 14%; 
-    font-size: 22px; 
-    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
-    padding:8%;
-    margin-bottom: 0%;
-    
-   
-  } 
-  .typing-container{
-    color: #a6b1e1;
-    font-size: 14px;
-  }
-
-}
-
-
-@media (max-width: 668px) {
-  .page{
-    height:96vh;
-    background-color: #010f29;  
-    margin-top:0%;
-    margin-bottom: 0%;
-  }
-  .countdown-wrapper {
-   width: 100%;
-   justify-content: space-around;
-  
-  
-  }
-  .countdown-NCPC-box {
-    width: 120%;
-    height: 10%; 
-    font-size: 15px; 
-    border:none!important;
-    
-    padding:1%;
-  }
-  .countdown-box {
-    width: 70%; 
-    height: 14%; 
-    font-size: 22px; 
-    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
-    padding:8%;
-    margin-bottom: 0%;
-    
-   
-  } 
-  .typing-container{
-    color: #a6b1e1;
-    font-size: 14px;
-  }
-
-}
-
-@media (max-width: 768px) {
-  .page{
-    height:80vh;
-    background-color: #010f29;  
-    margin-top:0%;
-    margin-bottom: 0%;
-  }
-  .countdown-wrapper {
-   width: 100%;
-   justify-content: space-around;
-   
-  
-  
-  }
-  .countdown-NCPC-box {
-    width: 120%;
-    height: 10%; 
-    font-size: 15px; 
-    border:none!important;
-    
-    padding:1%;
-  }
-  .countdown-box {
-    width: 70%; 
-    height: 14%; 
-    font-size: 22px; 
-    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
-    padding:8%;
-    margin-bottom: 0%;
-    
-   
-  } 
-  .typing-container{
-    color: #a6b1e1;
-    font-size: 14px;
-  }
-
-}
-
-@media (max-width: 868px) {
-  .page{
-    height:96vh;
-    background-color: #010f29;  
-    margin-top:0%;
-    margin-bottom: 0%;
-  }
-  .countdown-wrapper {
-   width: 100%;
-   justify-content: space-around;
-  
-  
-  }
-  .countdown-NCPC-box {
-    width: 120%;
-    height: 10%; 
-    font-size: 15px; 
-    border:none!important;
-    
-    padding:1%;
-  }
-  .countdown-box {
-    width: 70%; 
-    height: 14%; 
-    font-size: 22px; 
-    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
-    padding:8%;
-    margin-bottom: 0%;
-    
-   
-  } 
-  .typing-container{
-    color: #a6b1e1;
-    font-size: 14px;
-  }
-
-}
-
-
-/*AN*/
 .legend {
   font-size: 16px;
   color: #a6b1e1;
 }
-.wish-message {
-  font-size: 45px;
-  font-weight: 700;
-}
-.birthdate {
-  font-size: 5px;
-  font-weight: 600;
-  color: #7f78d2;
-}
-.credits {
-  margin-top: 15px;
-}
-.github-logo {
-  opacity: 0.5;
-  width: 50px;
-}
-.github-logo:hover {
-  opacity: 1;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-.form input {
-  margin: 10px;
-}
-input {
-  color: var(--main-text-color-dark);
-  outline: none;
-  width: 300px;
-  height: 40px;
-  background-color: transparent;
-  border: 1px rgba(255, 255, 255, 0.2) solid;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 18px;
-}
-select {
-  width: 300px;
-  height: 40px;
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.527);
-  font-family: Montserrat, sans-serif;
-  border: 1px rgba(255, 255, 255, 0.164) solid;
-  padding-left: 20px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 5px;
-  font-size: 18px;
-  margin-top: 10px;
-  outline: none;
-}
-input:focus,
-select:focus,
-.btn:focus {
-  border: 1px rgba(255, 255, 255, 1) solid;
-  transition: all 0.5s;
-}
-.btn {
-  width: 300px;
-  height: 40px;
-  margin-top: 20px;
-  outline: none;
-  border: 1px rgba(255, 255, 255, 0.2) solid;
- 
-  border-radius: 5px;
-  color: rgba(255, 255, 255, 0.719);
-  font-size: 18px;
-  font-weight: 700;
-}
-.btn:hover {
-  color: white;
-}
-a {
-  color: #7f78d2;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.gen-link {
-  margin-top: 20px;
-  font-size: 400;
-}
-
+.
 .first-image{
   background-image:url('../Assets/Images/Galaxy.jpg');
   

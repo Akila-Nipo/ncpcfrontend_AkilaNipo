@@ -91,34 +91,6 @@
     height: auto;
     max-width: 120px;
 }
-/*AN*/
-
-
-/*AN*/
-.logoMidDiv p {
-    flex: 1;
-    margin-top: 9px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    font-size: 190%;
-}
-
-.wordart {
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-    font-weight: bold;
-    color: #0a0a7a;
-    text-shadow:
-            -1px -1px 0 #0f0f0f,
-            1px -1px 0 #080707,
-            -1px 1px 0 #0e0c0c,
-            1px 1px 0 #0a0606;
-    letter-spacing: 6px;
-}
-
-/*AN*/
 
 .logoRightDiv img{
     width: 40%;
@@ -130,12 +102,6 @@
     display: flex;
     justify-content: right;
 }
-
-.topBanner{
-
-
-}
-
 .bannerRight{
     width: 28%;
     height: auto;
@@ -166,72 +132,7 @@
     padding: 0!important;
     font-size: small;
     margin-bottom: 5%!important;
-    /* background-color: rgb(172, 171, 171)!important;
-    color:rgb(2, 2, 51)!important; */
 }
-.buttonBanner:hover{
-    /* background-color: silver!important;
-    border:1px solid white!important; */
-    transform: scale(1.07);
-}
-.jucselogoBanner{
-
-    height: 40% !important;
-    margin-top:40% !important;
-
-}
-.jucselogoBanner1{
-    height: 38% !important;
-    margin-top:1% !important;
-}
-
-.hostedbyDiv{
-    /* width:200px;
-    height: 100px; */
-    background-color: white;
-
-}
-.hostedbyDiv h1{
-    color:#021d50;
-    font-weight: 700;
-    margin-bottom: 0;
-
-}
-.hostedbyDiv img{
-    height:40%;
-
-}
-.hostedbyDiv h5{
-    color:#0e047d;
-    font-weight: 500;
-
-}
-
-
-.hostedbyDiv h6{
-    color:rgb(255, 0, 0);
-    font-weight: 300;
-
-
-
-}
-.bannerRight h3{
-    color: #a6b1e1;
-    font-size: 18px;
-}
-.bannerRight h6{
-    font-size: 15px;
-    font-weight: 550;
-
-}
-
-/*AN*/.card-carousel{
-          height: auto!important;
-          border-radius: 0!important;
-          text-align: center;
-          background-color: rgb(255, 255, 255);
-      }/*AN*/
-
 .cardImg{
     width: 100px;
     height: 100px;
@@ -243,9 +144,6 @@
     text-align: center;
     background-color: rgb(221, 230, 237) !important;
 }
-
-
-
 .contactBtn{
     background-color: rgba(0,0,0,0.5)!important;
     border: 1px solid black!important;
@@ -254,10 +152,7 @@
     font-family: Oswald, serif;
     font-weight: 400!important;
     display: flex;
-
-
 }
-
 .contactBtn:hover{
     background-color: #e5dcdc !important;
     color: black!important;
@@ -267,7 +162,6 @@
 
 .committeeBody{
     color:white;
-
     margin:1%;
     border-radius: .5%;
     font-size: 22px;
@@ -276,7 +170,6 @@
 }
 .committeeTitleBorder{
     background-color:#aeafb0;
-
 }
 
 .choyonSir{
@@ -321,9 +214,7 @@
     color: rgba(0,0,0,0.9) !important;
     font-family: Montserrat, serif;
     font-weight: 500;
-
 }
-
 .description{
     font-size: 16px;
     font-family: Raleway, serif;
@@ -338,26 +229,12 @@
     font-weight: 500;
     color: rgba(0,0,0,0.8);
 }
-/* .noticeDiv{
-    padding: 0 10px 0 10px;
-    background-color: rgb(22, 21, 21);
-    color:silver;
-    
-} */
-
-/*AN*/
 .honorContainer{
-    /* background-color: rgba(20, 218, 224, 0.1); */
-    background-color: white;
-    margin: 4% 0 4% 1.5%;
-
-
+    background-color: rgba(241, 235, 235, 0.06);
 }
 
 .noticeDivLeft{
     color:  silver;
-    /* background-color:rgb(255, 255, 255); */
-    /* border-radius: .5%; */
     background-color: rgb(29, 52, 40);
     border:1px solid rgb(4, 46, 24);
     box-shadow: 0 5px 10px rgb(48, 87, 59);
@@ -367,7 +244,7 @@
 .noticeDivLeft:hover{
     cursor:pointer;
     box-shadow: 0 5px 10px rgb(48, 87, 59);
-    transform: scale(1.0);
+    transform: scale(1.005);
 }
 
 .carouselCaptionDivLeftHonor{
@@ -378,72 +255,29 @@
     background-color: rgba(0, 0, 0, 0.7)!important;
 }
 .noticeDivRight{
-    padding-left:.25%;
-    padding-right:.25%;
-
-    margin-top:1% !important;
-
-    margin-bottom:1%;
-    margin-left:5% !important;
     background-color: rgb(255, 255, 255);
     color:rgb(22, 21, 21);
     border-radius: .5%;
     border:1px solid rgb(2, 144, 71);
     box-shadow: 0 3px 10px rgb(48, 87, 59);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
 }
 .noticeDivRight:hover{
     cursor:pointer;
     color:black;
-    transform: scale(1.02); /* Scaling up the div on hover for an attention effect */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Enhancing the box shadow on hover */
-}
-
-.noticeDivRightheading{
-    /* background-color:rgb(41, 97, 3); */
-    background-color:  rgb(29, 52, 40);
-    border-radius: 1%;
-    color:white;
-    margin-right:2%;
-    margin-left:2%;
-    margin-top: 2%;
-    padding-top:1%;
-
-}
-.text-start{
-    text-align: justify;
+    transform: scale(1.005);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .carouselItemContainerSpeech{
-    margin-left: 5%;
-    margin-top: 5%;
-    padding-top:4%;
-    /* background-color: rgb(22, 21, 21); */
     background-color:  rgb(29, 52, 40);
     color:silver;
-    /* border-radius: 1%; */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
+    box-shadow: 0 0 20px rgba(86, 84, 84, 0.8);
 }
-.carouselItemContainerSpeech hr{
-    border:2px solid silver;
-    margin-left:5%;
-    margin-right:5%;
+.carouselItemContainerSpeech:hover{
+    transform: scale(1.005);
 }
-
-/*AN*/
-.description.text-start.p-3{
-    color:silver;
-    /* color:  rgb(42, 82, 61); */
-}
-
-.noticeDivLeft p:hover{
-    cursor: pointer;
-
-}
-
 .noticeTitle{
     text-transform: uppercase;
     font-size: 29px;
@@ -462,10 +296,9 @@
 
 .noticeDivRight a{
     display: flex;
+    justify-content: start;
     text-decoration: none;
-    /* color: navy; */
     color:green;
-    justify-content: flex-start;
     font-size: 16px;
     font-family: Montserrat, serif;
     font-weight: 700;
@@ -475,47 +308,27 @@
 .noticeDivRight hr{
     margin-right: 4%;
     margin-left: 3%;
-    /* color:green; */
-
-    border:4px solid green;
+    border:2px solid green;
 }
 
 .noticeDivRight a:hover{
     text-decoration: underline;
     color:blue;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    transform: scale(1.04);
+    transform: scale(1.005);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 
 }
 .seeMoreLink {
-    color: blue!important; /* Change the color to blue */
-    /* Additional styles if needed */
+    color: blue!important;
+    font-size: 16px;
+    font-family: Montserrat, serif;
+    font-weight: 700;
 }
 
 .carouselVideo:hover{
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(137, 135, 135, 0.8); /* Enhancing the box shadow on hover */
-}
-.carouselItemContainerSpeech{
-    box-shadow: 0 0 20px rgba(86, 84, 84, 0.8); /* Enhancing the box shadow on hover */
-}
-.ending_message{
-    height:300px;
-    background-color: #010f29;
-    margin-left: 2.4%;;
-    margin-right: 1.5%;
-    /* background-image:url('../Images/rocket.png'); */
-}
-.ending_message h1{
-
-    color:white;
-    display: flex;
-    justify-content: center; /* Horizontal alignment */
-    align-items: center;
-}
-.executives{
-    background-color: #021b4a;
+    box-shadow: 0 0 20px rgba(137, 135, 135, 0.8);
 }
 .contact{
     padding-left: 10% !important;
@@ -570,7 +383,6 @@
 }
 .footerCredit a{
     text-decoration: none;
-    /* color:rgb(70, 66, 66); */
     color: rgba(0,0,0,0.8) !important;
     font-weight: 400;
     font-size: 14px;
@@ -588,9 +400,9 @@
 }
 
 .contactLink {
-    display: flex; /* Ensures the children are displayed as flex items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box!important;
     text-align: center!important;
     text-decoration: none!important;
@@ -616,168 +428,40 @@
 .supportDiv{
     padding: 10% 0 5% 0;
 }
-.juShoidMinar{
-    width:70%;
-    height: auto;
-}
 .topImg{
     width: 30%;
     margin: 0 auto!important;
 }
+.carouselVideo .carousel-indicators {
+    display: none;
+}
+.whiteTitle{
+    color: white;
+    font-size: 22px;
+    font-family: Montserrat, sans-serif, serif;
+    font-weight: 500;
+}
 
-.topBanneralumni{
-    width:70%;
-    background-color:blueviolet;
-}
 .carouselItemContainerSpeech hr{
-    border:4px solid silver;
+    border:2px solid silver;
+    margin-right: 4%;
+    margin-left: 3%;
 }
-.carouselVideo:hover{
-    cursor: pointer;
-}
-.carouselVideoframe:hover{
-    cursor:pointer;
-}
-.fullBanneralumni{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color:white;
-    margin: 4% 1.5% 4% 2.4%;
+.alumniFullBanner{
     box-shadow: 0 3px 10px rgb(48, 64, 87);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.bannerRightalumni{
-    width: 30%;
-    background:#010f29;
-    text-align: center;
-    border:1px solid black;
-    padding-top: 1.5%;
-    padding-left:3%;
-
-    padding-right: 1.5%;
-    color:silver;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.bannerRightalumni img{
-    width:30%;
-    height:auto;
-    margin-right: 4%;
-}
-.jucselogoBanner11{
-    width: 80%;
-    HEIGHT: 170px!important;
-}
-.bannerRightalumni h3{
-    margin:7%;
-    font-weight: 500;
-    letter-spacing: 1PX;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.buttonBanneralumni {
-    width:110% !important;
-
-    font-size: small;
-}
-.jucselogoBanneralumni{
-    height: 40% !important;
-    margin-top:40% !important;
-}
-.jucselogoBanner1alumni{
-    height: 38% !important;
-    margin-top:1% !important;
-}
-
-.card-carouselalumni{
-    height: auto!important;
-    border-radius: 0!important;
-    text-align: center;
-    background-color:white;
-}
-
-.cardImgalumni{
-    width: 100% !important;
-    height: auto;
-}
-.carouselImgalumni{
+.carouselImgAlumni{
     width: 100%;
     height: 660px;
 }
-.carouselItemContaineralumni .carouselCaptionalumni {
+.carouselItemContainerAlumni .carouselCaptionAlumni {
     position: absolute;
     bottom: 20px;
     color:white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-
 }
-
-.contactBtnalumni{
-    background-color: rgba(0,0,0,0.5)!important;
-    border: 1px solid black!important;
-    color: white !important;
-    font-size: 20px!important;
-    font-family: Oswald,   serif;
-    font-weight: 400!important;
-    display: flex;
-}
-
-.contactBtnalumni:hover{
-    background-color: #e5dcdc !important;
-    color: black!important;
-    border: 1px solid white!important;
-}
-
-.alumniDivRight{
-
-    background-color: rgb(117, 117, 173);
-    margin:11%;
-
-    color:rgb(255, 255, 255);
-    border-radius: 0!important;
-    text-align: center;
-    box-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
-}
-/*AN*/
-
-
-.alumniDivLeft p:hover{
-    cursor: pointer;
-}
-
-.alumniTitle{
-    text-transform: uppercase;
-    font-size: 29px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 550;
-    margin-top: 3%!important;
-}
-.alumniDivRight p{
-    display: flex;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    text-align: justify;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: Montserrat, serif;
-}
-.alumniDivRight:hover{
-    cursor:pointer;
-    color:rgb(255, 255, 255);
-    transform: scale(1.0);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-}
-
-
-.alumniDescription{
-    text-align: justify!important;
-}
-
 .nextBtn{
     text-align: right;
 }
@@ -807,43 +491,4 @@
     font-weight: 600;
     text-transform: uppercase;
     right: 16%!important;
-}
-.topBannerTest{
-    margin-top: -5px;
-}
-.bannerRightTest{
-
-    height: 450px;
-    background-color:#010f29;
-    text-align: center;
-    padding-top: 10%;
-    padding-left:1.5%;
-    color:silver;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cardTest{
-    height: 450px!important;
-    border-radius: 0!important;
-    text-align: center;
-    background-color: #010f29;
-}
-
-.bannerRightalumniTest h3{
-    margin:7%;
-    font-weight: 800 !important;
-    letter-spacing: 1PX;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.buttonBannerTest {
-    width:70% !important;
-
-    font-size: small;
-}
-.bannerRightTest img{
-    width:90%;
-    height:auto;
 }

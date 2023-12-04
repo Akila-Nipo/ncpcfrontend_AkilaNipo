@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Countdown from './Countdown';
-/*AN*/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faClock} from "@fortawesome/free-solid-svg-icons";
-import { Container } from 'react-bootstrap';
-import Typing from './Typing';
-/*AN*/
 const Birthday = ({day, month }) => {
   const [state, setState] = useState({
     seconds: 0,
