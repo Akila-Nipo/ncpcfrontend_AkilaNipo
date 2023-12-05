@@ -8,8 +8,8 @@
 .navLink{
     color: white !important;
     font-family: Roboto,serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 18px!important;
+    font-weight: 500!important;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -30,8 +30,8 @@
 .navLinkScroll{
     color: rgba(0,0,0,1) !important;
     font-family: Roboto,serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 18px!important;
+    font-weight: 500!important;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -48,30 +48,22 @@
     height: 60px;
     padding: 0;
 }
-.nav{
-    margin-top: -10px!important;
-    padding: 10px!important;
-}
-.ddMenu{
-    margin-top: 11px!important;
-    padding: 10px!important;
-    font-size: 18px;
-    font-weight: 500;
-}
 .ddBox{
     background-color: #021B4A!important;
-    margin-top: -3px!important;
+    margin-top: 0!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
     border-radius: 2px!important;
+    border: none!important;
 }
 .ddBoxScroll{
     background-color: #f1f3f6 !important;
-    margin-top: -3px!important;
+    margin-top: 0!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
+    border: none!important;
     border-radius: 2px!important;
 }
 .carouselImg{
@@ -296,7 +288,7 @@
 
 .noticeDivRight a{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     text-decoration: none;
     color:green;
     font-size: 16px;

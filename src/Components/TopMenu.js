@@ -60,7 +60,6 @@ function TopMenu(props) {
                                onMouseEnter={handleMouseEnter}
                                onMouseLeave={handleMouseLeave}
                                show={dropdownOpen}
-                               className="ddMenu"
                            >
                                <Dropdown.Toggle className={css.navLink}  as={Nav.Link} id="dropdown-basic">Committee</Dropdown.Toggle>
                                <Dropdown.Menu className={css.ddBox}>
