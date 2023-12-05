@@ -2,7 +2,6 @@ import React, {useContext} from 'react';
 import {Button, Col, Row} from "react-bootstrap";
 import FormContext from "./Context/FormContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
 import {faPeopleGroup} from "@fortawesome/free-solid-svg-icons";
 import {faBuildingColumns} from "@fortawesome/free-solid-svg-icons";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
@@ -18,21 +17,13 @@ import {faImage} from "@fortawesome/free-solid-svg-icons";
 
 
 function FirstContestant({secondCall,inputChange}) {
-    
-    
-     
 
     const {data} = useContext(FormContext);
-    
-
     return (
         <div className="firstContestant mt-4">
-            
             <Row>
-            
                 <Col md={6} sm={12} lg={6}>
-                
-                    <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />     Team Name</label>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />Team Name</label>
                     <input
                         type="text"
                         placeholder="Team Name"
@@ -43,7 +34,7 @@ function FirstContestant({secondCall,inputChange}) {
                     />
                 </Col>
                 <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />   Institute Name</label>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />Institute Name</label>
                     <input
                         type="text"
                         placeholder="Institute Name"
@@ -53,12 +44,9 @@ function FirstContestant({secondCall,inputChange}) {
                         onChange={inputChange}
                     />
                 </Col>
-
-
-                
             </Row>
             <hr/>
-            <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} />    Team Member-1</h4>
+            <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} /> Team Member-1</h4>
             <hr/>
             <Row>
                 <Col md={6} sm={12} lg={6}>
@@ -81,7 +69,6 @@ function FirstContestant({secondCall,inputChange}) {
                         name="firstUserName2"
                         onChange={inputChange}
                         value={!data.firstUserName2===""?"":data.firstUserName2}
-
                     />
                 </Col>
             </Row>
@@ -106,32 +93,26 @@ function FirstContestant({secondCall,inputChange}) {
                         onChange={inputChange}
                         value={!data.firstUserPhone===""?"":data.firstUserPhone}
                     />
-                    <label htmlFor="gender" className='gendercc'><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
+                    <label htmlFor="gender"><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
                     <input
-                        className="form-check-input"
+                        className="form-check-input mx-1"
                         type="radio"
+                        id="male"
                         name="firstUserGender"
                         value="male"
                         onChange={inputChange}
                         checked={data.firstUserGender==="male"}
                     />
-                    <label className="mx-1" htmlFor="">Male</label>
+                    <label className="gender mx-1" htmlFor="male"> Male</label>
                     <input
                         className="form-check-input mx-1"
                         type="radio"
+                        id="female"
                         value="female"
                         name="firstUserGender"
                         onChange={inputChange}
                         checked={data.firstUserGender==="female"}
-                    /> <label htmlFor=""> Female</label>
-                    <input
-                        className="form-check-input mx-1"
-                        type="radio"
-                        value="others"
-                        name="firstUserGender"
-                        onChange={inputChange}
-                        checked={data.firstUserGender==="others"}
-                    /> <label htmlFor=""> Others</label><br/>
+                    /> <label className="gender" htmlFor="female"> Female</label><br/>
                     <label htmlFor="" className='dateofbirthcss'><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
                     <input
                         type="date"
@@ -191,8 +172,8 @@ function FirstContestant({secondCall,inputChange}) {
                             <div className='photoSelect'>Your Uploaded File is : {data.firstUserPhoto.name}</div>
                         ):""
                     }
-                    <div className="nextBtn">
-                        <Button onClick={secondCall}><FontAwesomeIcon icon={faAnglesRight} /> Next</Button>
+                    <div className="mb-5">
+                        <Button className="nextBtn2" onClick={secondCall}> Next</Button>
                     </div>
                 </Col>
             </Row>

@@ -2,6 +2,7 @@ import './App.css';
 import '../src/Assets/CSS/Custom.css';
 import '../src/Assets/CSS/Responsive.css';
 import '../src/Assets/CSS/AlumniCSS.css'
+import '../src/Assets/CSS/Extra.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Pages/Home";
 import {Route,Routes} from "react-router-dom";

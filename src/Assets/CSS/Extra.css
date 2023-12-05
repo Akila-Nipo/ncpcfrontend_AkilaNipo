@@ -1,0 +1,16 @@
+.ncpcImgDiv img{
+    width: 100%;
+    min-height: 435px;
+    height: auto;
+}
+.aboutNcpc{
+    background-color:#F3F8FA;
+}
+.aboutNcpcRow{
+    background-color: #f1f3f6;
+    padding: 5%;
+}
+.aboutNcpcDescription{
+    background-color: #ffffff;
+    padding: 5%;
+}
