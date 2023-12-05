@@ -10,9 +10,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Alumni1(props) {
     return (
         <Fragment>
-            <Container fluid="true" className='alumniFullBanner text-center mt-3'>
-                <Row className="p-0 m-0">
-                    <Col md={4} lg={4} sm={12} className="m-0 p-0">
+            <Container fluid="true" className='alumniFullBanner text-center pb-5'>
+                <h4 className="title pt-4 pb-3">OUR ALUMNI'S HISTORY</h4>
+                <Row className="p-0 mx-0">
+                    <Col md={4} lg={4} sm={12} className="m-0 px-0 alumniColumn">
                         <h3 className="alumniTitle"><FontAwesomeIcon icon={faAward} className="mx-2"/>ALUMNI SUCCESS STORIES</h3>
                         <hr/>
                         <p className="alumniDescription">The Department of Computer Science and Engineering,Jahangirnagar University, has seen a constellation of alumni shining brightly in various programming contests, both nationally and internationally. These individuals have not just secured good positions but have also etched the department's and the university's name in the hall of fame within the tech world.</p>

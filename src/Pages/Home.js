@@ -4,7 +4,7 @@ import AboutSection from "../Components/AboutSection";
 import Support from "../Components/Support";
 import Sponsor from "../Components/Sponsor";
 import Alumni1 from "../Components/Alumni1";
-import AboutNcpc from "../Components/AboutNcpc";
+import AboutNcpc from "../OthersComponents/AboutNcpc";
 function Home(props) {
     return (
         <Fragment>
