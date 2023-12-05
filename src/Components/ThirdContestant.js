@@ -2,8 +2,6 @@ import React, {useContext} from 'react';
 import {Button, Col, Row} from "react-bootstrap";
 import FormContext from "./Context/FormContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
-import {faAnglesLeft} from "@fortawesome/free-solid-svg-icons";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 import {faAddressCard} from "@fortawesome/free-solid-svg-icons";
 import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
@@ -71,32 +69,26 @@ function ThirdContestant({fourthCall,secondCall,inputChange}) {
                         value={!data.thirdUserPhone===""?"":data.thirdUserPhone}
 
                     />
-                    <label className='dateofbirthcss'><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
+                    <label><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
                     <input
                         className="form-check-input"
                         type="radio"
+                        id="male"
                         name="thirdUserGender"
                         value="male"
                         onChange={inputChange}
                         checked={data.thirdUserGender==="male"}
-                    /> <label className="mx-1" htmlFor="">Male</label>
+                    /> <label className="mx-1 gender" htmlFor="male">Male</label>
                     <input
                         className="form-check-input mx-1"
                         type="radio"
+                        id="female"
                         value="female"
                         name="thirdUserGender"
                         onChange={inputChange}
                         checked={data.thirdUserGender==="female"}
-                    /> <label htmlFor=""> Female</label>
-                    
-                    <input
-                        className="form-check-input mx-1"
-                        type="radio"
-                        value="others"
-                        name="secondUserGender"
-                        onChange={inputChange}
-                        checked={data.secondUserGender==="others"}
-                    /> <label htmlFor=""> Others</label><br/>
+                    /> <label className="gender" htmlFor="female"> Female</label><br/>
+
                     <label htmlFor="" className='dateofbirthcss'><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
                     <input
                         type="date"
@@ -163,8 +155,8 @@ function ThirdContestant({fourthCall,secondCall,inputChange}) {
                     }
                 </Col>
                 <div className="d-flex">
-                    <Button className="backBtn" onClick={secondCall}><FontAwesomeIcon icon={faAnglesLeft} /> Back</Button>
-                    <Button className="nextBtn2" onClick={fourthCall}><FontAwesomeIcon icon={faAnglesRight} /> Next</Button>
+                    <Button className="backBtn" onClick={secondCall}>Back</Button>
+                    <Button className="nextBtn2" onClick={fourthCall}>Next</Button>
                 </div>
             </Row>
         </div>

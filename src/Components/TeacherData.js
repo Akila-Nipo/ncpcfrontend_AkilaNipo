@@ -2,7 +2,6 @@ import React, {useContext} from 'react';
 import {Button, Col, Row} from "react-bootstrap";
 import FormContext from "./Context/FormContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAnglesLeft} from "@fortawesome/free-solid-svg-icons";
 import {faAddressCard} from "@fortawesome/free-solid-svg-icons";
 import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
 import {faAt} from "@fortawesome/free-solid-svg-icons";
@@ -90,18 +89,20 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         className="form-check-input"
                         type="radio"
                         value="male"
+                        id="male"
                         name="teacherGender"
                         onChange={inputChange}
                         checked={data.teacherGender==="male"}
-                    /> <label className="mx-1" htmlFor="">Male</label>
+                    /> <label className="gender mx-1" htmlFor="male">Male</label>
                     <input
                         className="form-check-input mx-1"
                         type="radio"
+                        id="female"
                         value="female"
                         name="teacherGender"
                         onChange={inputChange}
                         checked={data.teacherGender==="female"}
-                    /> <label htmlFor=""> Female</label><br/>
+                    /> <label className="gender" htmlFor="female"> Female</label><br/>
 
                     <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} /> NID/Birth Registration No</label><br/>
                     <input
@@ -160,7 +161,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
 
                 </Col>
                 <div className="d-flex">
-                    <Button className="backBtn" onClick={thirdCall}><FontAwesomeIcon icon={faAnglesLeft} /> Back</Button>
+                    <Button className="backBtn" onClick={thirdCall}>Back</Button>
                 </div>
 
                 <div className="text-center">

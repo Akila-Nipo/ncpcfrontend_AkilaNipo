@@ -2,8 +2,6 @@ import React, {useContext} from 'react';
 import {Button, Col, Row} from "react-bootstrap";
 import FormContext from "./Context/FormContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
-import {faAnglesLeft} from "@fortawesome/free-solid-svg-icons";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 import {faAddressCard} from "@fortawesome/free-solid-svg-icons";
 import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
@@ -20,7 +18,7 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
     const {data} = useContext(FormContext);
 
     return (
-        <div className="firstContestant mt-5">
+        <div className="firstContestant mt-4">
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} />    Team Member-2</h4>
             <hr/>
@@ -72,34 +70,26 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                         value={!data.secondUserPhone===""?"":data.secondUserPhone}
 
                     />
-                    <label className='dateofbirthcss'><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
+                    <label><FontAwesomeIcon icon={faVenusMars} />    Gender</label><br/>
                     <input
                         className="form-check-input"
                         type="radio"
+                        id="male"
                         name="secondUserGender"
                         value="male"
                         onChange={inputChange}
                         checked={data.secondUserGender==="male"}
-                    /> <label className="mx-1" htmlFor="">Male</label>
+                    /> <label className="mx-1 gender" htmlFor="male">Male</label>
                     <input
                         className="form-check-input mx-1"
                         type="radio"
+                        id="female"
                         value="female"
                         name="secondUserGender"
                         onChange={inputChange}
                         checked={data.secondUserGender==="female"}
-                    /> <label htmlFor=""> Female</label>
-                    
-                    <input
-                        className="form-check-input mx-1"
-                        type="radio"
-                        value="others"
-                        name="secondUserGender"
-                        onChange={inputChange}
-                        checked={data.secondUserGender==="others"}
-                    /> <label htmlFor=""> Others</label><br/>
-
-                    <label htmlFor="" className='dateofbirthcss'><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
+                    /> <label className="gender" htmlFor="female"> Female</label><br/>
+                    <label htmlFor="" ><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
                     <input
                         type="date"
                         className="form-control"
@@ -107,7 +97,6 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                         name="secondUserDob"
                         onChange={inputChange}
                         value={!data.secondUserDob===""?"":data.secondUserDob}
-
                     />
                     <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} />  NID/Birth Registration No</label><br/>
                     <input
@@ -165,8 +154,8 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                     }
                 </Col>
                 <div className="d-flex">
-                    <Button className="backBtn" onClick={firstCall}><FontAwesomeIcon icon={faAnglesLeft} /> Back</Button>
-                    <Button className="nextBtn2" onClick={thirdCall}><FontAwesomeIcon icon={faAnglesRight} /> Next</Button>
+                    <Button className="backBtn" onClick={firstCall}>Back</Button>
+                    <Button className="nextBtn2" onClick={thirdCall}>Next</Button>
                 </div>
             </Row>
         </div>
