@@ -21,8 +21,13 @@
 }
 .alumniColumn{
     background-color:rgb(3, 3, 56);
-    
+    padding-top: 7% !important;
 
+}
+.alumniColumn .alumniDescription{
+    background-color: blueviolet;
+    margin: 0 5% 10% 5%;
+    padding: 10% 7%;
 }
 
 

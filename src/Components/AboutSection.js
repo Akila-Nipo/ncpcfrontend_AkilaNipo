@@ -41,7 +41,7 @@ function AboutSection(props) {
                 </Col>
                 <Col md={4} lg={4} sm={12} className="m-0 p-0" >
                     <div className="noticeDivRight">
-                        <div className="noticeDivRightheading">
+                        <div className="noticeDivRightHeading">
                             <h3 className="noticeTitle text-white"> <FontAwesomeIcon icon={faBell} beatFade size="l" /><span>     </span>Notice</h3>
                         </div>
                         <a href="facebook.com/abc">1. Registration Rules</a>

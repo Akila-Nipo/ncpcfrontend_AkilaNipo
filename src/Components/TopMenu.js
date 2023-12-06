@@ -14,7 +14,7 @@ function TopMenu(props) {
 
     useEffect(()=>{
         function handleScroll(){
-            if(window.scrollY>65){
+            if(window.scrollY>70){
                 setIsScroll(true);
                 setCss({
                     navBar:'navBarScroll',
@@ -56,12 +56,11 @@ function TopMenu(props) {
                            <Nav.Link ><Link to="/"  className={css.navLink} >About</Link></Nav.Link>
                            <Nav.Link ><Link to="registration"  className={css.navLink} >Registration</Link></Nav.Link>
                            <Dropdown
-                               as={Nav.Item}
                                onMouseEnter={handleMouseEnter}
                                onMouseLeave={handleMouseLeave}
                                show={dropdownOpen}
                            >
-                               <Dropdown.Toggle className={css.navLink}  as={Nav.Link} id="dropdown-basic">Committee</Dropdown.Toggle>
+                               <Dropdown.Toggle className={`${css.navLink} ddMenu`} id="dropdown-basic">Committee</Dropdown.Toggle>
                                <Dropdown.Menu className={css.ddBox}>
                                    <Dropdown.Item className={css.navLink} as={Link} to="committee">Executive Committee</Dropdown.Item>
                                    <Dropdown.Item className={css.navLink} as={Link} to="/">IT Committee</Dropdown.Item>
@@ -72,9 +71,12 @@ function TopMenu(props) {
                        </Nav>
                    </Navbar.Collapse>
                </Navbar>
-               <div className="marquee">
-                   | NCPC 2023 | Department of Computer Science and Engineering | Jahangirnagar University |
+               <div className="marquee-container">
+                   <div className="marquee">
+                       | NCPC 2023 | Department of Computer Science and Engineering | Jahangirnagar University |
+                   </div>
                </div>
+
            </Container>
         </Fragment>
     );

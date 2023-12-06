@@ -5,6 +5,7 @@ import {faReply} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import Typing from "./Typing";
+import {Link} from "react-router-dom";
 
 const Birthday = ({ day, month }) => {
   const [state, setState] = useState({
@@ -82,7 +83,7 @@ const Birthday = ({ day, month }) => {
           (CSE)
         </h5>
         <p className="title text-white">Jahangirnagar University</p>
-       <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div> 
+        <Link to="registration"> <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div> </Link>
 
       </div>
     </div>
