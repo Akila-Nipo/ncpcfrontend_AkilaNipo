@@ -53,7 +53,7 @@ function TopMenu(props) {
                    <Navbar.Collapse  className="justify-content-center" id="responsive-navbar-nav">
                        <Nav className="nav">
                            <Nav.Link ><Link to="/" className={css.navLink} >Home</Link></Nav.Link>
-                           <Nav.Link ><Link to="/"  className={css.navLink} >About</Link></Nav.Link>
+                           <Nav.Link ><Link to="about"  className={css.navLink} >About</Link></Nav.Link>
                            <Nav.Link ><Link to="registration"  className={css.navLink} >Registration</Link></Nav.Link>
                            <Dropdown
                                onMouseEnter={handleMouseEnter}

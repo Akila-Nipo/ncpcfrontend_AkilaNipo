@@ -82,9 +82,8 @@ const Birthday = ({ day, month }) => {
           Department of Computer Science and Engineering <br />
           (CSE)
         </h5>
-        <p className="title text-white">Jahangirnagar University</p>
-        <Link to="registration"> <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div> </Link>
-
+        <h4 className="title text-white">Jahangirnagar University</h4>
+        <Link to="registration"> <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div></Link>
       </div>
     </div>
   );

@@ -1,12 +1,7 @@
-
 .page {
+  padding-top: 7%;
   width: 100%;
-height: 550px;
-  display: flex;
-
-  flex-direction: column;
-  justify-content: center;
-
+  height: 550px;
   text-align: center; 
   background-color:#1b182e; 
 }
@@ -16,31 +11,14 @@ height: 550px;
   font-size: 19px;
 }
 
-.heading {
-  font-size: 45px;
-}
-.highlight {
-  color: #7f78d2;
-}
 .countdown-box {
-  font-size: 30px;
-  font-weight: 700;
-  color: #dcd6f7;
   border-radius: 9px;
-  width: 80px;
-  height: 85px;
-  margin: 0 2%;
-  text-align: center;
-  padding-top: 2%;
-  
-  
- 
-  
-  
+  margin:5px 5px;
+  padding-top: 13px;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
   animation: colorChange 1s infinite;
-
 }
+
 @keyframes colorChange {
   0% {
     background-color:#413c69;
@@ -52,31 +30,11 @@ height: 550px;
     background-color: #413c69;
   }
 }
-.countdown-NCPC-box{
-  
-  background-color: #010f29; 
-  font-size: 21px;
-  font-weight: 540;
-  color: #dcd6f7;
-  /* border-radius: 7px; */
-  width: 390px;
-  height: 100px;
-  margin: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding:4%;
-  
-}
 .legend {
   color:#fff;
-font-family:Roboto;
-font-weight: 500;
-font-size: 20px;
-
-
+  font-family: Montserrat, sans-serif, serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .btn {
@@ -85,38 +43,33 @@ font-size: 20px;
   margin-top: 20px;
   outline: none;
   border: 1px rgba(255, 255, 255, 0.2) solid;
- 
   border-radius: 5px;
-  color: rgba(255, 255, 255, 0.719);
+  color: white;
   font-size: 18px;
   font-weight: 700;
 }
 .btn:hover {
-  color: white;
+  background-color: white;
+  color: black;
+  transition: 0.5s!important;
 }
 a {
   color: #7f78d2;
   font-weight: bold;
   margin-top: 20px;
 }
-.gen-link {
-  margin-top: 20px;
-  font-size: 400;
-}
+
 .type{
   margin-top: 20px;
   color:#fff;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 21px;
-  font-family:Montserrat,senserif;
+  font-family: Montserrat, serif;
 }
 .caption{
   font-weight: 400;
   color:aliceblue;
-  margin-top: 70px;
-}
-.button_reg{
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .ncpcType{
   font-size: 35px;
@@ -127,15 +80,14 @@ a {
   
 }
 .countTxt{
-color:#fff;
-font-family:Roboto;
-font-weight: 500;
-font-size: 30px;
+  color:#fff;
+  font-family: Roboto, serif;
+  font-weight: 400;
+  font-size: 25px;
 }
 .deptInfo{
- 
   color:#fff;
   font-weight: 500;
   font-size: 21px;
-  font-family:Montserrat,senserif;
+  font-family: Montserrat, serif;
 }

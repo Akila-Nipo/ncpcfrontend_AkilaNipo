@@ -13,6 +13,7 @@ import Logo from "./Components/Logo";
 import TopMenu from "./Components/TopMenu";
 import CommitteePage from "./Pages/CommitteePage";
 import GalleryPage from './Pages/GalleryPage';
+import AboutPage from "./Pages/AboutPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/registration" element={<Registration/>}/>
         <Route path="/committee" element={<CommitteePage/>}/>
         <Route path="/gallery" element={<GalleryPage/>}/>
+        <Route path="/about" element={<AboutPage/>}/>
       </Routes>
         <Footer/>
     </div>
