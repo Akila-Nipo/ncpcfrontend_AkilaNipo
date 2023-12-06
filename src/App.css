@@ -1,15 +1,24 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+}
+
 .marquee {
     white-space: nowrap;
     overflow: hidden;
-    animation: marquee 16s linear infinite;
+    animation: marquee 10s linear infinite;
+    font-family: Montserrat, sans-serif, serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
 }
 
 @keyframes marquee {
-    from {
+    0% {
         transform: translateX(100%);
     }
 
-    to {
+    100% {
         transform: translateX(-100%);
     }
 }

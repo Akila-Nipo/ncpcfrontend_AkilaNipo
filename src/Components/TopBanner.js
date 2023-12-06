@@ -11,6 +11,7 @@ import mh from "../Assets/Images/dept/mh.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHandPointer} from "@fortawesome/free-solid-svg-icons";
 import Count from "../Components/Count";
+import {Link} from "react-router-dom";
 
 
 function TopBanner(props) {
@@ -24,31 +25,31 @@ function TopBanner(props) {
                             <Carousel.Item>
                                 <img className="carouselImg" src={green} alt=""/>
                                 <Carousel.Caption>
-                                    <Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button>
+                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img className="carouselImg" src={champs_ncpc} alt=""/>
                                 <Carousel.Caption>
-                                    <Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button>
+                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img className="carouselImg" src={mh} alt=""/>
                                 <Carousel.Caption>
-                                    <Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button>
+                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img className="carouselImg" src={s_minar} alt=""/>
                                 <Carousel.Caption>
-                                    <Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button>
+                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img className="carouselImg" src={lab} alt=""/>
                                 <Carousel.Caption>
-                                    <Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button>
+                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>

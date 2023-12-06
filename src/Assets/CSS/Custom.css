@@ -5,7 +5,7 @@
     transition: 0.5s;
 }
 .nav{
-    margin-top: -15px;
+    margin-top: -18px;
 }
 
 .navLink{
@@ -15,6 +15,7 @@
     font-weight: 500!important;
     text-decoration: none;
     transition: 0.5s;
+    padding-top: 0;
 }
 .navBarScroll{
     position: fixed !important;
@@ -34,17 +35,34 @@
     text-decoration: none;
     transition: 0.5s;
 }
+.ddMenu{
+    background-color: rgba(0,0,0,0)!important;
+    width: 150px!important;
+    padding:0!important;
+    border: none!important;
+
+}
+.ddMenu:hover{
+    padding: 0!important;
+    color: rgba(102, 255, 0, 0.66) !important;
+    background-color: rgba(0,222,0,0.1) !important;
+}
 .navLink:hover{
     color: rgba(102, 255, 0, 0.66) !important;
+    background-color: rgba(0,222,0,0.1);
+    padding: 18px;
 }
 .navLinkScroll:hover{
-    color: #0d39e1 !important;
+    color:green !important;
+    background-color: rgba(0,222,0,0.1);
+    padding: 18px;
 }
 .logoImg{
     width: 100px;
     height: 60px;
     padding: 0;
 }
+
 .ddBox{
     background-color: #021B4A!important;
     font-size: 18px;
@@ -52,6 +70,7 @@
     transition: 0.5s;
     border-radius: 2px!important;
     border: none!important;
+
 }
 .ddBoxScroll{
     background-color: #f1f3f6 !important;
@@ -60,6 +79,8 @@
     transition: 0.5s;
     border: none!important;
     border-radius: 2px!important;
+    padding: 50px;
+    margin-top: -50px;
 }
 .carouselImg{
     width: 100%;
@@ -132,19 +153,19 @@
     background-color: rgb(221, 230, 237) !important;
 }
 .contactBtn{
-    background-color: rgba(0,0,0,0.5)!important;
+    background-color: white!important;
     border: 1px solid black!important;
-    color: white !important;
+    color: black !important;
     font-size: 20px!important;
-    font-family: Oswald, serif;
+    font-family: Montserrat, sans-serif, serif!important;
     font-weight: 400!important;
-    display: flex;
 }
 .contactBtn:hover{
     background-color: #e5dcdc !important;
     color: black!important;
     transform: scale(1.1);
     border: 1px solid white!important;
+    transition: 0.3s;
 }
 
 .committeeBody{
@@ -225,7 +246,6 @@
     background-color: rgb(29, 52, 40);
     border:1px solid rgb(4, 46, 24);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
 }
 .noticeDivLeft:hover{
     transform: scale(1.005);
@@ -245,6 +265,7 @@
     border:1px solid rgb(2, 144, 71);
     box-shadow: 0 3px 10px rgb(48, 87, 59);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 2%;
 }
 .noticeDivRight:hover{
     cursor:pointer;
@@ -267,7 +288,6 @@
     font-weight: 750;
     text-align: center;
     padding:2%;
-    
 }
 .noticeTitleSpeech{
     background-color:  rgb(29, 52, 40);
@@ -473,7 +493,7 @@
     right: 16%!important;
     margin-top: 1%;
 }
-.noticeDivRightheading{
+.noticeDivRightHeading{
     background-color:#14352c;
 }
 
