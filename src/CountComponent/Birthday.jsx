@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-solid-svg-icons";
+import {faClock, faReply} from "@fortawesome/free-solid-svg-icons";
+import {Button} from "react-bootstrap";
 const Birthday = ({ day, month }) => {
   const [state, setState] = useState({
     seconds: 0,
