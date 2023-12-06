@@ -10,7 +10,6 @@ import mh from "../Assets/Images/dept/mh.png";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHandPointer} from "@fortawesome/free-solid-svg-icons";
-import {faReply} from "@fortawesome/free-solid-svg-icons";
 import Count from "../Components/Count";
 
 
