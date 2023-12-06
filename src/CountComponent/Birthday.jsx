@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
+import {Button, Carousel, Col, Row} from "react-bootstrap";
+import {faReply} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { Container } from "react-bootstrap";
+import Typing from "./Typing";
+/*AN*/
 const Birthday = ({ day, month }) => {
   const [state, setState] = useState({
     seconds: 0,
@@ -61,18 +66,26 @@ const Birthday = ({ day, month }) => {
 
   return (
     <div className="page">
-      <span>
+      <div>
+      <span className="type">
         <FontAwesomeIcon icon={faClock} /> NCPC 2023
       </span>
+      </div>
+     
+      <div className="type">
+       <Typing />
+      </div>
       <Countdown countdownData={state} />
-      <Button variant="danger">
-        Register Now <FontAwesomeIcon icon={faReply} />
-      </Button>
-      <h5>
-        Department of Computer Science and Engineering <br />
-        (CSE)
-      </h5>
-      <p>Jahangirnagar University</p>
+      <div className="caption">
+        <h5>Hosted By</h5>
+        <h5>
+          Department of Computer Science and Engineering <br />
+          (CSE)
+        </h5>
+        <p>Jahangirnagar University</p>
+       <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div> 
+
+      </div>
     </div>
   );
 };
