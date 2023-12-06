@@ -4,14 +4,15 @@
     background-color: #021b4a;
     transition: 0.5s;
 }
+.nav{
+    margin-top: -15px;
+}
 
 .navLink{
     color: white !important;
     font-family: Roboto,serif;
     font-size: 18px!important;
     font-weight: 500!important;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -24,16 +25,12 @@
     height: 60px;
     background-color: #f1f3f6 !important;
     transition: 0.5s;
-    padding: 0;
-    margin: 0;
 }
 .navLinkScroll{
     color: rgba(0,0,0,1) !important;
     font-family: Roboto,serif;
     font-size: 18px!important;
     font-weight: 500!important;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -50,7 +47,6 @@
 }
 .ddBox{
     background-color: #021B4A!important;
-    margin-top: 0!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
@@ -59,7 +55,6 @@
 }
 .ddBoxScroll{
     background-color: #f1f3f6 !important;
-    margin-top: 0!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
