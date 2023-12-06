@@ -14,14 +14,24 @@ import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
 import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 import {faShirt} from "@fortawesome/free-solid-svg-icons";
 import {faImage} from "@fortawesome/free-solid-svg-icons";
-
+import items from "./Context/Universities";
+import {ReactSearchAutocomplete} from "react-search-autocomplete";
 
 function FirstContestant({secondCall,inputChange}) {
 
     const {data} = useContext(FormContext);
+
+    const formatResult = (item) => {
+        return (
+            <>
+                <span style={{ display: 'block', cursor:'pointer', textAlign: 'left' }}>{item.name}</span>
+            </>
+        )
+    }
+
     return (
         <div className="firstContestant mt-4">
-            <Row>
+            <Row className="m-0 p-0">
                 <Col md={6} sm={12} lg={6}>
                     <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />Team Name</label>
                     <input
@@ -35,20 +45,33 @@ function FirstContestant({secondCall,inputChange}) {
                 </Col>
                 <Col md={6} sm={12} lg={6}>
                     <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />Institute Name</label>
+                    <ReactSearchAutocomplete
+                        items={items}
+                        onSelect={inputChange}
+                        autoFocus
+                        formatResult={formatResult}
+                    />
+                </Col>
+            </Row>
+            <Row className="m-0 p-0">
+                <Col md={6} sm={12} lg={6}>
+                    <label className="mt-3">Please Revise It * </label>
+                </Col>
+                <Col md={6} sm={12} lg={6}>
                     <input
                         type="text"
-                        placeholder="Institute Name"
+                        placeholder="Current Institute Name"
                         className="form-control"
-                        value={!data.instituteName===""?"":data.instituteName}
                         name="instituteName"
                         onChange={inputChange}
+                        value={!data.instituteName===""?"":data.instituteName}
                     />
                 </Col>
             </Row>
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} /> Team Member-1</h4>
             <hr/>
-            <Row>
+            <Row className="m-0 p-0">
                 <Col md={6} sm={12} lg={6}>
                     <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> First Name</label>
                     <input
@@ -72,7 +95,7 @@ function FirstContestant({secondCall,inputChange}) {
                     />
                 </Col>
             </Row>
-            <Row>
+            <Row className="m-0 p-0">
                 <Col>
                     <label htmlFor="x"><FontAwesomeIcon icon={faAt} />   E-mail</label>
                     <input

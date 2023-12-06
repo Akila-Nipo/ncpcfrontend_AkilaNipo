@@ -10,6 +10,9 @@ function Registration(props) {
     const [third,setThird] = useState(false);
     const [fourth,setFourth] = useState(false);
 
+    const[institute,setInstitute] = useState("");
+
+
     const [data,setData] = useState({
         teamName:"",
         instituteName:"",
@@ -60,7 +63,7 @@ function Registration(props) {
 
     return (
         <Fragment>
-           <FormContext.Provider value={{data,setData,first,setFirst,second,setSecond,third,setThird,fourth,setFourth}}>
+           <FormContext.Provider value={{setInstitute,institute,data,setData,first,setFirst,second,setSecond,third,setThird,fourth,setFourth}}>
                <RegiForm/>
            </FormContext.Provider>
         </Fragment>
