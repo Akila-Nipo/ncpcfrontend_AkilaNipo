@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Countdown from './Countdown';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faClock} from "@fortawesome/free-solid-svg-icons";
-const Birthday = ({day, month }) => {
+import React, { useState, useEffect } from "react";
+import Countdown from "./Countdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+const Birthday = ({ day, month }) => {
   const [state, setState] = useState({
     seconds: 0,
     hours: 0,
@@ -19,7 +19,6 @@ const Birthday = ({day, month }) => {
   useEffect(() => {
     setInterval(() => {
       const countdown = () => {
-
         const dateAtm = new Date();
         let birthdayDay = new Date(currentYear, month - 1, day);
         if (dateAtm > birthdayDay) {
@@ -60,13 +59,21 @@ const Birthday = ({day, month }) => {
     }, 1000);
   }, [currentYear, day, isItBday, month]);
 
-
   return (
-    <div className='page'>
-      <span><FontAwesomeIcon icon={faClock}/>  NCPC 2023</span>
-      <Countdown countdownData={state}/>
+    <div className="page">
+      <span>
+        <FontAwesomeIcon icon={faClock} /> NCPC 2023
+      </span>
+      <Countdown countdownData={state} />
+      <Button variant="danger">
+        Register Now <FontAwesomeIcon icon={faReply} />
+      </Button>
+      <h5>
+        Department of Computer Science and Engineering <br />
+        (CSE)
+      </h5>
+      <p>Jahangirnagar University</p>
     </div>
-   
   );
 };
 

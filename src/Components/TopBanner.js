@@ -56,9 +56,6 @@ function TopBanner(props) {
                     </Col>
                     <Col md={5} lg={5} sm={12} className="m-0 p-0" >
                         <Count/>
-                        <Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button>
-                        <h5>Department of Computer Science and Engineering <br/>(CSE)</h5>
-                        <p>Jahangirnagar University</p>
                     </Col>
                 </Row>
             </Container>
