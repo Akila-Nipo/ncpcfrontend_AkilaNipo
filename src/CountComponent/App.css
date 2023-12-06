@@ -1,27 +1,27 @@
 
 .page {
   width: 100%;
-  height: 49vh;
+height: 550px;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
+
   text-align: center; 
-  background-color: #010f29;
+  background-color:#1b182e; 
 }
+
 .typing-container{
   color: #a6b1e1;
   font-size: 19px;
 }
-.countdown-wrapper {
-  max-width: 800px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
+.heading {
+  font-size: 45px;
+}
+.highlight {
+  color: #7f78d2;
+}
 .countdown-box {
   font-size: 30px;
   font-weight: 700;
@@ -29,35 +29,113 @@
   border-radius: 9px;
   width: 80px;
   height: 85px;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  padding:1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 2%;
   text-align: center;
+  padding-top: 2%;
+  
+  
+ 
+  
+  
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
   animation: colorChange 1s infinite;
+
 }
 @keyframes colorChange {
   0% {
     background-color:#413c69;
   }
   50% {
-    background-color:rgb(3, 1, 48);
+    background-color:rgb(82, 77, 172);
   }
   100% {
     background-color: #413c69;
   }
 }
-
-.legend {
-  font-size: 16px;
-  color: #a6b1e1;
-}
-.
-.first-image{
-  background-image:url('../Assets/Images/Galaxy.jpg');
+.countdown-NCPC-box{
   
+  background-color: #010f29; 
+  font-size: 21px;
+  font-weight: 540;
+  color: #dcd6f7;
+  /* border-radius: 7px; */
+  width: 390px;
+  height: 100px;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:4%;
+  
+}
+.legend {
+  color:#fff;
+font-family:Roboto;
+font-weight: 500;
+font-size: 20px;
+
+
+}
+
+.btn {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  outline: none;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+ 
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 18px;
+  font-weight: 700;
+}
+.btn:hover {
+  color: white;
+}
+a {
+  color: #7f78d2;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.gen-link {
+  margin-top: 20px;
+  font-size: 400;
+}
+.type{
+  margin-top: 20px;
+  color:#fff;
+  font-weight: 300;
+  font-size: 21px;
+  font-family:Montserrat,senserif;
+}
+.caption{
+  font-weight: 400;
+  color:aliceblue;
+  margin-top: 70px;
+}
+.button_reg{
+  margin-top: 100px;
+}
+.ncpcType{
+  font-size: 35px;
+  margin-top: 20px;
+  color:#fff;
+  font-weight: 300;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+.countTxt{
+color:#fff;
+font-family:Roboto;
+font-weight: 500;
+font-size: 30px;
+}
+.deptInfo{
+ 
+  color:#fff;
+  font-weight: 500;
+  font-size: 21px;
+  font-family:Montserrat,senserif;
 }

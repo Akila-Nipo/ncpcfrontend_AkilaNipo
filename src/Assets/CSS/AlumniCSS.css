@@ -5,6 +5,7 @@
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     margin-top: 15px;
+    color: aliceblue;
 }
 .alumniDescription{
     text-align: start;
@@ -12,7 +13,16 @@
     font-size: 18px;
     font-family: Roboto, serif;
     font-weight: 400;
-    color: rgba(0,0,0,0.8);
+    color: rgba(242, 234, 234, 0.8);
+}
+.alumniFullBanner{
+    box-shadow: 0 0 4px rgb(48, 64, 87);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.alumniColumn{
+    background-color:rgb(3, 3, 56);
+    
+
 }
 
 
