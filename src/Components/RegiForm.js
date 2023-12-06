@@ -12,14 +12,23 @@ function RegiForm() {
 
     const {data,setData,first,setFirst,second,setSecond,third,setThird,fourth,setFourth} = useContext(FormContext);
 
-
     const inputChange = (e)=>{
-        if(e.target.type==='file'){
+        if (e.target === undefined) {
+            setData((prevData) => {
+                return {
+                    ...prevData,
+                    instituteName: e.name
+                };
+            });
+        }
+
+        else if(e.target.type==='file'){
             setData({
                 ...data,
                 [e.target.name]:e.target.files[0],
             });
-        }else{
+        }
+        else{
             setData({
                 ...data,
                 [e.target.name]:e.target.value,
