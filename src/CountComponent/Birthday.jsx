@@ -67,8 +67,8 @@ const Birthday = ({ day, month }) => {
   return (
     <div className="page">
       <div>
-      <span className="type">
-        <FontAwesomeIcon icon={faClock} /> NCPC 2023
+      <span className="ncpcType">
+        <FontAwesomeIcon icon={faClock} beat/> NCPC 2023
       </span>
       </div>
      
@@ -77,12 +77,12 @@ const Birthday = ({ day, month }) => {
       </div>
       <Countdown countdownData={state} />
       <div className="caption">
-        <h5>Hosted By</h5>
-        <h5>
+        <h5 className="type">Hosted By</h5>
+        <h5 className="deptInfo">
           Department of Computer Science and Engineering <br />
           (CSE)
         </h5>
-        <p>Jahangirnagar University</p>
+        <p className="title text-white">Jahangirnagar University</p>
        <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div> 
 
       </div>

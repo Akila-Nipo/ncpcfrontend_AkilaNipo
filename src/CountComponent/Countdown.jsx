@@ -1,27 +1,34 @@
 import React from 'react';
-
+import { Col, Container,Row } from 'react-bootstrap';
 
 const Countdown = ({ countdownData }) => {
   if (!countdownData.isItBday) {
     return (
-        <div className='countdown-wrapper'> 
-          <div className='countdown-box'>
-            {countdownData.days}
-            <span className='legend'>Days</span>
-          </div>
-          <div className='countdown-box'>
-            {countdownData.hours}
-            <span className='legend'>Hours</span>
-          </div>
-          <div className='countdown-box'>
-            {countdownData.minutes}
-            <span className='legend'>Minutes</span>
-          </div>
-          <div className='countdown-box'>
-            {countdownData.seconds}
-            <span className='legend'>Seconds</span>
-          </div>
-        </div>
+        <Container className=' px-5 mt-4'> 
+          <Row className='m-0 '>
+          <Col className='countdown-box'>
+            <h5 className='countTxt'>{countdownData.days}</h5>
+           
+            <h6 className='legend'>Days</h6>
+          </Col>
+          
+          <Col className='countdown-box'>
+            <h5 className='countTxt'>{countdownData.hours}</h5>
+           
+            <h6 className='legend'>Hours</h6>
+          </Col>
+          <Col className='countdown-box'>
+            <h5 className='countTxt'>{countdownData.minutes}</h5>
+          
+            <h6 className='legend'>Minutes</h6>
+          </Col>
+          <Col className='countdown-box'>
+            <h5 className='countTxt'>{countdownData.seconds}</h5>
+            
+            <h6 className='legend'>Seconds</h6>
+          </Col>
+          </Row>
+        </Container>
     );
   }
 
