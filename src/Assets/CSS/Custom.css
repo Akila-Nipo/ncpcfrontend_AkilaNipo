@@ -17,6 +17,12 @@
     transition: 0.5s;
     padding-top: 0;
 }
+.ddBox a{
+    margin-top: 0;
+}
+.ddBoxScroll a{
+    margin-top: 0;
+}
 .navBarScroll{
     position: fixed !important;
     top: 0;
@@ -40,7 +46,6 @@
     width: 150px!important;
     padding:0!important;
     border: none!important;
-
 }
 .ddMenu:hover{
     padding: 0!important;
@@ -54,7 +59,7 @@
 }
 .navLinkScroll:hover{
     color:green !important;
-    background-color: rgba(0,222,0,0.1);
+    background-color: rgba(0,222,0,0.1) !important ;
     padding: 18px;
 }
 .logoImg{
@@ -70,7 +75,6 @@
     transition: 0.5s;
     border-radius: 2px!important;
     border: none!important;
-
 }
 .ddBoxScroll{
     background-color: #f1f3f6 !important;
@@ -80,7 +84,7 @@
     border: none!important;
     border-radius: 2px!important;
     padding: 50px;
-    margin-top: -50px;
+    margin-top: -10px!important;
 }
 .carouselImg{
     width: 100%;
