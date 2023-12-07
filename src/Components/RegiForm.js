@@ -96,19 +96,20 @@ function RegiForm() {
 
             <form className="formBorder" action="">
                 <h4 className="boldTitle mb-5">Registration Form</h4>
-
-                {
-                    !second && first && !third && !fourth?<FirstContestant secondCall={secondCall} inputChange={inputChange}/>:""
-                }
-                {
-                    second && !first && !third && !fourth?<SecondContestant firstCall={firstCall} thirdCall={thirdCall} inputChange={inputChange}/>:""
-                }
-                {
-                    third && !first && !second && !fourth?<ThirdContestant secondCall={secondCall} fourthCall={fourthCall} inputChange={inputChange}/>:""
-                }
-                {
-                    !third && !first && !second && fourth?<TeacherData thirdCall={thirdCall} inputChange={inputChange} postDataToBackend={postDataToBackend}/>:""
-                }
+                <div className="responsiveRegi">
+                    {
+                        !second && first && !third && !fourth?<FirstContestant secondCall={secondCall} inputChange={inputChange}/>:""
+                    }
+                    {
+                        second && !first && !third && !fourth?<SecondContestant firstCall={firstCall} thirdCall={thirdCall} inputChange={inputChange}/>:""
+                    }
+                    {
+                        third && !first && !second && !fourth?<ThirdContestant secondCall={secondCall} fourthCall={fourthCall} inputChange={inputChange}/>:""
+                    }
+                    {
+                        !third && !first && !second && fourth?<TeacherData thirdCall={thirdCall} inputChange={inputChange} postDataToBackend={postDataToBackend}/>:""
+                    }
+                </div>
 
             </form>
         </Container>

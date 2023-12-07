@@ -24,3 +24,130 @@
         font-size: 10px!important;
     }
 }
+
+@media (max-width: 771px) {
+    .responsiveRegi{
+        margin-top: 90px!important;
+    }
+    .boldTitle{
+        font-size: 35px!important;
+        font-weight: 400!important;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 225px) {
+    .responsiveRegi{
+        margin-top: 130px!important;
+    }
+    .boldTitle{
+        font-size: 23px!important;
+        font-weight: 300!important;
+    }
+}
+
+@media (max-width: 575px) {
+    a {
+        margin-top: 0!important;
+    }
+    .custom-hamburger {
+        background-color: white!important;
+        border: 1px solid #fff;
+        margin-left: 10px;
+    }
+
+    .custom-hamburger .navbar-toggler-icon {
+
+    }
+    .nav{
+        position: absolute;
+        z-index: 100000;
+        margin: 0!important;
+        background-color: white!important;
+    }
+
+    .navLink{
+        color: rgba(0,0,0,1) !important;
+        font-family: Roboto,serif;
+        font-size: 15px!important;
+        font-weight: 500!important;
+        text-decoration: none;
+        transition: 0.5s;
+        display: flex;
+        justify-content: left;
+        color:green !important;
+        background-color: rgba(0,222,0,0.1);
+        padding: 5px 0 5px 35px;
+    }
+    .navLink:hover{
+        padding: 5px 0 5px 35px!important;
+        background-color: white;
+        color: black!important;
+    }
+    .navLinkScroll{
+        color: rgba(0,0,0,1) !important;
+        font-family: Roboto,serif;
+        font-size: 15px!important;
+        font-weight: 500!important;
+        text-decoration: none;
+        transition: 0.5s;
+        display: flex;
+        justify-content: left;
+        color:green !important;
+        background-color: rgba(0,222,0,0.1);
+        padding: 5px 0 5px 35px;
+
+    }
+    .navLinkScroll:hover{
+        padding: 5px 0 5px 35px!important;
+        background-color: white;
+        color: black!important;
+    }
+    .ddMenu{
+        display: flex!important;
+        background-color: rgba(0,222,0,0.1)!important;
+        border: none!important;
+        justify-content: left;
+        margin: 0!important;
+        padding: 5px 0 5px 35px!important;
+    }
+    .ddMenu:hover{
+        padding: 5px 0 5px 35px!important;
+        background-color: white!important;
+        color: black!important;
+    }
+
+    .responsiveSubmenu{
+        background-color: rgba(0,222,0,0.1)!important;
+        margin: 5px 0;
+        padding: 5px!important;
+    }
+    .responsiveSubmenu:hover{
+        padding: 5px!important;
+        background-color: white!important;
+        color: black;
+    }
+
+    .ddBox{
+        position: absolute!important;
+        left: 150px!important;
+        margin: -40px 0 0 0 !important;
+        background-color: #f1f3f6 !important;
+        transition: 0.5s;
+        border: none!important;
+        border-radius: 2px!important;
+        padding: 0!important;
+
+    }
+    .ddBoxScroll{
+        position: absolute!important;
+        left: 150px!important;
+        margin: -40px 0 0 0 !important;
+        background-color: #f1f3f6 !important;
+        transition: 0.5s;
+        border: none!important;
+        border-radius: 2px!important;
+        padding: 0!important;
+    }
+}
+
+

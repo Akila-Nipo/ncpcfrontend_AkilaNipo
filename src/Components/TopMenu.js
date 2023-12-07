@@ -49,7 +49,7 @@ function TopMenu(props) {
         <Fragment>
            <Container fluid="true" className="text-center">
                <Navbar className={isScroll?'navBarScroll':'navBar'}  collapseOnSelect expand="sm">
-                   <Navbar.Toggle className="hIcon" aria-controls="responsive-navbar-nav" />
+                   <Navbar.Toggle className="custom-hamburger" aria-controls="responsive-navbar-nav" />
                    <Navbar.Collapse  className="justify-content-center" id="responsive-navbar-nav">
                        <Nav className="nav">
                            <Nav.Link ><Link to="/" className={css.navLink} >Home</Link></Nav.Link>
@@ -61,10 +61,10 @@ function TopMenu(props) {
                                show={dropdownOpen}
                            >
                                <Dropdown.Toggle className={`${css.navLink} ddMenu`} id="dropdown-basic">Committee</Dropdown.Toggle>
-                               <Dropdown.Menu className={css.ddBox}>
-                                   <Dropdown.Item className={css.navLink} as={Link} to="committee">Executive Committee</Dropdown.Item>
-                                   <Dropdown.Item className={css.navLink} as={Link} to="/">IT Committee</Dropdown.Item>
-                                   <Dropdown.Item className={css.navLink} as={Link} to="/">Social Media</Dropdown.Item>
+                               <Dropdown.Menu className={`${css.ddBox}`}>
+                                   <Dropdown.Item className={`${css.navLink} responsiveSubmenu`} as={Link} to="committee">Executive Committee</Dropdown.Item>
+                                   <Dropdown.Item className={`${css.navLink} responsiveSubmenu`} as={Link} to="/">IT Committee</Dropdown.Item>
+                                   <Dropdown.Item className={`${css.navLink} responsiveSubmenu`} as={Link} to="/">Social Media</Dropdown.Item>
                                </Dropdown.Menu>
                            </Dropdown>
                            <Nav.Link><Link to="gallery"  className={css.navLink} >Gallery</Link></Nav.Link>
