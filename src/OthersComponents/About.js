@@ -5,7 +5,7 @@ import axios from "axios";
 function About(props) {
 
     useEffect(()=>{
-        axios.get("localhost:8080/")
+        axios.get("http://localhost:8080/")
             .then((res)=>{
                 console.log(res);
             })
