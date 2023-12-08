@@ -5,7 +5,7 @@ import axios from "axios";
 function About() {
 
     useEffect(()=>{
-        axios.get("http://localhost:8080/")
+        axios.get("http://146.190.80.140:8080/test")
             .then((res)=>{
                 console.log(res);
             })
