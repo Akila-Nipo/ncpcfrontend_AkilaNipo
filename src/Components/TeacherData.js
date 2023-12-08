@@ -31,7 +31,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         className="form-control"
                         name="teacherName1"
                         onChange={inputChange}
-                        value={!data.teacherName1===""?"":data.teacherName1}
+                        value={"" === !data.teacherName1?"":data.teacherName1}
 
                     />
                 </Col>
@@ -43,7 +43,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         className="form-control"
                         name="teacherName2"
                         onChange={inputChange}
-                        value={!data.teacherName2===""?"":data.teacherName2}
+                        value={"" === !data.teacherName2?"":data.teacherName2}
 
                     />
                 </Col>
@@ -55,7 +55,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         className="form-control w-25"
                         name="teacherDesignation"
                         onChange={inputChange}
-                        value={!data.teacherDesignation===""?"":data.teacherDesignation}
+                        value={"" === !data.teacherDesignation?"":data.teacherDesignation}
 
                     >
                         <option value="">Select</option>
