@@ -3,7 +3,7 @@ import {Container, Dropdown, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 
-function TopMenu(props) {
+function TopMenu() {
     const [isScroll,setIsScroll] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [css,setCss] = useState({

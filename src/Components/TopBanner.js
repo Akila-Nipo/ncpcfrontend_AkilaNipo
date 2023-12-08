@@ -14,7 +14,7 @@ import Count from "../Components/Count";
 import {Link} from "react-router-dom";
 
 
-function TopBanner(props) {
+function TopBanner() {
     
     return (
         <Fragment>

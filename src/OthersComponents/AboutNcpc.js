@@ -2,7 +2,7 @@ import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import aboutNcpc from "../Assets/Images/aboutNcpc.png";
 
-function AboutNcpc(props) {
+function AboutNcpc() {
     return (
        <Container fluid="true" className="text-center aboutNcpc p-5">
            <Row className="m-0 aboutNcpcRow">

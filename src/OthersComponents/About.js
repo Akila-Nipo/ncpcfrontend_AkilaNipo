@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import axios from "axios";
 
-function About(props) {
+function About() {
 
     useEffect(()=>{
         axios.get("http://localhost:8080/")
