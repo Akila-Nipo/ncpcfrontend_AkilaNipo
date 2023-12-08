@@ -54,13 +54,14 @@ function RegiForm() {
             formData.append(key, value);
         });
 
-        axios.post('http://localhost:8080//addUser', formData)
+        axios.post('http://localhost:8080/addUser', formData)
             .then(response => {
                 console.log(response.data);
             })
             .catch(error => {
                 console.error('There was an error!', error);
             });
+
     };
 
 
