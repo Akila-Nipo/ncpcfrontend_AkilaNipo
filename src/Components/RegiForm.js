@@ -56,10 +56,10 @@ function RegiForm() {
 
         axios.post('http://146.190.80.140:8080/addUser', formData)
             .then(response => {
-                console.log(response.data);
+                // console.log(response.data);
             })
             .catch(error => {
-                console.error('There was an error!', error);
+                // console.error('There was an error!', error);
             });
 
     };

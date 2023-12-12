@@ -7,7 +7,7 @@ function About() {
     useEffect(()=>{
         axios.get("http://146.190.80.140:8080/test")
             .then((res)=>{
-                console.log(res);
+                // console.log(res);
             })
     },[]);
 
