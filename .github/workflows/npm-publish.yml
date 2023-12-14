@@ -3,32 +3,24 @@ on:
     branches:
       - main
 
-name: 🚀 Deploy website on push
-
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v3
-
-      - name: Use Node.js 16
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: '16'
-
-      - name: 🔨 Build Project
-        run: |
-          npm install
-          npm run build
-
-      - name: 📂 Sync files
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh -o StrictHostKeyChecking=no -p 22 root@146.190.80.140 "cd /path/to/your/deployment/directory && mkdir -p ./build"
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # Add other environment
+          node-version: 18
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy to production
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          script: |
+            cd /var/www/my-app
+            git pull origin main
+            npm install && npm run build
+            pm2 reload all
