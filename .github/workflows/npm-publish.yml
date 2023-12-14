@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - main
+
 name: 🚀 Deploy website on push
 
 jobs:
@@ -29,3 +30,11 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
+
+      - name: 📂 Move to deployment directory
+        run: |
+          ssh ${{ secrets.FTP_USER }}@${{ secrets.FTP_SERVER }} -p 22 "cd /path/to/your/deployment/directory && mkdir -p ./build"
+
+      - name: 📂 Deploy files
+        run: |
+          scp -r ./build/* ${{ secrets.FTP_USER }}@${{ secrets.FTP_SERVER }}:/path/to/your/deployment/directory/build
