@@ -21,7 +21,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           script: |
             cd /var/www/my-app
-            git init
-            git pull origin main
-            npm install && npm run build
-            pm2 reload all
