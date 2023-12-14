@@ -25,8 +25,10 @@ jobs:
 
       - name: 📂 Sync files
         run: |
-          ssh-keyscan -p 22 146.190.80.140 >> ~/.ssh/known_hosts
-          ssh root@146.190.80.140 -p 22 "cd /path/to/your/deployment/directory && mkdir -p ./build"
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh -o StrictHostKeyChecking=no -p 22 root@146.190.80.140 "cd /path/to/your/deployment/directory && mkdir -p ./build"
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # Add other environment variables as needed
+          # Add other environment
