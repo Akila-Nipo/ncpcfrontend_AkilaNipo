@@ -24,17 +24,9 @@ jobs:
           npm run build
 
       - name: 📂 Sync files
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-
-      - name: 📂 Move to deployment directory
         run: |
-          ssh ${{ secrets.FTP_USER }}@${{ secrets.FTP_SERVER }} -p 22 "cd /path/to/your/deployment/directory && mkdir -p ./build"
-
-      - name: 📂 Deploy files
-        run: |
-          scp -r ./build/* ${{ secrets.FTP_USER }}@${{ secrets.FTP_SERVER }}:/path/to/your/deployment/directory/build
+          ssh-keyscan -p 22 146.190.80.140 >> ~/.ssh/known_hosts
+          ssh root@146.190.80.140 -p 22 "cd /path/to/your/deployment/directory && mkdir -p ./build"
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          # Add other environment variables as needed
