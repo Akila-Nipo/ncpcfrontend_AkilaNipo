@@ -15,6 +15,8 @@ import CommitteePage from "./Pages/CommitteePage";
 import GalleryPage from './Pages/GalleryPage';
 import AboutPage from "./Pages/AboutPage";
 
+
+
 function App() {
   return (
     <div>

@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import {Button, Carousel, Col, Container, Row} from "react-bootstrap";
 
 import s_minar from "../Assets/Images/dept/shaheed_minar.png";
-import champs_ncpc from "../Assets/Images/alumni_photos/ncpc_champion.png";
 import lab from "../Assets/Images/dept/lab_201.png";
 import green from "../Assets/Images/dept/green.png";
 
@@ -24,12 +23,6 @@ function TopBanner() {
                         <Carousel className="card-carousel">
                             <Carousel.Item>
                                 <img className="carouselImg" src={green} alt=""/>
-                                <Carousel.Caption>
-                                    <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="carouselImg" src={champs_ncpc} alt=""/>
                                 <Carousel.Caption>
                                     <Link to="registration"><Button className="contactBtn">Register Now <FontAwesomeIcon icon={faHandPointer} beat /></Button></Link>
                                 </Carousel.Caption>

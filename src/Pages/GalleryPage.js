@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react';
-import '../Assets/CSS/Registration.css';
+import "../Assets/CSS/GalleryCSS.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import Gallery from '../Components/Gallery';
 

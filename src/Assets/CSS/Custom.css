@@ -242,7 +242,7 @@
     color: rgba(0,0,0,0.8);
 }
 .honorContainer{
-    background-color: rgba(241, 235, 235, 0);
+    background-color: rgb(29, 52, 40);
 }
 
 .noticeDivLeft{
@@ -250,9 +250,6 @@
     background-color: rgb(29, 52, 40);
     border:1px solid rgb(4, 46, 24);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.noticeDivLeft:hover{
-    transform: scale(1.005);
 }
 
 .carouselCaptionDivLeftHonor{
@@ -271,19 +268,11 @@
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 2%;
 }
-.noticeDivRight:hover{
-    cursor:pointer;
-    color:black;
-    transform: scale(1.005);
-}
 
 .carouselItemContainerSpeech{
     background-color:  rgb(29, 52, 40);
     color:silver;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.carouselItemContainerSpeech:hover{
-    transform: scale(1.005);
 }
 .noticeTitle{
     text-transform: uppercase;
@@ -433,7 +422,7 @@
     height: auto;
 }
 .supportDiv{
-    padding: 10% 0 5% 0;
+    padding: 0 0 5% 0;
 }
 .topImg{
     width: 30%;
@@ -462,6 +451,7 @@
 .carouselItemContainerAlumni .carouselCaptionAlumni {
     position: absolute;
     bottom: 20px;
+    width: 100%;
     color:white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
@@ -500,4 +490,10 @@
 .noticeDivRightHeading{
     background-color:#14352c;
 }
+.supportImgJU{
+    max-width: 500px!important;
+    height: auto;
+}
+
+
 

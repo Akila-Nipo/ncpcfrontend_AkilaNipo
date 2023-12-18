@@ -8,7 +8,6 @@
     color: aliceblue;
 }
 .alumniDescription{
-    text-align: start;
     padding: 3px 5% 3px 5%;
     font-size: 18px;
     font-family: Roboto, serif;
@@ -20,14 +19,15 @@
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .alumniColumn{
-    background-color:rgb(3, 3, 56);
     padding-top: 7% !important;
 
 }
 .alumniColumn .alumniDescription{
-    background-color: blueviolet;
+    background-color: rgba(66, 59, 108, 0.7);
     margin: 0 5% 10% 5%;
     padding: 10% 7%;
 }
-
+.rowBackground{
+    background-color:rgb(3, 3, 56);
+}
 
