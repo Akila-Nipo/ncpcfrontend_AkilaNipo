@@ -42,6 +42,10 @@
     transition: 0.5s;
 }
 .ddMenu{
+    font-family: Roboto,serif!important;
+    font-weight: 500!important;
+}
+.ddMenu{
     background-color: rgba(0,0,0,0)!important;
     width: 150px!important;
     padding:0!important;
@@ -78,8 +82,8 @@
 }
 .ddBoxScroll{
     background-color: #f1f3f6 !important;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 18px!important;
+    font-weight: 500!important;
     transition: 0.5s;
     border: none!important;
     border-radius: 2px!important;
