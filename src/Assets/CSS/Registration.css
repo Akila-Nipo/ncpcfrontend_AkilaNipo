@@ -101,3 +101,10 @@
     font-size: 14px;
     font-weight: 500;
 }
+.photoSelect img{
+    width: 100%;
+    height: auto;
+}
+.genderFix{
+    margin-left: 30px;
+}

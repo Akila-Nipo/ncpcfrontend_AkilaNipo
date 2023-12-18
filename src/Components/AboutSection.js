@@ -13,30 +13,21 @@ function AboutSection(props) {
             <Row className="p-0 m-0">
                 <Col className="noticeDivLeft m-0 p-0" md={8} lg={8} sm={12}>
                     <h4 className="noticeTitle text-center">About JU CSE</h4>
-                    <Carousel className="card-carousel">
+                    <Carousel className="card-carousel" interval={6000}>
                         <Carousel.Item>
                             <img className="carouselImg" src={green} alt=""/>
-                            <Carousel.Caption className="carouselCaptionDivLeftHonor">
-                                <h3 className="whiteTitle">Front View of Department</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="carouselImg" src={lab} alt=""/>
-                            <Carousel.Caption className="carouselCaptionDivLeftHonor">
-                                <h3 className="whiteTitle">Programming LAB</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="carouselImg" src={seminar} alt=""/>
-                            <Carousel.Caption className="carouselCaptionDivLeftHonor">
-                                <h3 className="whiteTitle">SEMINAR LIBRARY</h3>
-                            </Carousel.Caption>
                         </Carousel.Item>
 
                     </Carousel>
                     <p className="alumniDescription text-white">
                         <hr/>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad aliquid at blanditiis commodi consequuntur corporis deleniti doloremque dolorum ducimus eos error, expedita fuga illo inventore libero natus non nulla numquam porro possimus qui quibusdam quidem, quis quo recusandae sit totam vero vitae voluptatum? Aliquid error inventore optio quaerat tempora.
+                        The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers. This space is open 24/7, giving students the chance to practice their coding skills anytime they want. Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
                     </p>
                 </Col>
                 <Col md={4} lg={4} sm={12} className="m-0 p-0" >
@@ -46,7 +37,7 @@ function AboutSection(props) {
                         </div>
                         <a href="facebook.com/abc">1. Registration Rules</a>
                         <hr/>
-                        <a href="facebook.com/abc">2. Accomodation</a>
+                        <a href="facebook.com/abc">2. Accommodation</a>
                         <hr/>
                         <a href="facebook.com/abc">3. Payment Details</a>
                         <hr/>
@@ -60,12 +51,12 @@ function AboutSection(props) {
                         <hr/>
                         <Carousel className='carouselVideo'>
                             <Carousel.Item>
-                                <iframe width="320" height="315" src="https://www.youtube.com/embed/bC4kQ2-kHZE?si=YNCq8mEbLr2EOU7P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                <h6 className="whiteTitle">Abraham Lincoln</h6>
+                                <iframe width="320" height="315" src="https://www.youtube.com" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <h6 className="whiteTitle">JU CSE</h6>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <iframe width="320" height="315" src="https://www.youtube.com/embed/UF8uR6Z6KLc?si=vqzt33t2fjHVALCL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                <h6 className="whiteTitle">Steve Jobs</h6>
+                                <iframe width="320" height="315" src="https://www.youtube.com" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <h6 className="whiteTitle">JU CSE</h6>
                             </Carousel.Item>
                         </Carousel>
                     </div>

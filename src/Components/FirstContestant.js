@@ -29,9 +29,24 @@ function FirstContestant({secondCall,inputChange}) {
         )
     }
 
+    console.log(data.instituteName);
+
     return (
         <div className="firstContestant mt-4">
             <Row className="m-0 p-0">
+                <Col md={6} sm={12} lg={6}>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />Institute Name</label>
+                    {Array.isArray(items) && (
+                        <ReactSearchAutocomplete
+                            items={items}
+                            onSelect={inputChange}
+                            formatResult={formatResult}
+                            placeholder={data.instituteName}
+                            onChange={inputChange}
+                        />
+                    )}
+
+                </Col>
                 <Col md={6} sm={12} lg={6}>
                     <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />Team Name</label>
                     <input
@@ -43,31 +58,8 @@ function FirstContestant({secondCall,inputChange}) {
                         value={!data.teamName===""?"":data.teamName}
                     />
                 </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />Institute Name</label>
-                    <ReactSearchAutocomplete
-                        items={items}
-                        onSelect={inputChange}
-                        autoFocus
-                        formatResult={formatResult}
-                    />
-                </Col>
             </Row>
-            <Row className="m-0 p-0">
-                <Col md={6} sm={12} lg={6}>
-                    <label className="mt-3">Please Revise It * </label>
-                </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <input
-                        type="text"
-                        placeholder="Current Institute Name"
-                        className="form-control"
-                        name="instituteName"
-                        onChange={inputChange}
-                        value={!data.instituteName===""?"":data.instituteName}
-                    />
-                </Col>
-            </Row>
+
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} /> Team Member-1</h4>
             <hr/>
@@ -87,7 +79,7 @@ function FirstContestant({secondCall,inputChange}) {
                     <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Last Name</label>
                     <input
                         type="text"
-                        placeholder="Second Name"
+                        placeholder="Last Name"
                         className="form-control"
                         name="firstUserName2"
                         onChange={inputChange}
@@ -109,7 +101,7 @@ function FirstContestant({secondCall,inputChange}) {
                     />
                     <label htmlFor="x"><FontAwesomeIcon icon={faPhone} />    Contact Number</label>
                     <input
-                        type="text"
+                        type="number"
                         placeholder="Phone number"
                         className="form-control"
                         name="firstUserPhone"
@@ -126,9 +118,9 @@ function FirstContestant({secondCall,inputChange}) {
                         onChange={inputChange}
                         checked={data.firstUserGender==="male"}
                     />
-                    <label className="gender mx-1" htmlFor="male"> Male</label>
+                    <label className="gender" htmlFor="male"> Male</label>
                     <input
-                        className="form-check-input mx-1"
+                        className="form-check-input genderFix"
                         type="radio"
                         id="female"
                         value="female"
@@ -169,7 +161,7 @@ function FirstContestant({secondCall,inputChange}) {
                         <option value="xxl">XXL</option>
                     </select>
 
-                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faAddressCard} /> Contestant ID</label><br/>
+                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faAddressCard} /> Student ID Card Photo</label><br/>
                     <input
                         type="file"
                         className="form-control"
@@ -180,10 +172,10 @@ function FirstContestant({secondCall,inputChange}) {
                         data.firstUserId?(
                             <div className='photoSelect'>Your Uploaded File is : {data.firstUserId.name}</div>
                         ):(
-                            <div className='photoSelect'>Please select a photo</div>
+                            <div className='photoSelect'>Please upload a photo</div>
                         )
                     }
-                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Contestant Photo</label><br/>
+                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Student Photo</label><br/>
                     <input
                         type="file"
                         className="form-control"
@@ -193,7 +185,9 @@ function FirstContestant({secondCall,inputChange}) {
                     {
                         data.firstUserPhoto?(
                             <div className='photoSelect'>Your Uploaded File is : {data.firstUserPhoto.name}</div>
-                        ):""
+                        ):(
+                            <div className='photoSelect'>Please upload a photo</div>
+                        )
                     }
                     <div className="mb-5">
                         <Button className="nextBtn2" onClick={secondCall}> Next</Button>

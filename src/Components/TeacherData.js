@@ -39,7 +39,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                     <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} />  Last Name</label>
                     <input
                         type="text"
-                        placeholder="Second Name"
+                        placeholder="Last Name"
                         className="form-control"
                         name="teacherName2"
                         onChange={inputChange}
@@ -76,7 +76,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                     />
                     <label htmlFor="x"><FontAwesomeIcon icon={faPhone} />    Contact Number</label>
                     <input
-                        type="text"
+                        type="number"
                         placeholder="Phone number"
                         className="form-control"
                         name="teacherPhone"
@@ -93,9 +93,9 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         name="teacherGender"
                         onChange={inputChange}
                         checked={data.teacherGender==="male"}
-                    /> <label className="gender mx-1" htmlFor="male">Male</label>
+                    /> <label className="gender" htmlFor="male">Male</label>
                     <input
-                        className="form-check-input mx-1"
+                        className="form-check-input genderFix"
                         type="radio"
                         id="female"
                         value="female"
@@ -130,7 +130,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         <option value="xxl">XXL</option>
                     </select>
 
-                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faAddressCard} /> Coach ID</label><br/>
+                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faAddressCard} /> Teacher's ID Card Photo</label><br/>
                     <input
                         type="file"
                         className="form-control"
@@ -141,10 +141,10 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         data.teacherId?(
                             <div className='photoSelect'>Your Uploaded File is : {data.teacherId.name}</div>
                         ):(
-                            <div className='photoSelect'>Please select a photo</div>
+                            <div className='photoSelect'>Please upload a photo</div>
                         )
                     }
-                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Coach Photo</label><br/>
+                    <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Teacher's Photo</label><br/>
                     <input
                         type="file"
                         className="form-control"
@@ -155,7 +155,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         data.teacherPhoto?(
                             <div className='photoSelect'>Your Uploaded File is : {data.teacherPhoto.name}</div>
                         ):(
-                            <div></div>
+                            <div className='photoSelect'>Please upload a photo</div>
                         )
                     }
 
