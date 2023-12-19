@@ -12,7 +12,7 @@ function AboutSection(props) {
         <Container fluid="true" className="text-center honorContainer">
             <Row className="p-0 m-0">
                 <Col className="noticeDivLeft m-0 p-0" md={8} lg={8} sm={12}>
-                    <h4 className="noticeTitle text-center">About JU CSE</h4>
+                    <h4 className="noticeTitle text-center text-black">About JU CSE</h4>
                     <Carousel className="card-carousel" interval={6000}>
                         <Carousel.Item>
                             <img className="carouselImg" src={green} alt=""/>
@@ -25,7 +25,7 @@ function AboutSection(props) {
                         </Carousel.Item>
 
                     </Carousel>
-                    <p className="alumniDescription text-white">
+                    <p className="alumniDescription text-black">
                         <hr/>
                         The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers. This space is open 24/7, giving students the chance to practice their coding skills anytime they want. Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
                     </p>
@@ -47,7 +47,7 @@ function AboutSection(props) {
                         <hr/>
                     </div>
                     <div className="carouselItemContainerSpeech">
-                        <h5 className="noticeTitleSpeech"><FontAwesomeIcon icon={faUser}/>Speech from Respected Personalities </h5>
+                        <h5 className="noticeTitleSpeech text-black"><FontAwesomeIcon icon={faUser}/>Speech from Respected Personalities </h5>
                         <hr/>
                         <Carousel className='carouselVideo'>
                             <Carousel.Item>

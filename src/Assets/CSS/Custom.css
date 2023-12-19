@@ -246,12 +246,13 @@
     color: rgba(0,0,0,0.8);
 }
 .honorContainer{
-    background-color: rgb(29, 52, 40);
+    background-color: white;
 }
 
 .noticeDivLeft{
     color:  silver;
-    background-color: rgb(29, 52, 40);
+    /* background-color: rgb(29, 52, 40); */
+    background-color:white;
     border:1px solid rgb(4, 46, 24);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -267,14 +268,15 @@
     background-color: rgb(255, 255, 255);
     color:rgb(22, 21, 21);
     border-radius: .5%;
-    border:1px solid rgb(2, 144, 71);
-    box-shadow: 0 3px 10px rgb(48, 87, 59);
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 2%;
 }
 
 .carouselItemContainerSpeech{
-    background-color:  rgb(29, 52, 40);
+    /* background-color:  rgb(29, 52, 40); */
+    background-color:white;
     color:silver;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -287,7 +289,8 @@
     padding:2%;
 }
 .noticeTitleSpeech{
-    background-color:  rgb(29, 52, 40);
+    /* background-color:  rgb(29, 52, 40); */
+    
     padding:2%;
     margin-left:4%;
     margin-right:4%;
@@ -298,7 +301,7 @@
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    color:green;
+    color:#021b4a;
     font-size: 16px;
     font-family: Montserrat, serif;
     font-weight: 700;
@@ -308,7 +311,8 @@
 .noticeDivRight hr{
     margin-right: 4%;
     margin-left: 3%;
-    border:2px solid green;
+    /* border:2px solid green; */
+    border:2px solid #021b4a;
 }
 
 .noticeDivRight a:hover{
@@ -492,7 +496,8 @@
     margin-top: 1%;
 }
 .noticeDivRightHeading{
-    background-color:#14352c;
+    /* background-color:#14352c; */
+    background-color: #1b182e; 
 }
 .supportImgJU{
     max-width: 500px!important;

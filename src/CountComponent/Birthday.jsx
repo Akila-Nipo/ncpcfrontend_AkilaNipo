@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
-import {Button} from "react-bootstrap";
-import {faReply} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import Typing from "./Typing";
-import {Link} from "react-router-dom";
+
 
 const Birthday = ({ day, month }) => {
   const [state, setState] = useState({
@@ -79,11 +77,11 @@ const Birthday = ({ day, month }) => {
       <div className="caption">
         <h5 className="type">Hosted By</h5>
         <h5 className="deptInfo">
-          Department of Computer Science and Engineering <br />
-          (CSE)
+          Department of Computer Science and Engineering
+         
         </h5>
         <h4 className="title text-white">Jahangirnagar University</h4>
-        <Link to="registration"> <div><Button variant="danger">Register Now  <FontAwesomeIcon icon={faReply} /></Button></div></Link>
+       
       </div>
     </div>
   );
