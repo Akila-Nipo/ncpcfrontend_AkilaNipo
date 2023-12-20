@@ -1,12 +1,12 @@
 .aboutJuBanner {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-size: cover;
-    background: url("../Images/dept/seminar.jpg") no-repeat fixed center;
+    background: url("../Images/dept/code_elevate_camp.jpg") no-repeat fixed center;
 }
 .overLay{
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-size: cover;
     background-color: rgba(0,0,0,0.4);
 }

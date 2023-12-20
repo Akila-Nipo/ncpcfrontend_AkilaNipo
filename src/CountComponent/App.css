@@ -62,6 +62,13 @@ a {
 .type{
   margin-top: 20px;
   color:#fff;
+  font-weight: 600;
+  font-size: 29px;
+  font-family: Montserrat, serif;
+}
+.typing{
+  margin-top: 20px;
+  color:#fff;
   font-weight: 400;
   font-size: 21px;
   font-family: Montserrat, serif;
@@ -75,13 +82,13 @@ a {
   font-size: 35px;
   margin-top: 20px;
   color:#fff;
-  font-weight: 300;
-  font-family:Arial, Helvetica, sans-serif
+  font-weight: 500;
+  font-family:Montserrat, serif;
   
 }
 .countTxt{
   color:#fff;
-  font-family: Roboto, serif;
+  font-family: Montserrat, serif;
   font-weight: 400;
   font-size: 25px;
 }

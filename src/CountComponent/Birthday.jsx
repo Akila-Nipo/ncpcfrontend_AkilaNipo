@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import Typing from "./Typing";
@@ -70,7 +71,7 @@ const Birthday = ({ day, month }) => {
       </span>
       </div>
      
-      <div className="type">
+      <div className="typing">
        <Typing />
       </div>
       <Countdown countdownData={state} />

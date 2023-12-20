@@ -1,7 +1,7 @@
 .navBar{
     max-width: 100%;
     height: 60px;
-    background-color: #021b4a;
+    background-color: #1b182e; 
     transition: 0.5s;
 }
 .nav{
@@ -53,17 +53,17 @@
 }
 .ddMenu:hover{
     padding: 0!important;
-    color: rgba(102, 255, 0, 0.66) !important;
-    background-color: rgba(0,222,0,0.1) !important;
+    color: rgba(0, 179, 255, 0.66) !important;
+    background-color: rgba(1, 46, 65, 0.66)!important;
 }
 .navLink:hover{
-    color: rgba(102, 255, 0, 0.66) !important;
-    background-color: rgba(0,222,0,0.1);
+    color: rgba(0, 179, 255, 0.66) !important;
+    background-color: rgba(1, 46, 65, 0.66);
     padding: 18px;
 }
 .navLinkScroll:hover{
-    color:green !important;
-    background-color: rgba(0,222,0,0.1) !important ;
+    color:rgba(0, 179, 255, 0.66)!important;
+    background-color: rgba(1, 46, 65) !important ;
     padding: 18px;
 }
 .logoImg{
@@ -73,7 +73,7 @@
 }
 
 .ddBox{
-    background-color: #021B4A!important;
+    background-color: #1b182e!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
@@ -161,31 +161,35 @@
     background-color: rgb(221, 230, 237) !important;
 }
 .contactBtn{
-    background-color: white!important;
+    background-color:rgb(0, 0, 0,0.5)!important;
     border: 1px solid black!important;
-    color: black !important;
+    color: white !important;
     font-size: 20px!important;
-    font-family: Montserrat, sans-serif, serif!important;
+    font-family: Montserrat, serif!important;
     font-weight: 400!important;
 }
 .contactBtn:hover{
-    background-color: #e5dcdc !important;
-    color: black!important;
+    background-color: rgb(0, 0, 0)!important;
+    color: white!important;
     transform: scale(1.1);
-    border: 1px solid white!important;
+    
     transition: 0.3s;
 }
-
+Button{
+    font-family: Montserrat, serif!important;  
+}
 .committeeBody{
     color:white;
     margin:1%;
-    border-radius: .5%;
+
     font-size: 22px;
     font-family: Montserrat, serif;
     font-weight: 500;
+    box-shadow: 0 0 4px rgb(48, 64, 87);
 }
 .committeeTitleBorder{
-    background-color:#aeafb0;
+    background-color:#1b182e; 
+    box-shadow: 0 0 4px rgb(48, 64, 87);
 }
 
 .choyonSir{
@@ -227,7 +231,7 @@
 }
 .title{
     font-size: 22px;
-    color: #09ACAC !important;
+    color: #1b182e!important;
     font-family: Montserrat, serif;
     font-weight: 500;
 }
@@ -247,13 +251,14 @@
 }
 .honorContainer{
     background-color: white;
+   
+    
+    
 }
 
 .noticeDivLeft{
     color:  silver;
-    /* background-color: rgb(29, 52, 40); */
-    background-color:white;
-    border:1px solid rgb(4, 46, 24);
+    background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -268,17 +273,15 @@
     background-color: rgb(255, 255, 255);
     color:rgb(22, 21, 21);
     border-radius: .5%;
-    border:1px solid rgb(0, 0, 0);
-    box-shadow: 0 3px 10px rgb(0, 0, 0);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 2%;
 }
 
 .carouselItemContainerSpeech{
-    /* background-color:  rgb(29, 52, 40); */
     background-color:white;
-    color:silver;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color:silver; 
+    
+    
 }
 .noticeTitle{
     text-transform: uppercase;
@@ -287,14 +290,19 @@
     font-weight: 750;
     text-align: center;
     padding:2%;
+    color: #1b182e!important;
+    
 }
 .noticeTitleSpeech{
-    /* background-color:  rgb(29, 52, 40); */
     
     padding:2%;
-    margin-left:4%;
-    margin-right:4%;
-    font-weight: 600;
+    font-family: poppin, serif;
+    font-size: 29px;
+    margin-left:2%;
+    margin-right:2%;
+    font-weight: 750;
+    background-color: #1b182e; 
+
 }
 
 .noticeDivRight a{
@@ -311,7 +319,6 @@
 .noticeDivRight hr{
     margin-right: 4%;
     margin-left: 3%;
-    /* border:2px solid green; */
     border:2px solid #021b4a;
 }
 
@@ -332,7 +339,7 @@
 
 .carouselVideo:hover{
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(137, 135, 135, 0.8);
+    
 }
 .contact{
     padding-left: 10% !important;
@@ -476,7 +483,7 @@
     text-transform: uppercase;
 }
 .backBtn{
-    background-color: gray!important;
+    background-color: #1b182e!important;
     width: 80px !important;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -486,7 +493,7 @@
 }
 .nextBtn2{
     position: absolute!important;
-    background-color: gray!important;
+    background-color:#1b182e!important;
     width: 80px !important;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -496,7 +503,7 @@
     margin-top: 1%;
 }
 .noticeDivRightHeading{
-    /* background-color:#14352c; */
+   
     background-color: #1b182e; 
 }
 .supportImgJU{

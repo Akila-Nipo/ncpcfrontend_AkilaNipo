@@ -12,7 +12,7 @@ function AboutSection(props) {
         <Container fluid="true" className="text-center honorContainer">
             <Row className="p-0 m-0">
                 <Col className="noticeDivLeft m-0 p-0" md={8} lg={8} sm={12}>
-                    <h4 className="noticeTitle text-center text-black">About JU CSE</h4>
+                    <h4 className="noticeTitle text-center">About JU CSE</h4>
                     <Carousel className="card-carousel" interval={6000}>
                         <Carousel.Item>
                             <img className="carouselImg" src={green} alt=""/>
@@ -47,16 +47,15 @@ function AboutSection(props) {
                         <hr/>
                     </div>
                     <div className="carouselItemContainerSpeech">
-                        <h5 className="noticeTitleSpeech text-black"><FontAwesomeIcon icon={faUser}/>Speech from Respected Personalities </h5>
-                        <hr/>
+                        <h5 className="noticeTitleSpeech text-white"><FontAwesomeIcon icon={faUser}/> SPEECH</h5>
                         <Carousel className='carouselVideo'>
                             <Carousel.Item>
-                                <iframe width="320" height="315" src="https://www.youtube.com" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                <h6 className="whiteTitle">JU CSE</h6>
+                                <iframe width="390" height="365" src="https://www.youtube.com/embed/UF8uR6Z6KLc?si=LyrWIMcVg5Hhjcrb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <h6 className="whiteTitle text-black">JU CSE</h6>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <iframe width="320" height="315" src="https://www.youtube.com" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                <h6 className="whiteTitle">JU CSE</h6>
+                                <iframe width="390" height="365" src="https://www.youtube.com/embed/UF8uR6Z6KLc?si=LyrWIMcVg5Hhjcrb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                <h6 className="whiteTitle text-black">JU CSE</h6>
                             </Carousel.Item>
                         </Carousel>
                     </div>
