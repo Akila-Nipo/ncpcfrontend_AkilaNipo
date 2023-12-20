@@ -12,7 +12,7 @@
     font-size: 18px;
     font-family: Roboto, serif;
     font-weight: 400;
-    color: rgba(242, 234, 234, 0.8);
+    color: rgba(242, 234, 234, 0.9);
 }
 .alumniFullBanner{
     box-shadow: 0 0 4px rgb(48, 64, 87);
@@ -23,11 +23,11 @@
 
 }
 .alumniColumn .alumniDescription{
-    background-color: rgba(66, 59, 108, 0.7);
+    /* background-color: rgba(66, 59, 108, 0.7); */
     margin: 0 5% 10% 5%;
     padding: 10% 7%;
 }
 .rowBackground{
-    background-color:rgb(3, 3, 56);
+    background-color:#1b182e; 
 }
 

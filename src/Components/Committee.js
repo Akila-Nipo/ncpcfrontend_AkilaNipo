@@ -8,7 +8,7 @@ function Committee(props) {
         <Container fluid="true" className="mb-5">
             <Container fluid="true" className="committeeBody text-center">
                 <Container fluid="true" className="committeeTitleBorder">
-            <h4 className="title mt-5 text-center">Executive Committee</h4>
+            <h4 className="title mt text-center text-white">Executive Committee</h4>
             </Container>
             <Row className="topImg text-center">
                 <ChoyonSirCard choyon={img}/>
