@@ -47,18 +47,7 @@
         font-size: 8px!important;
         padding: 0!important;
     }
-
-
-
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 225px) {
     .responsiveRegi{
@@ -79,17 +68,12 @@
         border: 1px solid #fff;
         margin-left: 10px;
     }
-
-    .custom-hamburger .navbar-toggler-icon {
-
-    }
     .nav{
         position: absolute;
         z-index: 100000;
         margin: 0!important;
         background-color: white!important;
     }
-
     .navLink{
         color: rgba(0,0,0,1) !important;
         font-family: Roboto,serif;

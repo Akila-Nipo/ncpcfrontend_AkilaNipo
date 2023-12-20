@@ -13,7 +13,7 @@
     font-family: Roboto, serif;
     font-weight: 400;
     color: rgba(242, 234, 234, 0.9);
-    
+    text-align: justify;
 }
 .alumniFullBanner{
     box-shadow: 0 0 4px rgb(48, 64, 87);
