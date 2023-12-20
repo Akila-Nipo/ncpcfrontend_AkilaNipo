@@ -420,6 +420,11 @@
 .supportImg{
     width: 100%;
     height: auto;
+    min-height: 230px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 50px;
+    border-radius: 8px;
 }
 .supportDiv{
     padding: 0 0 5% 0;
