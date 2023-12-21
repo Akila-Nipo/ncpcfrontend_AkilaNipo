@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-solid-svg-icons";
 import Typing from "./Typing";
 
 
@@ -67,14 +65,14 @@ const Birthday = ({ day, month }) => {
     <div className="page">
       <div>
       <span className="ncpcType">
-        <FontAwesomeIcon icon={faClock} beat/> NCPC 2023
+         NCPC 2023
       </span>
       </div>
      
       <div className="typing">
        <Typing />
       </div>
-      <Countdown countdownData={state} />
+      <Countdown countdownData={state} / >
       <div className="caption">
         <h5 className="type">Hosted By</h5>
         <h5 className="deptInfo">

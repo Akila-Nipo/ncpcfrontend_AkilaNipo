@@ -41,6 +41,14 @@
 .nextBtn{
     margin-left:30%;
 }
+.nextBtn2:hover{
+    background-color: #413c69!important;
+    color:white;
+}
+.backBtn:hover{
+    background-color: #413c69!important;
+    color:white;
+}
 .form-check-input{
    border: 1px solid black;
     margin-top: 1%;
@@ -79,6 +87,10 @@
     font-family: Montserrat, serif;
     font-size: 20px;
     font-weight: 700;
+}
+.submitBtn:hover{
+    background-color: rgb(48, 64, 87);
+    color:white;
 }
 .formBorder{
     border: 1px solid black;

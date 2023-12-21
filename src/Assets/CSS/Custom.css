@@ -9,7 +9,7 @@
 }
 
 .navLink{
-    color: white !important;
+    color: white!important;
     font-family: Roboto,serif;
     font-size: 18px!important;
     font-weight: 500!important;
@@ -20,6 +20,7 @@
 .ddBox a{
     margin-top: 0;
 }
+
 .ddBoxScroll a{
     margin-top: 0;
 }
@@ -53,17 +54,17 @@
 }
 .ddMenu:hover{
     padding: 0!important;
-    color: rgba(0, 179, 255, 0.66) !important;
-    background-color: rgba(1, 46, 65, 0.66)!important;
+    color: white!important;
+    background-color: #413c69!important;
 }
 .navLink:hover{
-    color: rgba(0, 179, 255, 0.66) !important;
-    background-color: rgba(1, 46, 65, 0.66);
+    color:white !important;
+    background-color: #413c69!important;
     padding: 18px;
 }
 .navLinkScroll:hover{
-    color:rgba(0, 179, 255, 0.66)!important;
-    background-color: rgba(1, 46, 65) !important ;
+    color:white!important;
+    background-color: #413c69!important ;
     padding: 18px;
 }
 .logoImg{
@@ -81,7 +82,7 @@
     border: none!important;
 }
 .ddBoxScroll{
-    background-color: #f1f3f6 !important;
+    background-color:white!important;
     font-size: 18px!important;
     font-weight: 500!important;
     transition: 0.5s;
@@ -162,14 +163,14 @@
 }
 .contactBtn{
     background-color:rgb(0, 0, 0,0.5)!important;
-    border: 1px solid black!important;
-    color: white !important;
+    border: 1px solid rgb(210, 203, 203)!important;
+    color: white!important;
     font-size: 20px!important;
     font-family: Montserrat, serif!important;
     font-weight: 400!important;
 }
 .contactBtn:hover{
-    background-color: rgb(0, 0, 0)!important;
+    
     color: white!important;
     transform: scale(1.1);
     
@@ -226,7 +227,7 @@ Button{
     display: block;
 }
 .footer{
-    background-color: #282c34;
+    background-color: #282c34!important;
     border-radius: 0!important;
 }
 .title{
@@ -443,6 +444,7 @@ Button{
 }
 .supportDiv{
     padding: 0 0 5% 0;
+    
 }
 .topImg{
     width: 30%;
