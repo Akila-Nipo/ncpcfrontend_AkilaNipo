@@ -72,7 +72,7 @@ const Birthday = ({ day, month }) => {
       <div className="typing">
        <Typing />
       </div>
-      <Countdown countdownData={state} / >
+      <Countdown countdownData={state}/>
       <div className="caption">
         <h5 className="type">Hosted By</h5>
         <h5 className="deptInfo">

@@ -69,17 +69,17 @@ a {
 .typing{
   margin-top: 20px;
   color:#fff;
-  font-weight: 400;
+  font-weight: 350;
   font-size: 21px;
   font-family: Montserrat, serif;
 }
 .caption{
   font-weight: 400;
   color:aliceblue;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .ncpcType{
-  font-size: 35px;
+  font-size: 39px;
   margin-top: 20px;
   color:#fff;
   font-weight: 500;
@@ -98,3 +98,4 @@ a {
   font-size: 19px;
   font-family: Montserrat, serif;
 }
+

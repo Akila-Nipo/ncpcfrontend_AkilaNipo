@@ -54,7 +54,7 @@ function Alumni1(props) {
                                     <img className="carouselImgAlumni" src={_2021} alt=""/>
                                     <div className="carouselCaptionAlumni">
                                         <h3 className="whiteTitle">JU_Glass_Half_Full</h3>
-                                        <p className="alumniDescription text-white text-center">Anik Sarker, Chayan Kumar Ray, Sakib Hasan at the ICPC 2021 World Finals Dhaka.</p>
+                                        <p className="alumniDescription text-white text-center">Anik Sarker, Sakib Hasan, Chayan Kumar Ray representing Jahangirnagar University at the ICPC 2021 World Finals Dhaka.</p>
                                     </div>
                                 </div>
                             </Carousel.Item>
