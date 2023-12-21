@@ -20,10 +20,10 @@ function Support(props) {
                     <img className="supportImg" src={digital} alt=""/>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                    <img className="supportImg" src={bd} alt=""/>
+                    <img className="supportImg" src={ict} alt=""/>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                    <img className="supportImg" src={ict} alt=""/>
+                    <img className="supportImg" src={bd} alt=""/>
                 </Col>
             </Row>
         </Container>
