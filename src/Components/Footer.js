@@ -21,8 +21,8 @@ function Footer(props) {
                     <h4>Contact Us</h4>
                     <a href="https://www.juniv.edu/department/cse" target="_self">Department of Computer Science & Engineering<br/>
                     Jahangirnagar University, Savar, Dhaka-1342</a><br/>
-                    <span><FontAwesomeIcon icon={faPhoneVolume}/> 01824340471</span>
-                    <span className="mx-3"><FontAwesomeIcon icon={faEnvelope}/> jucse_ncpc2023@gmail.com</span>
+                    <span><FontAwesomeIcon icon={faPhoneVolume}/> 02224491045-51</span>
+                    <span className="mx-3"><FontAwesomeIcon icon={faEnvelope}/> office.cse@juniv.edu</span>
                     <div className="iconDiv">
                         <a className="contactLink mx-1" href="https://www.facebook.com/groups/1406720813273322"><FontAwesomeIcon icon={faFacebook}/> </a>
                         <a className="contactLink mx-1" href="facebook.com/abc"><FontAwesomeIcon icon={faTwitter}/> </a>
