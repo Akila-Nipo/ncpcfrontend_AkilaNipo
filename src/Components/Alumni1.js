@@ -13,7 +13,7 @@ function Alumni1(props) {
     return (
         <Fragment>
             <Container fluid="true" className='alumniFullBanner text-center pb-5'>
-                <h4 className="title pt-4 pb-3 text-black">OUR ALUMNI'S HISTORY</h4>
+                <h4 className="title pt-4 pb-3 text-white">OUR ALUMNI'S HISTORY</h4>
                 <Row className="p-0 mx-5 rowBackground">
                     <Col md={4} lg={4} sm={12} className="m-0 px-0 alumniColumn">
                         <h3 className="alumniTitle"><FontAwesomeIcon icon={faAward} className="mx-2"/>ALUMNI SUCCESS STORIES</h3>

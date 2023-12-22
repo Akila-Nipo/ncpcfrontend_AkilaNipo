@@ -11,7 +11,7 @@
     font-size: 50px;
     font-family: Oswald, serif;
     font-weight: 500;
-    color: rgb(255, 234, 234);  
+    color: rgb(255, 255, 255);  
 }
 
 .form-control{
@@ -34,7 +34,7 @@
     font-weight: 700;
 }
 .formBorder{
-    border: 8px solid rgb(73, 71, 71);
+    border: 2px solid rgb(73, 71, 71);
     padding: 5%;
     border-radius: 7px;
 }
@@ -58,7 +58,7 @@
     border:1px solid black!important;
 }
 .firstContestant hr{
-    border:2px solid #1b182e; 
+    border:1px solid #1b182e; 
 }
 .firstContestant h4{
     font-weight:bold;
