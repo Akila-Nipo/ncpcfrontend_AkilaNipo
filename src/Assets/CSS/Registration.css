@@ -72,13 +72,14 @@
       font-weight: 600;
       margin-top: 1%;
   }
-
+  
 
 
   .registration {
     width: 100%;
     height: auto;
     padding: 5% 12% 5% 12%;
+    
 }
 .submitBtn{
     color: white;
@@ -89,11 +90,11 @@
     font-weight: 700;
 }
 .submitBtn:hover{
-    background-color: rgb(48, 64, 87);
+    background-color: #413c69;
     color:white;
 }
 .formBorder{
-    border: 1px solid black;
+    
     padding: 5%;
     border-radius: 5px;
     background-color: rgb(203, 222, 217);

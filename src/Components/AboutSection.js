@@ -27,7 +27,7 @@ function AboutSection(props) {
                     </Carousel>
                     <p className="alumniDescription text-black">
                         <hr/>
-                        The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers. This space is open 24/7, giving students the chance to practice their coding skills anytime they want. Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
+                        The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers.Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
                     </p>
                 </Col>
                 <Col md={4} lg={4} sm={12} className="m-0 p-0" >

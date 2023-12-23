@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import {Button, Carousel, Col, Container, Row} from "react-bootstrap";
-
 import s_minar from "../Assets/Images/dept/shaheed_minar.png";
 import lab from "../Assets/Images/dept/lab_201.png";
 import green from "../Assets/Images/dept/green.png";

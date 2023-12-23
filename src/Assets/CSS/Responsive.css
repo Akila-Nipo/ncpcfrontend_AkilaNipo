@@ -157,18 +157,11 @@
         border-radius: 2px!important;
         padding: 0!important;
     }
-    .carouselImgAlumni{
+      .carouselImg{
         width:100%;
-        height:280px;
+        height:320px;
     }
-    .carouselCaptionAlumni{
-     height:0;
-    }
-    .carouselImg{
-        width:100%;
-        height:280px;
-    }
- 
+   
 }
 
 

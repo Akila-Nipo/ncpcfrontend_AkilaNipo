@@ -64,9 +64,9 @@ const Birthday = ({ day, month }) => {
   return (
     <div className="page">
       <div>
-      <span className="ncpcType">
+      <h5 className="ncpcType">
          NCPC 2023
-      </span>
+      </h5>
       </div>
      
       <div className="typing">
@@ -79,7 +79,7 @@ const Birthday = ({ day, month }) => {
           Department of Computer Science and Engineering
          
         </h5>
-        <h4 className="title text-white">Jahangirnagar University</h4>
+        <h4 className="deptInfo text-white">Jahangirnagar University</h4>
        
       </div>
     </div>

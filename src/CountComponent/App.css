@@ -62,39 +62,39 @@ a {
 .type{
   margin-top: 20px;
   color:#fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 29px;
   font-family: Montserrat, serif;
 }
 .typing{
   margin-top: 20px;
   color:#fff;
-  font-weight: 400;
-  font-size: 21px;
+  font-weight: 300;
+  font-size: 19px;
   font-family: Montserrat, serif;
 }
 .caption{
-  font-weight: 400;
+  font-weight: 200;
   color:aliceblue;
   margin-top: 80px;
 }
 .ncpcType{
-  font-size: 39px;
+  font-size: 31px;
   margin-top: 20px;
   color:#fff;
-  font-weight: 500;
+  font-weight: 400;
   font-family:Montserrat, serif;
   
 }
 .countTxt{
   color:#fff;
   font-family: Montserrat, serif;
-  font-weight: 400;
+  font-weight:400;
   font-size: 25px;
 }
 .deptInfo{
   color:#fff;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 19px;
   font-family: Montserrat, serif;
 }

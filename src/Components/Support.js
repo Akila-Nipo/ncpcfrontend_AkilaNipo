@@ -17,13 +17,13 @@ function Support(props) {
             <Row className="mx-0 px-0 mt-5">
                 <h4 className="title text-dark mb-4">Supported By</h4>
                 <Col sm={4} md={4} lg={4}>
-                <a href="https://www.digitalbangladesh.gov.bd/"><img className="supportImg" src={digital} alt=""/></a>
+                <a href="https://www.digitalbangladesh.gov.bd/" target="blank"><img className="supportImg" src={digital} alt=""/></a>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                <a href="https://ictd.gov.bd/"><img className="supportImg" src={ict} alt=""/></a>
+                <a href="https://ictd.gov.bd/" target="blank"><img className="supportImg" src={ict} alt=""/></a>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                <a href="https://bcc.gov.bd/"><img className="supportImg" src={bd} alt=""/></a>
+                <a href="https://bcc.gov.bd/" target="blank"><img className="supportImg" src={bd} alt=""/></a>
                 </Col>
             </Row>
         </Container>
