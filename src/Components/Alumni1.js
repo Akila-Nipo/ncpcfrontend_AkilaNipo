@@ -62,7 +62,7 @@ function Alumni1(props) {
                                     <img className="carouselImgAlumni" src={img1} alt=""/>
                                     <div className="carouselCaptionAlumni">
                                     <h3 className="whiteTitle">JU_kzvd4729</h3>
-                                        <p className="alumniDescriptionInside text-white text-center">JU_kzvd4729 led by Mahmudul Hasan Shanto(CSE-46), Richita Khandakar Rifat(CSE-46) and Alif Al Hasan(CSE-47) secured 3rd place at the 2021 ICPC Asia Regional Dhaka Contest.</p>
+                                        <p className="alumniDescriptionInside text-white text-center"> Mahmudul Hasan Shanto(CSE-46), Richita Khandakar Rifat(CSE-46) and Alif Al Hasan(CSE-47) secured 3rd place at the 2021 ICPC Asia Regional Dhaka Contest.</p>
                                     </div>
                                 </div>
                             </Carousel.Item>
