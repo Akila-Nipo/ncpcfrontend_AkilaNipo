@@ -44,7 +44,7 @@ function Alumni1(props) {
                                     <img className="carouselImgAlumni" src={_2017} alt=""/>
                                     <div className="carouselCaptionAlumni">
                                         <h3 className="whiteTitle">JU_Circavex </h3>
-                                        <p className="alumniDescriptionInside text-white text-center">Bir Bahadur Khatri, Md Sahedul Islam Sohel, Raihat Zaman Neloy at the ACM-ICPC 2017 World Finals. </p>
+                                        <p className="alumniDescriptionInside text-white text-center">Raihat Zaman Neloy, Bir Bahadur Khatri, Md Sahedul Islam Sohel at the ACM-ICPC 2017 World Finals. </p>
                                     </div>
                                 </div>
                             </Carousel.Item>

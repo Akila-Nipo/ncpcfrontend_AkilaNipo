@@ -257,7 +257,7 @@ Button{
 }
 
 .noticeDivLeft{
-    color:  silver;
+    
     background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -445,15 +445,12 @@ Button{
     margin: 5px;
     padding: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 4px #8a85af;
-    
+    border:1px solid rgb(175, 190, 196);    
 }
 
 .supportImg:hover{
     cursor:pointer;
-    box-shadow: 0 0 0 #413c69;
-    transform: scale(1.01);
-    border:1px solid skyblue;  
+    box-shadow: 0 0 4px #8a85af;  
 }
 .supportDiv{
     padding: 0 0 5% 0;
