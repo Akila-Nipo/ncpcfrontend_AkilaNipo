@@ -16,14 +16,20 @@
 
 .form-control{
     margin-top:5px;
-    box-shadow: 0 0 1px 1px rgb(61, 58, 58);
+    box-shadow: 0 0 0 1px rgb(199, 197, 197);
+    
+    
 }
 .form-control:hover{
-    box-shadow: none!important;
+    box-shadow: 0 0 1px 1px skyblue !important;
+    border:1px solid skyblue;
+    
+    
 }
 .form-control:focus{
-    box-shadow: 0 0 1px 1px rgb(61, 58, 58) !important;
-    border: 1px rgb(61, 58, 58) !important;
+    box-shadow: 0 0 1px 1px skyblue !important;
+    border: 2px solid skyblue!important;
+    
 }
 .submitBtn{
     color: white;

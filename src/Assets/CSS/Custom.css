@@ -285,9 +285,9 @@ Button{
 }
 .noticeTitle{
     text-transform: uppercase;
-    font-size: 29px;
-    font-family: poppin, serif;
-    font-weight: 750;
+    font-size: 25px;
+    font-family: Montserrat, serif;
+    font-weight: 500;
     text-align: center;
     padding:2%;
     color: #1b182e!important;
@@ -296,13 +296,19 @@ Button{
 .noticeTitleSpeech{
     
     padding:2%;
-    font-family: poppin, serif;
-    font-size: 29px;
+    font-family: Montserrat, serif;
+    font-size: 25px;
     margin-left:2%;
     margin-right:2%;
-    font-weight: 750;
-    background-color: #1b182e; 
+    font-weight: 500;
+    background-color: #cdcfd1; 
 
+}
+.noticeDivRightHeading{
+   
+    background-color: #cdcfd1; 
+    font-family: Montserrat, serif;
+    
 }
 
 .noticeDivRight a{
@@ -439,16 +445,15 @@ Button{
     margin: 5px;
     padding: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 6px #8a85af;
+    box-shadow: 0 0 4px #8a85af;
     
 }
 
 .supportImg:hover{
     cursor:pointer;
-    box-shadow: 0 0 4px #413c69;
+    box-shadow: 0 0 0 #413c69;
     transform: scale(1.01);
-    
-    
+    border:1px solid skyblue;  
 }
 .supportDiv{
     padding: 0 0 5% 0;
@@ -518,10 +523,7 @@ Button{
     right: 16%!important;
     margin-top: 1%;
 }
-.noticeDivRightHeading{
-   
-    background-color: #1b182e; 
-}
+
 .supportImgJU{
     max-width: 500px!important;
     height: auto;

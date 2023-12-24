@@ -13,7 +13,7 @@
 
 .countdown-box {
   border-radius: 9px;
-  margin:5px 5px 10px 5px;
+  margin:20px 5px 10px 5px;
   padding-top: 13px;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.7);
   animation: colorChange 2s infinite;
@@ -60,11 +60,12 @@ a {
 }
 
 .type{
-  margin-top: 20px;
+  margin-top:20px;
   color:#fff;
   font-weight: 400;
-  font-size: 29px;
+  font-size: 27px;
   font-family: Montserrat, serif;
+  margin-bottom: 20px;
 }
 .typing{
   margin-top: 20px;
@@ -76,11 +77,11 @@ a {
 .caption{
   font-weight: 200;
   color:aliceblue;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .ncpcType{
   font-size: 31px;
-  margin-top: 20px;
+  margin-top: 26px;
   color:#fff;
   font-weight: 400;
   font-family:Montserrat, serif;
@@ -95,7 +96,8 @@ a {
 .deptInfo{
   color:#fff;
   font-weight: 300;
-  font-size: 19px;
+  font-size: 17px;
   font-family: Montserrat, serif;
+ 
 }
 

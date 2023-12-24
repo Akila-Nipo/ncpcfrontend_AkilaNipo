@@ -33,7 +33,7 @@ function AboutSection(props) {
                 <Col md={4} lg={4} sm={12} className="m-0 p-0" >
                     <div className="noticeDivRight">
                         <div className="noticeDivRightHeading">
-                            <h3 className="noticeTitle text-white"> <FontAwesomeIcon icon={faBell} beatFade size="l" /><span>     </span>Notice</h3>
+                            <h3 className="noticeTitle text-dark"> <FontAwesomeIcon icon={faBell} beatFade size="l" /><span>     </span>Notice</h3>
                         </div>
                         <a href="facebook.com/abc">1. Registration Rules</a>
                         <hr/>
@@ -47,7 +47,7 @@ function AboutSection(props) {
                         <hr/>
                     </div>
                     <div className="carouselItemContainerSpeech">
-                        <h5 className="noticeTitleSpeech text-white"><FontAwesomeIcon icon={faUser}/> SPEECH</h5>
+                        <h5 className="noticeTitleSpeech text-dark"><FontAwesomeIcon icon={faUser}/> SPEECH</h5>
                         <Carousel className='carouselVideo'>
                             <Carousel.Item>
                                 <iframe width="390" height="365" src="https://www.youtube.com/embed/UF8uR6Z6KLc?si=LyrWIMcVg5Hhjcrb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
