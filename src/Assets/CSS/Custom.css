@@ -9,7 +9,7 @@
 }
 
 .navLink{
-    color: white !important;
+    color: white!important;
     font-family: Roboto,serif;
     font-size: 18px!important;
     font-weight: 500!important;
@@ -20,6 +20,7 @@
 .ddBox a{
     margin-top: 0;
 }
+
 .ddBoxScroll a{
     margin-top: 0;
 }
@@ -53,17 +54,17 @@
 }
 .ddMenu:hover{
     padding: 0!important;
-    color: rgba(0, 179, 255, 0.66) !important;
-    background-color: rgba(1, 46, 65, 0.66)!important;
+    color: white!important;
+    background-color: #413c69!important;
 }
 .navLink:hover{
-    color: rgba(0, 179, 255, 0.66) !important;
-    background-color: rgba(1, 46, 65, 0.66);
+    color:white !important;
+    background-color: #413c69!important;
     padding: 18px;
 }
 .navLinkScroll:hover{
-    color:rgba(0, 179, 255, 0.66)!important;
-    background-color: rgba(1, 46, 65) !important ;
+    color:white!important;
+    background-color: #413c69!important ;
     padding: 18px;
 }
 .logoImg{
@@ -81,7 +82,7 @@
     border: none!important;
 }
 .ddBoxScroll{
-    background-color: #f1f3f6 !important;
+    background-color:white!important;
     font-size: 18px!important;
     font-weight: 500!important;
     transition: 0.5s;
@@ -155,25 +156,26 @@
     border-radius: 50%;
 }
 .card{
-    height: 450px!important;
+    height: 380px!important;
     border-radius: 0!important;
     text-align: center;
-    background-color: rgb(221, 230, 237) !important;
+    /* background-color: rgb(221, 230, 237) !important; */
+    background-color: white!important;
 }
 .contactBtn{
     background-color:rgb(0, 0, 0,0.5)!important;
-    border: 1px solid black!important;
-    color: white !important;
-    font-size: 20px!important;
+    border: 1px solid rgb(210, 203, 203)!important;
+    color: rgb(210, 203, 203)!important;
+    font-size: 18px!important;
     font-family: Montserrat, serif!important;
-    font-weight: 400!important;
+    font-weight: 300!important;
+    
 }
 .contactBtn:hover{
-    background-color: rgb(0, 0, 0)!important;
-    color: white!important;
-    transform: scale(1.1);
+    border: 1px solid rgb(214, 213, 213)!important;
+    background-color: rgb(214, 213, 213)!important;
+    color: black !important;
     
-    transition: 0.3s;
 }
 Button{
     font-family: Montserrat, serif!important;  
@@ -181,7 +183,6 @@ Button{
 .committeeBody{
     color:white;
     margin:1%;
-
     font-size: 22px;
     font-family: Montserrat, serif;
     font-weight: 500;
@@ -217,16 +218,18 @@ Button{
 .teacherDescription{
     font-size: 14px;
     display: none;
+    
 }
 .teacherDescriptionShow{
     font-size: 14px;
-    font-family: Raleway, serif;
-    font-weight: 500;
+    font-family: Roboto, serif;
+    font-weight: 300;
     color: rgba(0,0,0,0.7);
     display: block;
+    text-align: justify!important;
 }
 .footer{
-    background-color: #282c34;
+    background-color: #282c34!important;
     border-radius: 0!important;
 }
 .title{
@@ -235,9 +238,14 @@ Button{
     font-family: Montserrat, serif;
     font-weight: 500;
 }
+.titleSponsor{
+    font-weight: 500!important;
+    font-size: 22px;
+}
+
 .description{
     font-size: 16px;
-    font-family: Raleway, serif;
+    font-family: Montserrat, serif;
     font-weight: 500;
     color: rgba(0,0,0,0.7);
 }
@@ -251,13 +259,11 @@ Button{
 }
 .honorContainer{
     background-color: white;
-   
-    
-    
+  
 }
 
 .noticeDivLeft{
-    color:  silver;
+    
     background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -285,34 +291,41 @@ Button{
 }
 .noticeTitle{
     text-transform: uppercase;
-    font-size: 29px;
-    font-family: poppin, serif;
-    font-weight: 750;
+    font-size: 25px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
     text-align: center;
     padding:2%;
-    color: #1b182e!important;
+    color: rgba(0,0,0,0.7)!important;
     
 }
 .noticeTitleSpeech{
     
     padding:2%;
-    font-family: poppin, serif;
-    font-size: 29px;
+    font-family: Montserrat, serif;
+    font-size: 25px;
     margin-left:2%;
     margin-right:2%;
-    font-weight: 750;
-    background-color: #1b182e; 
+    font-weight: 400;
+    background-color: #cdcfd1; 
+    color: rgba(0,0,0,0.7)!important;
 
+}
+.noticeDivRightHeading{
+    color: rgba(0,0,0,0.7)!important;
+    background-color: #cdcfd1; 
+    font-family: Montserrat, serif;
+    
 }
 
 .noticeDivRight a{
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    color:#021b4a;
+    color:black;
+    font-family: Roboto, serif;
+    font-weight: 380;
     font-size: 16px;
-    font-family: Montserrat, serif;
-    font-weight: 700;
     padding-left:3%;
 }
 
@@ -434,15 +447,23 @@ Button{
 }
 .supportImg{
     width: 100%;
-    height: auto;
-    min-height: 230px;
-    border: 1px solid gray;
+    height: 250px;
+    min-height: 230px; 
     margin: 5px;
     padding: 50px;
-    border-radius: 8px;
+    border-radius: 2px;
+    border:1px solid rgb(175, 190, 196);    
+}
+
+.supportImg:hover{
+    cursor:pointer;
+    box-shadow: 0 0 4px #8a85af;  
+    transition: 0.2s;
+    border:3px solid rgb(175, 190, 196);
 }
 .supportDiv{
     padding: 0 0 5% 0;
+ 
 }
 .topImg{
     width: 30%;
@@ -453,7 +474,7 @@ Button{
 }
 .whiteTitle{
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-family: Montserrat, sans-serif, serif;
     font-weight: 500;
 }
@@ -466,7 +487,7 @@ Button{
 
 .carouselImgAlumni{
     width: 100%;
-    height: 660px;
+    height: 520px;
 }
 .carouselItemContainerAlumni .carouselCaptionAlumni {
     position: absolute;
@@ -507,14 +528,76 @@ Button{
     right: 16%!important;
     margin-top: 1%;
 }
-.noticeDivRightHeading{
-   
-    background-color: #1b182e; 
-}
+
 .supportImgJU{
     max-width: 500px!important;
     height: auto;
 }
 
+.cardImgStrategy{
+    width: 100px;
+    height: 85px;
+    border-radius: 20%;
+}
+
+.strategyWidth{
+    width: 100% !important;
+    height: 200px!important;
+    
+}
 
 
+.strategyWidth:hover{
+    box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    -webkit-box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    -moz-box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.strategyDescription{
+    font-size: 24px;
+    display: none;
+    
+}
+.strategyDescriptionShow{
+    font-size: 16px;
+    font-family: Roboto, serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    display: block;
+    text-align: center!important;
+    margin-top:11%;
+
+}
+
+.titleStrategy{
+    font-size: 22px!important;
+    color: rgba(0,0,0,0.7)!important; 
+    font-family: Montserrat, serif;
+    font-weight: 600!important;
+}
+.subTitleStrategy{
+    font-size: 17px;
+    font-family: Roboto, serif;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4)!important;
+}
+.StrategyBody{
+    color:white;
+    font-size: 18px;
+    font-family: Montserrat, serif;
+    font-weight: 200;
+    
+    /* box-shadow: 0 0 4px rgb(48, 64, 87); */
+}
+.StrategyTitleBorder{
+    font-size: 21px;
+    /* background-color:#e7e8ec;  */
+    color: rgba(0,0,0,0.7)!important;
+    padding-top:1%;
+    font-weight:300;
+}
+.StrategyTitleBorder2{
+    font-size: 31px;
+}

@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect/dist/core";
 const Typing = () => {
   useEffect(() => {
     const typewriter = new Typewriter("#typewriter", {
-      strings: ["Think | Strategize | Code","Registration going on", "Register first"],
+      strings: ["Think | Strategize | Code","Registration going on", "Register fast"],
       autoStart: true,
       delay: 75,
       typeSpeed: 100,

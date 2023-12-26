@@ -1,34 +1,57 @@
 
 .alumniTitle{
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
-    margin-top: 15px;
-    color: aliceblue;
+    font-size: 22px;
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    margin-top: 29px;
+    color: rgba(0,0,0,0.7)!important;
 }
 .alumniDescription{
-    padding: 3px 5% 3px 5%;
-    font-size: 18px;
+    padding: 3px 1% 3px 1%;
+    font-size: 16px;
     font-family: Roboto, serif;
-    font-weight: 400;
+    font-weight: 300;
     color: rgba(242, 234, 234, 0.9);
     text-align: justify;
 }
 .alumniFullBanner{
-    box-shadow: 0 0 4px rgb(48, 64, 87);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0 0 2px rgb(48, 64, 87); */
+    margin:4%;
+    background-color:#e7e8ec;
 }
 .alumniColumn{
     padding-top: 7% !important;
 
 }
 .alumniColumn .alumniDescription{
-    /* background-color: rgba(66, 59, 108, 0.7); */
-    margin: 0 5% 10% 5%;
-    padding: 10% 7%;
+   
+    /* margin: 0 5% 10% 5%; */
+    padding: 2% 7%;
 }
 .rowBackground{
-    background-color:#1b182e; 
+    background-color:#e7e8ec; 
+  
+}
+
+@media (max-width: 575px) {
+    .carouselImgAlumni{
+        width:100%;
+        height:320px;
+    }
+    .whiteTitle{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .carouselItemContainerAlumni .carouselCaptionAlumni {
+      bottom: 0;  
+      height:88px;
+    }
+  
+    .alumniDescriptionInside{
+        font-size: 9px;
+    }
+  
+
 }
 

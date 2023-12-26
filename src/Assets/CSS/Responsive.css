@@ -20,6 +20,7 @@
         font-weight: 400;
         font-size: 10px!important;
     }
+
 }
 
 @media (max-width: 771px) {
@@ -72,7 +73,7 @@
         position: absolute;
         z-index: 100000;
         margin: 0!important;
-        background-color: white!important;
+        background-color: #1b182e!important;
     }
     .navLink{
         color: rgba(0,0,0,1) !important;
@@ -83,14 +84,14 @@
         transition: 0.5s;
         display: flex;
         justify-content: left;
-        color:green !important;
-        background-color: rgba(0,222,0,0.1);
+        color:white!important;
+        background-color: #413c69!important;
         padding: 5px 0 5px 35px;
     }
     .navLink:hover{
         padding: 5px 0 5px 35px!important;
-        background-color: white;
-        color: black!important;
+        background-color: #7168b3!important;
+        color:white!important;
     }
     .navLinkScroll{
         color: rgba(0,0,0,1) !important;
@@ -101,19 +102,19 @@
         transition: 0.5s;
         display: flex;
         justify-content: left;
-        color:green !important;
-        background-color: rgba(0,222,0,0.1);
+        color:white!important;
+        background-color: #413c69;
         padding: 5px 0 5px 35px;
 
     }
     .navLinkScroll:hover{
         padding: 5px 0 5px 35px!important;
-        background-color: white;
-        color: black!important;
+        background-color: #7168b3!important;
+        color: white!important;
     }
     .ddMenu{
         display: flex!important;
-        background-color: rgba(0,222,0,0.1)!important;
+        background-color: #413c69!important;
         border: none!important;
         justify-content: left;
         margin: 0!important;
@@ -121,18 +122,18 @@
     }
     .ddMenu:hover{
         padding: 5px 0 5px 35px!important;
-        background-color: white!important;
-        color: black!important;
+        background-color: #7168b3!important;
+        color: white!important;
     }
 
     .responsiveSubmenu{
-        background-color: rgba(0,222,0,0.1)!important;
+        background-color: #1b182e!important;
         margin: 5px 0;
         padding: 5px!important;
     }
     .responsiveSubmenu:hover{
         padding: 5px!important;
-        background-color: white!important;
+        background-color: #7168b3!important;
         color: black;
     }
 
@@ -140,7 +141,7 @@
         position: absolute!important;
         left: 150px!important;
         margin: -40px 0 0 0 !important;
-        background-color: #f1f3f6 !important;
+        background-color: #1b182e!important;
         transition: 0.5s;
         border: none!important;
         border-radius: 2px!important;
@@ -151,12 +152,17 @@
         position: absolute!important;
         left: 150px!important;
         margin: -40px 0 0 0 !important;
-        background-color: #f1f3f6 !important;
+        background-color: #1b182e!important;
         transition: 0.5s;
         border: none!important;
         border-radius: 2px!important;
         padding: 0!important;
     }
+      .carouselImg{
+        width:100%;
+        height:320px;
+    }
+   
 }
 
 
