@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
-import { Container, Row } from 'react-bootstrap';
+
+import React, { Fragment, useState } from 'react';
+import { Container, Row} from 'react-bootstrap';
 import Slider from 'react-slick';
 
 function Gallery() {
@@ -8,7 +9,7 @@ function Gallery() {
 
     const settings = {
         dots: true,
-        infinite: true, // Set infinite to true for continuous scrolling
+        infinite: true, 
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -48,22 +49,50 @@ function Gallery() {
                 },
             },
         ],
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (adjust as needed)
+        autoplay: true, 
+        autoplaySpeed: 2000, 
+    };
+
+    const [zoomedImg, setZoomedImg] = useState(null);
+
+    
+    const handleImageClick = (imgUrl) => {
+        setZoomedImg(imgUrl);
+    };
+
+   
+    const closeZoom = () => {
+        setZoomedImg(null);
     };
 
     return (
         <Fragment>
             <Container fluid="true" className="mb-5 p-3">
-                <Row className="mx-0 px-0">
+                <Row className="mx-0 px-0" noGutters>
                     <Slider {...settings}>
                         {imageUrls.map((img, idx) => (
-                            <div key={idx}>
-                                <img src={img} alt="" />
+                            <div className="galleryImage mx-0 px-0" key={idx}>
+                                <img
+                                    src={img}
+                                    alt=""
+                                    onClick={() => handleImageClick(img)}
+                                    className="clickableImage"
+                                />
                             </div>
                         ))}
                     </Slider>
                 </Row>
+                {zoomedImg && (
+                    <div
+                        className="zoomedImageOverlay mx-0 px-0"
+                        onClick={closeZoom}
+                    >
+                        <img src={zoomedImg} alt="" className="zoomedImage"/>
+                        <button className="closeButton" onClick={closeZoom}>
+                            Close
+                        </button>
+                    </div>
+                )}
             </Container>
         </Fragment>
     );

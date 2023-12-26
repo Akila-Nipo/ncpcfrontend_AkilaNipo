@@ -5,6 +5,7 @@ import Support from "../Components/Support";
 import Sponsor from "../Components/Sponsor";
 import Alumni1 from "../Components/Alumni1";
 import AboutNcpc from "../OthersComponents/AboutNcpc";
+import Strategy from '../OthersComponents/Strategy';
 function Home(props) {
     return (
         <Fragment>
@@ -12,6 +13,7 @@ function Home(props) {
             <AboutSection/>
             <AboutNcpc/>
             <Alumni1/>
+            <Strategy/>
             <Support/>
             <Sponsor/>
         </Fragment>

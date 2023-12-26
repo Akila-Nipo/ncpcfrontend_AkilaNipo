@@ -1,7 +1,7 @@
 .navBar{
     max-width: 100%;
     height: 60px;
-    background-color: #021b4a;
+    background-color: #1b182e;
     transition: 0.5s;
 }
 .nav{
@@ -9,7 +9,7 @@
 }
 
 .navLink{
-    color: white !important;
+    color: white!important;
     font-family: Roboto,serif;
     font-size: 18px!important;
     font-weight: 500!important;
@@ -20,6 +20,7 @@
 .ddBox a{
     margin-top: 0;
 }
+
 .ddBoxScroll a{
     margin-top: 0;
 }
@@ -30,7 +31,7 @@
     width: 100%;
     z-index: 1000;
     height: 60px;
-    background-color: #f1f3f6 !important;
+    background-color: #ffffff !important;
     transition: 0.5s;
 }
 .navLinkScroll{
@@ -44,8 +45,6 @@
 .ddMenu{
     font-family: Roboto,serif!important;
     font-weight: 500!important;
-}
-.ddMenu{
     background-color: rgba(0,0,0,0)!important;
     width: 150px!important;
     padding:0!important;
@@ -53,17 +52,17 @@
 }
 .ddMenu:hover{
     padding: 0!important;
-    color: rgba(102, 255, 0, 0.66) !important;
-    background-color: rgba(0,222,0,0.1) !important;
+    color: white!important;
+    background-color: #413c69!important;
 }
 .navLink:hover{
-    color: rgba(102, 255, 0, 0.66) !important;
-    background-color: rgba(0,222,0,0.1);
+    color:white !important;
+    background-color: #413c69!important;
     padding: 18px;
 }
 .navLinkScroll:hover{
-    color:green !important;
-    background-color: rgba(0,222,0,0.1) !important ;
+    color:white!important;
+    background-color: #413c69!important ;
     padding: 18px;
 }
 .logoImg{
@@ -73,7 +72,7 @@
 }
 
 .ddBox{
-    background-color: #021B4A!important;
+    background-color: #1b182e!important;
     font-size: 18px;
     font-weight: 500;
     transition: 0.5s;
@@ -81,14 +80,13 @@
     border: none!important;
 }
 .ddBoxScroll{
-    background-color: #f1f3f6 !important;
+    background-color:white!important;
     font-size: 18px!important;
     font-weight: 500!important;
     transition: 0.5s;
     border: none!important;
     border-radius: 2px!important;
     padding: 50px;
-    margin-top: -10px!important;
 }
 .carouselImg{
     width: 100%;
@@ -155,37 +153,41 @@
     border-radius: 50%;
 }
 .card{
-    height: 450px!important;
+    height: 380px!important;
     border-radius: 0!important;
     text-align: center;
-    background-color: rgb(221, 230, 237) !important;
+    /* background-color: rgb(221, 230, 237) !important; */
+    background-color: white!important;
 }
 .contactBtn{
-    background-color: white!important;
-    border: 1px solid black!important;
-    color: black !important;
-    font-size: 20px!important;
-    font-family: Montserrat, sans-serif, serif!important;
-    font-weight: 400!important;
+    background-color:rgb(0, 0, 0,0.5)!important;
+    border: 1px solid rgb(210, 203, 203)!important;
+    color: rgb(210, 203, 203)!important;
+    font-size: 18px!important;
+    font-family: Montserrat, serif!important;
+    font-weight: 300!important;
+    
 }
 .contactBtn:hover{
-    background-color: #e5dcdc !important;
-    color: black!important;
-    transform: scale(1.1);
-    border: 1px solid white!important;
-    transition: 0.3s;
+    border: 1px solid rgb(214, 213, 213)!important;
+    background-color: rgb(214, 213, 213)!important;
+    color: black !important;
+    
 }
-
+Button{
+    font-family: Montserrat, serif!important;  
+}
 .committeeBody{
     color:white;
     margin:1%;
-    border-radius: .5%;
     font-size: 22px;
     font-family: Montserrat, serif;
     font-weight: 500;
+    box-shadow: 0 0 4px rgb(48, 64, 87);
 }
 .committeeTitleBorder{
-    background-color:#aeafb0;
+    background-color:#1b182e; 
+    box-shadow: 0 0 4px rgb(48, 64, 87);
 }
 
 .choyonSir{
@@ -213,27 +215,34 @@
 .teacherDescription{
     font-size: 14px;
     display: none;
+    
 }
 .teacherDescriptionShow{
     font-size: 14px;
-    font-family: Raleway, serif;
-    font-weight: 500;
+    font-family: Roboto, serif;
+    font-weight: 300;
     color: rgba(0,0,0,0.7);
     display: block;
+    text-align: justify!important;
 }
 .footer{
-    background-color: #282c34;
+    background-color: #282c34!important;
     border-radius: 0!important;
 }
 .title{
     font-size: 22px;
-    color: #09ACAC !important;
+    color: #1b182e!important;
     font-family: Montserrat, serif;
     font-weight: 500;
 }
+.titleSponsor{
+    font-weight: 500!important;
+    font-size: 22px;
+}
+
 .description{
     font-size: 16px;
-    font-family: Raleway, serif;
+    font-family: Montserrat, serif;
     font-weight: 500;
     color: rgba(0,0,0,0.7);
 }
@@ -246,13 +255,13 @@
     color: rgba(0,0,0,0.8);
 }
 .honorContainer{
-    background-color: rgb(29, 52, 40);
+    background-color: white;
+  
 }
 
 .noticeDivLeft{
-    color:  silver;
-    background-color: rgb(29, 52, 40);
-    border:1px solid rgb(4, 46, 24);
+    
+    background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -267,48 +276,60 @@
     background-color: rgb(255, 255, 255);
     color:rgb(22, 21, 21);
     border-radius: .5%;
-    border:1px solid rgb(2, 144, 71);
-    box-shadow: 0 3px 10px rgb(48, 87, 59);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 2%;
 }
 
 .carouselItemContainerSpeech{
-    background-color:  rgb(29, 52, 40);
-    color:silver;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color:white;
+    color:silver; 
+    
+    
 }
 .noticeTitle{
     text-transform: uppercase;
-    font-size: 29px;
-    font-family: poppin, serif;
-    font-weight: 750;
+    font-size: 25px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
     text-align: center;
     padding:2%;
+    color: rgba(0,0,0,0.7)!important;
+    
 }
 .noticeTitleSpeech{
-    background-color:  rgb(29, 52, 40);
+    
     padding:2%;
-    margin-left:4%;
-    margin-right:4%;
-    font-weight: 600;
+    font-family: Montserrat, serif;
+    font-size: 25px;
+    margin-left:2%;
+    margin-right:2%;
+    font-weight: 400;
+    background-color: #cdcfd1; 
+    color: rgba(0,0,0,0.7)!important;
+
+}
+.noticeDivRightHeading{
+    color: rgba(0,0,0,0.7)!important;
+    background-color: #cdcfd1; 
+    font-family: Montserrat, serif;
+    
 }
 
 .noticeDivRight a{
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    color:green;
+    color:black;
+    font-family: Roboto, serif;
+    font-weight: 380;
     font-size: 16px;
-    font-family: Montserrat, serif;
-    font-weight: 700;
     padding-left:3%;
 }
 
 .noticeDivRight hr{
     margin-right: 4%;
     margin-left: 3%;
-    border:2px solid green;
+    border:2px solid #021b4a;
 }
 
 .noticeDivRight a:hover{
@@ -328,7 +349,7 @@
 
 .carouselVideo:hover{
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(137, 135, 135, 0.8);
+    
 }
 .contact{
     padding-left: 10% !important;
@@ -423,10 +444,23 @@
 }
 .supportImg{
     width: 100%;
-    height: auto;
+    height: 250px;
+    min-height: 230px; 
+    margin: 5px;
+    padding: 50px;
+    border-radius: 2px;
+    border:1px solid rgb(175, 190, 196);    
+}
+
+.supportImg:hover{
+    cursor:pointer;
+    box-shadow: 0 0 4px #8a85af;  
+    transition: 0.2s;
+    border:3px solid rgb(175, 190, 196);
 }
 .supportDiv{
     padding: 0 0 5% 0;
+ 
 }
 .topImg{
     width: 30%;
@@ -437,7 +471,7 @@
 }
 .whiteTitle{
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-family: Montserrat, sans-serif, serif;
     font-weight: 500;
 }
@@ -450,7 +484,7 @@
 
 .carouselImgAlumni{
     width: 100%;
-    height: 660px;
+    height: 520px;
 }
 .carouselItemContainerAlumni .carouselCaptionAlumni {
     position: absolute;
@@ -472,7 +506,7 @@
     text-transform: uppercase;
 }
 .backBtn{
-    background-color: gray!important;
+    background-color: #1b182e!important;
     width: 80px !important;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -482,7 +516,7 @@
 }
 .nextBtn2{
     position: absolute!important;
-    background-color: gray!important;
+    background-color:#1b182e!important;
     width: 80px !important;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -491,13 +525,76 @@
     right: 16%!important;
     margin-top: 1%;
 }
-.noticeDivRightHeading{
-    background-color:#14352c;
-}
+
 .supportImgJU{
     max-width: 500px!important;
     height: auto;
 }
 
+.cardImgStrategy{
+    width: 100px;
+    height: 85px;
+    border-radius: 20%;
+}
+
+.strategyWidth{
+    width: 100% !important;
+    height: 200px!important;
+    
+}
 
 
+.strategyWidth:hover{
+    box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    -webkit-box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    -moz-box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.strategyDescription{
+    font-size: 24px;
+    display: none;
+    
+}
+.strategyDescriptionShow{
+    font-size: 16px;
+    font-family: Roboto, serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    display: block;
+    text-align: center!important;
+    margin-top:11%;
+
+}
+
+.titleStrategy{
+    font-size: 22px!important;
+    color: rgba(0,0,0,0.7)!important; 
+    font-family: Montserrat, serif;
+    font-weight: 600!important;
+}
+.subTitleStrategy{
+    font-size: 17px;
+    font-family: Roboto, serif;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4)!important;
+}
+.StrategyBody{
+    color:white;
+    font-size: 18px;
+    font-family: Montserrat, serif;
+    font-weight: 200;
+    
+    /* box-shadow: 0 0 4px rgb(48, 64, 87); */
+}
+.StrategyTitleBorder{
+    font-size: 21px;
+    /* background-color:#e7e8ec;  */
+    color: rgba(0,0,0,0.7)!important;
+    padding-top:1%;
+    font-weight:300;
+}
+.StrategyTitleBorder2{
+    font-size: 31px;
+}

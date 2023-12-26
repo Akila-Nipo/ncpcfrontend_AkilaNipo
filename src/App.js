@@ -1,6 +1,7 @@
 import './App.css';
 import '../src/Assets/CSS/Custom.css';
 import '../src/Assets/CSS/Responsive.css';
+import '../src/Assets/CSS/Global.css';
 import '../src/Assets/CSS/AlumniCSS.css'
 import '../src/Assets/CSS/Extra.css'
 import 'bootstrap/dist/css/bootstrap.min.css';

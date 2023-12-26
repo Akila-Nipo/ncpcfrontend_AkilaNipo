@@ -14,16 +14,16 @@ function Support(props) {
                     <img className="supportImgJU" src={ju_cse} alt=""/>
                 </div>
             </Row>
-            <Row className="mx-0 p-0 mt-5">
-                <h4 className="title text-dark mb-4">Supported By</h4>
+            <Row className="mx-0 px-0 mt-5">
+                <h4 className="titleSponsor text-dark mb-4">Supported By</h4>
                 <Col sm={4} md={4} lg={4}>
-                    <img className="supportImg mt2" src={digital} alt=""/>
+                <a href="https://www.digitalbangladesh.gov.bd/" target="blank"><img className="supportImg" src={digital} alt=""/></a>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                    <img className="supportImg" src={bd} alt=""/>
+                <a href="https://ictd.gov.bd/" target="blank"><img className="supportImg" src={ict} alt=""/></a>
                 </Col>
                 <Col sm={4} md={4} lg={4}>
-                    <img className="supportImg" src={ict} alt=""/>
+                <a href="https://bcc.gov.bd/" target="blank"><img className="supportImg" src={bd} alt=""/></a>
                 </Col>
             </Row>
         </Container>

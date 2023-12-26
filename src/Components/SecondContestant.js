@@ -130,12 +130,13 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                         className="form-control"
                         name="secondUserId"
                         onChange={inputChange}
+                        accept=".jpg,.png,.jpeg"
                     />
                     {
                         data.secondUserId?(
                             <div className='photoSelect'>Your Uploaded File is : {data.secondUserId.name}</div>
                         ):(
-                            <div className='photoSelect'>Please upload a photo</div>
+                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
                         )
                     }
                     <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Student Photo</label><br/>
@@ -144,12 +145,13 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                         className="form-control"
                         name="secondUserPhoto"
                         onChange={inputChange}
+                        accept=".jpg,.png,.jpeg"
                     />
                     {
                         data.secondUserPhoto?(
                             <div className='photoSelect'>Your Uploaded File is : {data.secondUserPhoto.name}</div>
                         ):(
-                            <div className='photoSelect'>Please upload a photo</div>
+                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
                         )
                     }
                 </Col>
