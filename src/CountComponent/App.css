@@ -62,8 +62,8 @@ a {
 .type{
   margin-top: 20px;
   color:#fff;
-  font-weight: 400;
-  font-size: 21px;
+  font-weight: 500;
+  font-size: 29px;
   font-family: Montserrat, serif;
 }
 .caption{
@@ -88,6 +88,6 @@ a {
 .deptInfo{
   color:#fff;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 18px;
   font-family: Montserrat, serif;
 }
