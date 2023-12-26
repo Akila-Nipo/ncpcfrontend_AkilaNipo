@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "./Countdown";
-
 import Typing from "./Typing";
 
 
@@ -77,10 +76,8 @@ const Birthday = ({ day, month }) => {
         <h5 className="type">Hosted By</h5>
         <h5 className="deptInfo">
           Department of Computer Science and Engineering
-         
         </h5>
-        <h4 className="deptInfo">Jahangirnagar University</h4>
-       
+        <h4 className="deptInfo text-white">Jahangirnagar University</h4>
       </div>
     </div>
   );

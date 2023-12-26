@@ -31,7 +31,7 @@
     width: 100%;
     z-index: 1000;
     height: 60px;
-    background-color: #f1f3f6 !important;
+    background-color: #ffffff !important;
     transition: 0.5s;
 }
 .navLinkScroll{
@@ -45,8 +45,6 @@
 .ddMenu{
     font-family: Roboto,serif!important;
     font-weight: 500!important;
-}
-.ddMenu{
     background-color: rgba(0,0,0,0)!important;
     width: 150px!important;
     padding:0!important;
@@ -89,7 +87,6 @@
     border: none!important;
     border-radius: 2px!important;
     padding: 50px;
-    margin-top: -10px!important;
 }
 .carouselImg{
     width: 100%;

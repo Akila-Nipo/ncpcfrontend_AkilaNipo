@@ -14,5 +14,4 @@ function GalleryTop(props) {
         </Container>
     );
 }
-
 export default GalleryTop;
