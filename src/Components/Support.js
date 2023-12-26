@@ -15,7 +15,7 @@ function Support(props) {
                 </div>
             </Row>
             <Row className="mx-0 px-0 mt-5">
-                <h4 className="title text-dark mb-4">Supported By</h4>
+                <h4 className="titleSponsor text-dark mb-4">Supported By</h4>
                 <Col sm={4} md={4} lg={4}>
                 <a href="https://www.digitalbangladesh.gov.bd/" target="blank"><img className="supportImg" src={digital} alt=""/></a>
                 </Col>
