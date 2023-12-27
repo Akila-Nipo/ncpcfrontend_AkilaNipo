@@ -6,6 +6,9 @@
     margin-top: 29px;
     color: rgba(0,0,0,0.7)!important;
 }
+.alumniDescriptionInside{
+    font-weight:300;
+}
 .alumniDescription{
     padding: 3px 1% 3px 1%;
     font-size: 16px;
