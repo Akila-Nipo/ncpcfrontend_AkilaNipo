@@ -19,7 +19,7 @@ function Alumni1(props) {
                         <p className="alumniDescription text-dark">The Department of Computer Science and Engineering,Jahangirnagar University,has seen many brilliant contestants who excelled in programming contests, both nationally and internationally.These individuals have not just secured good positions but have also firmly stamped the department's and the university's name in the hall of fame within the tech world.</p>
                     </Col>
                     <Col md={12} lg={6} sm={12} className="m-0 p-0">
-                        <Carousel>
+                        <Carousel interval={9000}>
                         <Carousel.Item>
                                 <div className="carouselItemContainerAlumni">
                                     <img className="carouselImgAlumni" src={fifteen} alt=""/>
@@ -52,7 +52,7 @@ function Alumni1(props) {
                                     <img className="carouselImgAlumni" src={_2021} alt=""/>
                                     <div className="carouselCaptionAlumni">
                                         <h3 className="whiteTitle">JU_Glass_Half_Full</h3>
-                                        <p className="alumniDescriptionInside text-white text-center">Anik Sarker(IIT 45), Sakib Hasan(CSE-44), Chayan Kumar Ray(CSE-45) representing Jahangirnagar University at the ICPC 2021 World Finals Dhaka.</p>
+                                        <p className="alumniDescriptionInside text-white text-center">Anik Sarker(IIT 45), Sakib Hasan(CSE-44), Chayan Kumar Roy(CSE-45) representing Jahangirnagar University at the ICPC 2021 World Finals Dhaka.</p>
                                     </div>
                                 </div>
                             </Carousel.Item>
