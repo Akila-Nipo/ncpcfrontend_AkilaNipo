@@ -13,7 +13,7 @@ function AboutSection(props) {
         <Container fluid="true" className="text-center honorContainer">
             <Row className="p-0 m-0">
                 <Col className="noticeDivLeft m-0 p-0" md={8} lg={9} sm={12}>
-                    <h4 className="noticeTitle text-center">About JU CSE</h4>
+                    <h3 className="noticeTitle text-center">About JU CSE</h3>
                     <Carousel className="card-carousel" interval={6000}>
                         <Carousel.Item>
                             <img className="carouselImg" src={green} alt=""/>
@@ -33,7 +33,7 @@ function AboutSection(props) {
                         </Carousel.Item>
 
                     </Carousel>
-                    <p className="alumniDescription text-black">
+                    <p className="alumniDescription">
                         <hr/>
                         The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers.Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
                     </p>
