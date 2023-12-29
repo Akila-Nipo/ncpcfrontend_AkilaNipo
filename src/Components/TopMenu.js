@@ -75,6 +75,7 @@ function TopMenu() {
                    <div className="marquee">
                        | NCPC 2023 | Department of Computer Science and Engineering | Jahangirnagar University |
                    </div>
+                   
                </div>
 
            </Container>
