@@ -1,7 +1,8 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import {Container, Dropdown, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBullhorn} from "@fortawesome/free-solid-svg-icons";
 
 function TopMenu() {
     const [isScroll,setIsScroll] = useState(false);
@@ -72,9 +73,11 @@ function TopMenu() {
                    </Navbar.Collapse>
                </Navbar>
                <div className="marquee-container">
-                   <div className="marquee">
-                       | NCPC 2023 | Department of Computer Science and Engineering | Jahangirnagar University |
-                   </div>
+               <div className="marquee">
+                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Registration Starts:01 February 2024</span>
+                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Main Contest: 26 February 2024</span>  
+                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Payment Deadline: 15 February 2024</span>
+              </div>
                    
                </div>
 

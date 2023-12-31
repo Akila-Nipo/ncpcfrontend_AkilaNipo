@@ -1,14 +1,13 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import aboutNcpc from "../Assets/Images/aboutNcpc.png";
-
+import logo_NCPC  from "../Assets/Images/Contents/logo_NCPC.jpeg"
 function AboutNcpc() {
     return (
        <Container fluid="true" className="text-center aboutNcpc p-5">
            <Row className="m-0 aboutNcpcRow">
                <h4 className="title pb-4">ABOUT NCPC 2023</h4>
                <Col className="ncpcImgDiv m-0 p-0" md={12} lg={5} sm={12}>
-                   <img src={aboutNcpc} alt="aboutNcpc"/>
+                   <img src={logo_NCPC} alt="aboutNcpc"/>
                </Col>
                <Col className="aboutNcpcDescription" md={12} lg={7} sm={12}>
                    <h4 className="title text-dark">National Collegiate Programming Contest NCPC 2023</h4>

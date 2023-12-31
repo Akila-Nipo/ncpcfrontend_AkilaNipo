@@ -7,13 +7,13 @@ import _203_contest from "../Assets/Images/dept/_203_contest.jpg";
 import codeElevate_302 from "../Assets/Images/dept/codeElevate_302.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBell} from "@fortawesome/free-solid-svg-icons";
-
+import SeeMoreNoticeCard from './SeeMoreNoticeCard';
 function AboutSection(props) {
     return (
         <Container fluid="true" className="text-center honorContainer">
             <Row className="p-0 m-0">
-                <Col className="noticeDivLeft m-0 p-0" md={8} lg={9} sm={12}>
-                    <h3 className="noticeTitle text-center">About JU CSE</h3>
+                <Col className="noticeDivLeft mt-3 p-0" md={8} lg={9} sm={12}>
+                    
                     <Carousel className="card-carousel" interval={6000}>
                         <Carousel.Item>
                             <img className="carouselImg" src={green} alt=""/>
@@ -31,8 +31,8 @@ function AboutSection(props) {
                         <Carousel.Item>
                             <img className="carouselImg" src={seminar} alt=""/>
                         </Carousel.Item>
-
                     </Carousel>
+                    <h3 className="noticeTitle text-center pb-0 pt-4">About JU CSE</h3>
                     <p className="alumniDescription">
                         <hr/>
                         The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers.Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
@@ -40,7 +40,7 @@ function AboutSection(props) {
                 </Col>
                 <Col md={4} lg={3} sm={12} className="m-0 p-0" >
                     <div className="noticeDivRight">
-                        <div className="noticeDivRightHeading">
+                        <div className="noticeDivRightHeading mt-3">
                             <h3 className="noticeTitle"> <FontAwesomeIcon icon={faBell} beatFade size="l" /><span>     </span>Notice</h3>
                         </div>
                         <a href="facebook.com/abc">1. Registration Rules</a>
@@ -51,8 +51,8 @@ function AboutSection(props) {
                         <hr/>
                         <a href="facebook.com/abc">4. Main Contest Date</a>
                         <hr/>
-                        <a href="facebook.com/abc" className="seeMoreLink">See More...</a>
-                        <hr/>
+                        {/* <a href="facebook.com/abc" className="seeMoreLink">See More...</a> */}
+                        <SeeMoreNoticeCard/>                       
                     </div>
                     <div className="carouselItemContainerSpeech">
                         <h5 className="noticeTitleSpeech">SPEECH</h5>
