@@ -97,7 +97,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
 }
 
 .logoLeftDiv img{
@@ -105,6 +105,7 @@
     height: auto;
     max-width: 120px;
 }
+
 
 .logoRightDiv img{
     width: 40%;
@@ -264,13 +265,39 @@ Button{
   
 }
 
+.honorContainer .card{
+    background-color: white!important;
+    height:auto!important;
+    border-radius: 1%!important;
+    border:2px solid #cdcfd1!important;
+    font-weight: 700!important;
+    font-family:Montserrat, serif;
+    margin:2%;
+    width:auto!important;
+    color:rgb(163, 163, 226)!important; 
+  
+}
+.honorContainer .card:hover{
+    color:rgb(9, 9, 123)!important;
+}
+
+.card.titleSeeMoreNotice{
+    font-size: 22px!important;
+    color:rgb(163, 163, 226)!important; 
+    font-family: Montserrat, serif;
+    font-weight: 600!important;
+}
+
+
 .honorContainer .noticeDivLeft .card-carousel {
     margin-left:1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   } 
   .honorContainer .noticeDivLeft .alumniDescription{
     margin-left:1%;
+    margin-top: 0;
   }
- 
+
 .noticeDivLeft{
     background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -288,7 +315,7 @@ Button{
     color:rgb(22, 21, 21);
     border-radius: .5%;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    padding: 4% 2% 2% 2%;
+    padding: 0 2% 2% 2%;
   
 }
 
@@ -315,12 +342,14 @@ Button{
     margin-right:2%;
     font-weight: 400;
     background-color: #cdcfd1; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: rgba(0,0,0,0.7)!important;
 
 }
 .noticeDivRightHeading{
     color: rgba(0,0,0,0.7)!important;
     background-color: #cdcfd1; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: Montserrat, serif;
     
 }
@@ -329,9 +358,9 @@ Button{
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    color:black;
-    font-family: Roboto, serif;
-    font-weight: 380;
+    color:rgb(27, 25, 25);
+    font-family: Montserrat, serif;
+    font-weight: 400;
     font-size: 16px;
     padding-left:3%;
 }
@@ -344,8 +373,7 @@ Button{
 
 .noticeDivRight a:hover{
     text-decoration: underline;
-    color:blue;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color:rgb(163, 163, 226)!important;
     transform: scale(1.02);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
     text-decoration: none;
@@ -555,7 +583,6 @@ Button{
     
 }
 
-
 .strategyWidth:hover{
     box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
     -webkit-box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
@@ -597,9 +624,10 @@ Button{
     font-size: 18px;
     font-family: Montserrat, serif;
     font-weight: 200;
-    
-    /* box-shadow: 0 0 4px rgb(48, 64, 87); */
+   
 }
+
+
 .StrategyTitleBorder{
     font-size: 26px!important;
     /* background-color:#e7e8ec;  */
@@ -609,6 +637,7 @@ Button{
     letter-spacing: 3px;
     font-style: italic;
 }
+
 .StrategyTitleBorder2{
     font-size: 31px;
     font-style: normal;
@@ -618,14 +647,106 @@ Button{
 .marquee {
     padding:.5%;
     white-space: nowrap;
-    animation: marquee 45s linear infinite; 
+    animation: marquee 35s linear infinite; 
     font-family: Roboto, serif;
     font-weight: 500;
     color: rgba(0,0,0,0.5)!important;
-    font-size: 18px;
+    font-size: 14px;
   }
   .marquee:hover{
     color:#413c69!important;
     cursor:pointer;
   }
+  .marquee span:not(:last-child) {
+    margin-right: 50px; 
+  }
+   
+ 
+  /* CountdownTimer.css */
+.App{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background: url("../Images/dept/code_elevate_camp.jpg") no-repeat fixed center;
+    
+}
+.App h4{
+    font-family: Montserrat, serif;
+    color:white; 
+    font-size:29px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+.ncpc_Counts{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 35.5%, rgb(255, 254, 254) 35.5%, rgb(255, 255, 255) 64.5%);
+}
+.ncpc_Counts h1{
+    color:silver;
+    
+}
+.ncpc_Counts h3{
+    font-weight: 250!important;
+    font-size: 20px;
+}
+.ncpc_Counts:hover{
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
 
+.timer-container {
+    background-color: #ffffff;
+    justify-content: center;
+    font-family: Montserrat, serif;
+   padding:1%!important;
+    
+  }
+  
+  .timer-circle {
+    font-family: Montserrat, serif;
+    font-size: 25px;
+    color:#1b182e;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Dates_Counts{
+   background-color: #cdcfd1;
+   box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important;
+   
+}
+  .DatesRow .ncpc_Counts:hover{
+  cursor: pointer;
+  }
+  .DatesRow .card{
+    padding:10%;
+    box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important; 
+  }
+  .DatesRow .card:hover{
+    cursor:pointer!important;
+    
+  }
+  .titleDates{
+    font-size: 22px!important;
+    color: rgba(0,0,0,0.7)!important; 
+    font-family: Montserrat, serif;
+    font-weight: 400!important;
+  }
+  .subTitleDates{
+    font-size: 17px;
+    font-family: Roboto, serif;
+    font-weight: 350;
+    color: rgba(0,0,0,0.4)!important;
+}
+  
+  .titleH6{
+    color: #898989;
+  }
+  
+  .titleH6:hover{
+    color: #656060;
+  }
+  
+
+ 

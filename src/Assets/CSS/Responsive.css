@@ -174,14 +174,14 @@
         font-size:16px!important;
         font-weight: 200 !important;
        }
-   
        
 
-    /*.contactBtn{
+
+    .contactBtn{
          width: 60% !important;
         font-size: 14px!important;
     }
-    */
+   
     .submitBtn{
         width: 60% !important;
         font-weight:350!important;
@@ -195,6 +195,9 @@
     .backBtn{
         font-weight:350!important;  
     } 
+    .StrategyTitleBorder h6{
+        font-size: 9px!important;
+    }
    
 }
 
