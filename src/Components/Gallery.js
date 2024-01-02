@@ -1,8 +1,9 @@
 
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 import { Container, Row } from 'react-bootstrap';
 
 import Slider from 'react-slick';
+import axios from "axios";
 
 function Gallery() {
     const images = require.context('../Assets/Images/GallerySlider', true);
@@ -65,6 +66,12 @@ function Gallery() {
     const closeZoom = () => {
         setZoomedImg(null);
     };
+
+    useEffect(()=>{
+        axios.get("http://146.190.80.140:8080/test").then((res)=>{
+            console.log(res.data);
+        })
+    })
 
 
     return (
