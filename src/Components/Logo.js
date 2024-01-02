@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
-import icpc from '../Assets/Images/icpc_logo_small.png';
+import logo_NCPC  from "../Assets/Images/Contents/logo_NCPC.jpeg"
 import ju from '../Assets/Images/juLogo.jpg';
 import bcc from '../Assets/Images/bcc_logo.png';
 import db from '../Assets/Images/digital-bangladesh.png';
@@ -12,7 +12,7 @@ function Logo(props) {
     return (
         <Container fluid="true" className="logoContainer p-2">
            <div className="logoLeftDiv">
-               <img src={icpc} alt=""/>
+               <img src={logo_NCPC} alt=""/>
                <img src={ju} alt=""/>
                <img src={ju_cse_copy} alt=""/>
            </div>

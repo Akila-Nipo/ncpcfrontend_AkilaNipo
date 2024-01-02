@@ -11,19 +11,25 @@
     font-size: 50px;
     font-family: Oswald, serif;
     font-weight: 500;
-    color: rgb(255, 234, 234);  
+    color: rgb(255, 255, 255);  
 }
 
 .form-control{
     margin-top:5px;
-    box-shadow: 0 0 1px 1px rgb(61, 58, 58);
+    box-shadow: 0 0 0 1px rgb(199, 197, 197);
+    
+    
 }
 .form-control:hover{
-    box-shadow: none!important;
+    box-shadow: 0 0 1px 1px skyblue !important;
+    border:1px solid skyblue;
+    
+    
 }
 .form-control:focus{
-    box-shadow: 0 0 1px 1px rgb(61, 58, 58) !important;
-    border: 1px rgb(61, 58, 58) !important;
+    box-shadow: 0 0 1px 1px skyblue !important;
+    border: 2px solid skyblue!important;
+    
 }
 .submitBtn{
     color: white;
@@ -34,12 +40,20 @@
     font-weight: 700;
 }
 .formBorder{
-    border: 8px solid rgb(73, 71, 71);
+    border: 2px solid rgb(73, 71, 71);
     padding: 5%;
     border-radius: 7px;
 }
 .nextBtn{
     margin-left:30%;
+}
+.nextBtn2:hover{
+    background-color: #413c69!important;
+    color:white;
+}
+.backBtn:hover{
+    background-color: #413c69!important;
+    color:white;
 }
 .form-check-input{
    border: 1px solid black;
@@ -50,7 +64,7 @@
     border:1px solid black!important;
 }
 .firstContestant hr{
-    border:2px solid #1b182e; 
+    border:1px solid #1b182e; 
 }
 .firstContestant h4{
     font-weight:bold;
@@ -64,13 +78,14 @@
       font-weight: 600;
       margin-top: 1%;
   }
-
+  
 
 
   .registration {
     width: 100%;
     height: auto;
     padding: 5% 12% 5% 12%;
+    
 }
 .submitBtn{
     color: white;
@@ -80,8 +95,12 @@
     font-size: 20px;
     font-weight: 700;
 }
+.submitBtn:hover{
+    background-color: #413c69;
+    color:white;
+}
 .formBorder{
-    border: 1px solid black;
+    
     padding: 5%;
     border-radius: 5px;
     background-color: rgb(203, 222, 217);

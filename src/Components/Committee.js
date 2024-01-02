@@ -4,6 +4,7 @@ import ChoyonSirCard from "./ChoyonSirCard";
 import img from "../Assets/Images/avatar.png";
 
 function Committee(props) {
+    
     return (
         <Container fluid="true" className="mb-5">
             <Container fluid="true" className="committeeBody text-center">

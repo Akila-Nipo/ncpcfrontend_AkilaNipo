@@ -5,13 +5,17 @@ import Support from "../Components/Support";
 import Sponsor from "../Components/Sponsor";
 import Alumni1 from "../Components/Alumni1";
 import AboutNcpc from "../OthersComponents/AboutNcpc";
+import Strategy from '../OthersComponents/Strategy';
+
+
 function Home(props) {
     return (
         <Fragment>
             <TopBanner/>
             <AboutSection/>
             <AboutNcpc/>
-            <Alumni1/>
+            <Alumni1/> 
+            <Strategy/>      
             <Support/>
             <Sponsor/>
         </Fragment>

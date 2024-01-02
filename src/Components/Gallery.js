@@ -1,7 +1,8 @@
-import React, {Fragment, useEffect} from 'react';
+
+import React, {Fragment, useState} from 'react';
 import { Container, Row } from 'react-bootstrap';
+
 import Slider from 'react-slick';
-import axios from "axios";
 
 function Gallery() {
     const images = require.context('../Assets/Images/GallerySlider', true);
@@ -53,19 +54,47 @@ function Gallery() {
         autoplaySpeed: 2000,
     };
 
+    const [zoomedImg, setZoomedImg] = useState(null);
+
+    
+    const handleImageClick = (imgUrl) => {
+        setZoomedImg(imgUrl);
+    };
+
+   
+    const closeZoom = () => {
+        setZoomedImg(null);
+    };
+
 
     return (
         <Fragment>
             <Container fluid="true" className="mb-5 p-3">
-                <Row className="mx-0 px-0">
+                <Row className="mx-0 px-0" noGutters>
                     <Slider {...settings}>
                         {imageUrls.map((img, idx) => (
-                            <div key={idx}>
-                                <img src={img} alt="" />
+                            <div className="galleryImage mx-0 px-0" key={idx}>
+                                <img
+                                    src={img}
+                                    alt=""
+                                    onClick={() => handleImageClick(img)}
+                                    className="clickableImage"
+                                />
                             </div>
                         ))}
                     </Slider>
                 </Row>
+                {zoomedImg && (
+                    <div
+                        className="zoomedImageOverlay mx-0 px-0"
+                        onClick={closeZoom}
+                    >
+                        <img src={zoomedImg} alt="" className="zoomedImage"/>
+                        <button className="closeButton" onClick={closeZoom}>
+                            Close
+                        </button>
+                    </div>
+                )}
             </Container>
         </Fragment>
     );

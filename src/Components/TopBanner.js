@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import {Button, Carousel, Col, Container, Row} from "react-bootstrap";
-
 import s_minar from "../Assets/Images/dept/shaheed_minar.png";
 import lab from "../Assets/Images/dept/lab_201.png";
 import green from "../Assets/Images/dept/green.png";
@@ -15,6 +14,7 @@ function TopBanner() {
         <Fragment>
             <Container fluid="true" className="topBanner">
                 <Row className="p-0 m-0">
+                    
                     <Col md={7} lg={7} sm={12} className="m-0 p-0">
                         <Carousel className="card-carousel">
                             <Carousel.Item>

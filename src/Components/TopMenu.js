@@ -1,7 +1,8 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import {Container, Dropdown, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBullhorn} from "@fortawesome/free-solid-svg-icons";
 
 function TopMenu() {
     const [isScroll,setIsScroll] = useState(false);
@@ -72,9 +73,14 @@ function TopMenu() {
                    </Navbar.Collapse>
                </Navbar>
                <div className="marquee-container">
-                   <div className="marquee">
-                       | NCPC 2023 | Department of Computer Science and Engineering | Jahangirnagar University |
-                   </div>
+               <div className="marquee">
+                
+                <span> <FontAwesomeIcon icon={faBullhorn}/> Registration Starts</span>
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Main Contest</span>
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Seat Plan</span>  
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Payment Deadline</span>
+              </div>
+                   
                </div>
 
            </Container>

@@ -1,15 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import axios from "axios";
 
 function About() {
-
-    useEffect(()=>{
-        axios.get("http://146.190.80.140:8080/test")
-            .then((res)=>{
-                // console.log(res);
-            })
-    },[]);
 
     return (
         <Container fluid="true" className="aboutJuBanner">
