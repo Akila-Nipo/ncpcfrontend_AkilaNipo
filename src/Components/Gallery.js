@@ -1,6 +1,7 @@
-import React, { Fragment } from 'react';
+import React, {Fragment, useEffect} from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
+import axios from "axios";
 
 function Gallery() {
     const images = require.context('../Assets/Images/GallerySlider', true);
@@ -8,7 +9,7 @@ function Gallery() {
 
     const settings = {
         dots: true,
-        infinite: true, // Set infinite to true for continuous scrolling
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -48,9 +49,10 @@ function Gallery() {
                 },
             },
         ],
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (adjust as needed)
+        autoplay: true,
+        autoplaySpeed: 2000,
     };
+
 
     return (
         <Fragment>
