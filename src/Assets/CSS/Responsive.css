@@ -198,6 +198,9 @@
     .StrategyTitleBorder h6{
         font-size: 9px!important;
     }
+    .App{
+        height:auto!important;
+    }
    
 }
 

@@ -74,9 +74,11 @@ function TopMenu() {
                </Navbar>
                <div className="marquee-container">
                <div className="marquee">
-                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Registration Starts:01 February 2024</span>
-                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Main Contest: 26 February 2024</span>  
-                <span><FontAwesomeIcon icon={faBullhorn} size="xl" />   Payment Deadline: 15 February 2024</span>
+                
+                <span> <FontAwesomeIcon icon={faBullhorn}/> Registration Starts</span>
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Main Contest</span>
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Seat Plan</span>  
+                <span><FontAwesomeIcon icon={faBullhorn}/>  Payment Deadline</span>
               </div>
                    
                </div>
