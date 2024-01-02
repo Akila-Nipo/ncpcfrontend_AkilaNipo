@@ -1,7 +1,8 @@
 
+
 import React, {Fragment, useState} from 'react';
 import { Card } from "react-bootstrap";
-function DatesCard({ think }) {
+function PaymentDeadlineCard({ think }) {
     const [css, setCss] = useState({
         strategyWidth: 'strategyWidth',
         strategyDescription: 'strategyDescription'
@@ -19,9 +20,9 @@ function DatesCard({ think }) {
        <Fragment>
            <Card className={css.strategyWidth} onClick={changeDes}>
                <Card.Body>
-                   <Card.Title className="titleDates">15 February 2024</Card.Title>
+                   <Card.Title className="titleDates">20 February 2024</Card.Title>
                    <Card.Text>
-                       <h5 className="subTitleDates pt-1">Registration Deadline</h5>
+                       <h5 className="subTitleDates pt-1">Payment Deadline</h5>
                        <h6 className='titleH6 p-1'>Details</h6>
                        <p className={css.strategyDescription}>Link: </p>
                    </Card.Text>
@@ -31,4 +32,4 @@ function DatesCard({ think }) {
     );
 }
 
-export default DatesCard;
+export default PaymentDeadlineCard;

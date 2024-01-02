@@ -12,7 +12,7 @@
     color: white!important;
     font-family: Roboto,serif;
     font-size: 18px!important;
-    font-weight: 500!important;
+    font-weight: 400!important;
     text-decoration: none;
     transition: 0.5s;
     padding-top: 0;
@@ -38,13 +38,13 @@
     color: rgba(0,0,0,1) !important;
     font-family: Roboto,serif;
     font-size: 18px!important;
-    font-weight: 500!important;
+    font-weight: 400!important;
     text-decoration: none;
     transition: 0.5s;
 }
 .ddMenu{
     font-family: Roboto,serif!important;
-    font-weight: 500!important;
+    font-weight: 400!important;
     background-color: rgba(0,0,0,0)!important;
     width: 150px!important;
     padding:0!important;
@@ -74,7 +74,7 @@
 .ddBox{
     background-color: #1b182e!important;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     transition: 0.5s;
     border-radius: 2px!important;
     border: none!important;
@@ -82,7 +82,7 @@
 .ddBoxScroll{
     background-color:white!important;
     font-size: 18px!important;
-    font-weight: 500!important;
+    font-weight: 400!important;
     transition: 0.5s;
     border: none!important;
     border-radius: 2px!important;
@@ -268,39 +268,60 @@ Button{
 .honorContainer .card{
     background-color: white!important;
     height:auto!important;
-    border-radius: 1%!important;
     border:2px solid #cdcfd1!important;
     font-weight: 700!important;
     font-family:Montserrat, serif;
     margin:2%;
     width:auto!important;
-    color:rgb(163, 163, 226)!important; 
+    /* color:rgb(163, 163, 226)!important;  */
+    color: rgba(0,0,0,0.4)!important;
   
 }
 .honorContainer .card:hover{
-    color:rgb(9, 9, 123)!important;
+    color:rgb(41, 41, 45)!important;
+    font-weight:800!important;
+    border:1px solid rgb(143, 143, 143)!important;
 }
 
 .card.titleSeeMoreNotice{
     font-size: 22px!important;
-    color:rgb(163, 163, 226)!important; 
     font-family: Montserrat, serif;
     font-weight: 600!important;
+    
 }
 
 
 .honorContainer .noticeDivLeft .card-carousel {
-    margin-left:1%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* margin-left:1%; */
+    margin-right: 1%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); */
+   
   } 
   .honorContainer .noticeDivLeft .alumniDescription{
-    margin-left:1%;
-    margin-top: 0;
+    /* margin-left:1%; */
+    margin-right: 1%;
+    
   }
-
+.honorContainer .strategyWidth{
+    background-color: white!important;
+    border:2px solid silver!important;
+}
+.honorContainer .strategyWidth:hover{
+    
+    box-shadow: -2px 1px 12px 1px rgba(64,105,135,0.75);
+    
+}
 .noticeDivLeft{
     background-color:white;  
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.noticeDivLeft .noticeTitle{
+    background-color: #cdcfd1!important;
+    /* margin-left: 1%; */
+    margin-right: 1%;
+    box-shadow: 0 0 2px rgba(50, 49, 49, 0.3)!important;
+    padding-top:2%;
+    padding-bottom: 1%;
 }
 
 .carouselCaptionDivLeftHonor{
@@ -315,13 +336,17 @@ Button{
     color:rgb(22, 21, 21);
     border-radius: .5%;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    padding: 0 2% 2% 2%;
+    /* padding: 0 2% 2% 2%; */
+    /* margin:2%; */
+    box-shadow: 0 0 10px rgba(50, 49, 49, 0.3)!important;
+    
   
 }
 
 .carouselItemContainerSpeech{
     background-color:white;
     color:silver;   
+    /* box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important; */
 }
 .noticeTitle{
     text-transform: uppercase;
@@ -332,20 +357,23 @@ Button{
     padding:2%;
     color: rgba(0,0,0,0.7)!important;
     
+    
 }
+
+
 .noticeTitleSpeech{
     
-    padding:2%;
+    /* padding:2%; */
     font-family: Montserrat, serif;
     font-size: 25px;
-    margin-left:2%;
-    margin-right:2%;
+    /* margin-left:2%;
+    margin-right:2%; */
     font-weight: 400;
     background-color: #cdcfd1; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     color: rgba(0,0,0,0.7)!important;
-
 }
+
 .noticeDivRightHeading{
     color: rgba(0,0,0,0.7)!important;
     background-color: #cdcfd1; 
@@ -358,8 +386,8 @@ Button{
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    color:rgb(27, 25, 25);
-    font-family: Montserrat, serif;
+    color: rgba(54, 52, 52, 0.8)!important;
+    font-family: Roboto, serif;
     font-weight: 400;
     font-size: 16px;
     padding-left:3%;
@@ -368,13 +396,12 @@ Button{
 .noticeDivRight hr{
     margin-right: 4%;
     margin-left: 3%;
-    border:2px solid #021b4a;
+    border:1px solid #021b4a;
 }
 
 .noticeDivRight a:hover{
     text-decoration: underline;
     color:rgb(163, 163, 226)!important;
-    transform: scale(1.02);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
     text-decoration: none;
 }
@@ -384,9 +411,9 @@ Button{
     font-family: Montserrat, serif;
     font-weight: 700;
 }
-.carouselVideo{
+/* .carouselVideo{
     padding: 2%;
-}
+} */
 .carouselVideo:hover{
     cursor: pointer;
     
@@ -649,7 +676,7 @@ Button{
     white-space: nowrap;
     animation: marquee 35s linear infinite; 
     font-family: Roboto, serif;
-    font-weight: 500;
+    font-weight: 500!important;
     color: rgba(0,0,0,0.5)!important;
     font-size: 14px;
   }
@@ -664,19 +691,33 @@ Button{
  
   /* CountdownTimer.css */
 .App{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     width: 100%;
-    height: auto;
+    height: 700px; 
+     background-size: cover;
+     background: url("../Images/dept/codeElevate_302.jpg") no-repeat fixed center;  
+      
+}
+.overLayDatesTop{
+    width: 100%;
+    height: 700px;
     background-size: cover;
-    background: url("../Images/dept/code_elevate_camp.jpg") no-repeat fixed center;
+    background-color: rgba(0,0,0,0.4);
+}
+.importantDates{
+    background-color: rgba(0,0,0,0.4);
+    font-weight: 300!important;
+    font-size: 29px!important;
     
 }
+
 .App h4{
     font-family: Montserrat, serif;
     color:white; 
-    font-size:29px;
-    font-weight: 500;
-    letter-spacing: 7px;
+    font-size:39px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
 }
 .ncpc_Counts{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -699,7 +740,7 @@ Button{
     background-color: #ffffff;
     justify-content: center;
     font-family: Montserrat, serif;
-   padding:1%!important;
+    padding:1%!important;
     
   }
   
@@ -714,8 +755,13 @@ Button{
   .Dates_Counts{
    background-color: #cdcfd1;
    box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important;
-   
 }
+.Dates_Counts:hover{
+    background-color:rgb(143, 143, 143)!important;
+    cursor:pointer;
+    border:1px solid rgb(143, 143, 143)!important;
+ }
+
   .DatesRow .ncpc_Counts:hover{
   cursor: pointer;
   }
@@ -725,27 +771,29 @@ Button{
   }
   .DatesRow .card:hover{
     cursor:pointer!important;
-    
+ 
   }
   .titleDates{
     font-size: 22px!important;
     color: rgba(0,0,0,0.7)!important; 
     font-family: Montserrat, serif;
-    font-weight: 400!important;
+    font-weight: 350!important;
   }
   .subTitleDates{
-    font-size: 17px;
-    font-family: Roboto, serif;
-    font-weight: 350;
-    color: rgba(0,0,0,0.4)!important;
+    font-size: 16px;
+    font-family: Montserrat, serif;
+    font-weight: 380;
+    color: #908d8d;
+    
 }
   
   .titleH6{
-    color: #898989;
+    color: rgba(0,0,0,0.4)!important;
+    font-family: Montserrat, serif;
   }
   
   .titleH6:hover{
-    color: #656060;
+    color: #3b3939!important;
   }
   
 

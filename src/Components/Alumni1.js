@@ -9,7 +9,7 @@ import _2021 from "../Assets/Images/alumni_photos/2021.jpg";
 function Alumni1(props) {
     return (
         <Fragment>
-            <Container fluid="true" className='alumniFullBanner text-center pb-0'>
+            <Container fluid="true" className='alumniFullBanner text-center p-0'>
                 {/* <h4 className="title pt-4 pb-3 text-white"></h4> */}
                 <Row className="p-0 mx-0 rowBackground">
                     <Col md={12} lg={6} sm={12} className="m-0 px-0 alumniColumn">

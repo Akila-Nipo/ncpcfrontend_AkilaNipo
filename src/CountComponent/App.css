@@ -69,7 +69,7 @@ a {
   margin-top:20px;
   color:#fff;
   font-weight: 390;
-  font-size: 27px;
+  font-size: 26px;
   font-family: Montserrat, serif;
   margin-bottom: 20px;
 }
@@ -77,16 +77,17 @@ a {
   margin-top: 20px;
   color:#fff;
   font-weight: 250;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Montserrat, serif;
 }
 .caption{
   font-weight: 200;
   color:aliceblue;
   margin-top: 70px;
+  font-size: 24px;
 }
 .ncpcType{
-  font-size: 31px;
+  font-size: 28px;
   margin-top: 26px;
   color:#fff;
   font-weight: 390;
@@ -95,13 +96,13 @@ a {
 .countTxt{
   color:#fff;
   font-family: Montserrat, serif;
-  font-weight:400;
+  font-weight:350;
   font-size: 25px;
 }
 .deptInfo{
   color:#fff;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Montserrat, serif;
  
 }
