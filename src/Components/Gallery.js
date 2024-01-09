@@ -68,7 +68,7 @@ function Gallery() {
     };
 
     useEffect(()=>{
-        axios.get("http://146.190.80.140:8080/test").then((res)=>{
+        axios.get("http://146.190.80.140:8080/api/test").then((res)=>{
             console.log(res.data);
         })
     })
