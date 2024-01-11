@@ -63,10 +63,10 @@ function FirstContestant({secondCall,inputChange}) {
             <hr/>
             <Row className="mx-0">
                 <Col>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> First Name</label>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Name</label>
                     <input
                         type="text"
-                        placeholder="First Name"
+                        placeholder="Name"
                         className="form-control"
                         name="firstUserName"
                         onChange={inputChange}
@@ -139,7 +139,7 @@ function FirstContestant({secondCall,inputChange}) {
                         data.firstUserId?(
                             <div className='photoSelect'>Your Uploaded File is : {data.firstUserId.name}</div>
                         ):(
-                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
+                            <div className='photoSelect'>Please upload a photo(Max 1MB)</div>
                         )
                     }
                     <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Student Photo</label><br/>
@@ -154,7 +154,7 @@ function FirstContestant({secondCall,inputChange}) {
                         data.firstUserPhoto ? (
                             <div className='photoSelect'>Your Uploaded File is : {data.firstUserPhoto.name}</div>
                         ) : (
-                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
+                            <div className='photoSelect'>Please upload a photo(Max 1MB)</div>
                         )
                     }
 

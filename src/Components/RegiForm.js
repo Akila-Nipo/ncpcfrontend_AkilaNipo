@@ -24,8 +24,8 @@ function RegiForm() {
 
         else if(e.target.type==='file'){
             const file = e.target.files[0];
-            if(file.size > 2 * 1024 * 1024){
-                alert('File size exceeds 2MB. Please choose a smaller file.');
+            if(file.size > 1024 * 1024){
+                alert('File size exceeds 1MB. Please choose a smaller file.');
                 e.target.value = null;
                 return;
             }
