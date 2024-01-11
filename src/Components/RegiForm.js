@@ -60,7 +60,8 @@ function RegiForm() {
             formData.append(key, value);
         });
 
-        axios.post('http://localhost:8080/api/addUser', formData)
+        axios.post('https://pc.cse.juniv.edu/api/addUser', formData)
+
             .then(response => {
                  console.log(response.data);
                  window.alert(response.data);
