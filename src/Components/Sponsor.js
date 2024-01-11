@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
+import spns from "../Assets/Images/sponsor.png";
 
 function Sponsor(props) {
     return (
@@ -7,11 +8,11 @@ function Sponsor(props) {
             <Row className="m-0">
                 <Col lg={6} md={6} sm={12}>
                     <h4 className="titleSponsor">Gold Sponsors</h4>
-                    <a href="https://therapbd.com/" target="blank"><img className="supportImg" src="https://icpc.bubt.edu.bd/assets/img/sponsors/therap.png" alt=""/></a>
+                    <a href="#abc" target="blank"><img className="supportImg" src={spns} alt=""/></a>
                 </Col>
                 <Col lg={6} md={6} sm={12}>
                     <h4 className="titleSponsor">Others Sponsors</h4>
-                    <img className="supportImg" src="https://icpc.bubt.edu.bd/assets/img/sponsors/AFREEN-ENTERPRISE-Main-Logo.png" alt=""/>
+                    <img className="supportImg" src={spns} alt=""/>
                 </Col>
             </Row>
         </Container>

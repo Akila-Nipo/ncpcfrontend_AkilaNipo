@@ -116,7 +116,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         data.teacherId?(
                             <div className='photoSelect'>Your Uploaded File is : {data.teacherId.name}</div>
                         ):(
-                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
+                            <div className='photoSelect'>Please upload a photo(Max 1MB)</div>
                         )
                     }
                     <label htmlFor="cc" className='dateofbirthcss'><FontAwesomeIcon icon={faImage} />   Teacher's Photo</label><br/>
@@ -131,7 +131,7 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         data.teacherPhoto?(
                             <div className='photoSelect'>Your Uploaded File is : {data.teacherPhoto.name}</div>
                         ):(
-                            <div className='photoSelect'>Please upload a photo(Max 2MB)</div>
+                            <div className='photoSelect'>Please upload a photo(Max 1MB)</div>
                         )
                     }
 
