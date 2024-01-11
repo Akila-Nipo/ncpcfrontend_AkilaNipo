@@ -801,7 +801,7 @@ Button{
 .mid:hover{
     box-shadow: 0 4px 4px rgba(242, 242, 242, 0.3)!important;
     transform: scale(1.04)!important;
-    background-color:  rgba(27,24,46,0.4);
+    background-color:  rgba(27,24,46,0.5);
     color:rgb(141, 139, 139)!important;
 }
 .mid h1{
@@ -837,7 +837,7 @@ Button{
    background: rgb(255, 253, 253) linear-gradient(to bottom, rgba(27,24,46,0.8) 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%);
    /* background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%); */
    /* background: rgb(255, 253, 253) linear-gradient(to bottom, #cdcfd1 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%); */
-   box-shadow: 0 0 30px rgba(50, 49, 49, 0.5)!important;
+   box-shadow: 0 0 10px rgba(50, 49, 49, 0.5)!important;
    margin:9%;
    border-radius: 2%!important;
    height:300px;
