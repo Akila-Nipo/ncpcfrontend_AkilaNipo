@@ -1,9 +1,12 @@
 .page {
+  
   padding-top: 7%;
   width: 100%;
   height: 550px;
   text-align: center; 
-  background-color:#1b182e; 
+  /* background-color:rgba(27,24,46,0.97);  */
+  background-color:#1b182e;
+  /* background-color: #282c34!important; */
 }
 @media (max-width: 1100px) {
   .fixCountDown{
@@ -28,16 +31,22 @@
 @keyframes colorChange {
   0% {
     background-color:#1b182e;
+    /* background-color: #282c34; */
   }
   50% {
-    background-color:#2b274f;
+    background-color:#20203a;
+    /* background-color: #31383e; */
+    /* background-color: #32363f; */
+    
+    
   }
   100% {
     background-color: #1b182e;
+    /* background-color: #282c34; */
   }
 }
 .legend {
-  color:#fff;
+  color:#ccc7c7;
   font-family: Montserrat, sans-serif, serif;
   font-weight: 300;
   font-size: 15px;
@@ -67,40 +76,41 @@ a {
 
 .type{
   margin-top:20px;
-  color:#fff;
+  color:white;
   font-weight: 390;
-  font-size: 26px;
+  font-size: 22px;
   font-family: Montserrat, serif;
   margin-bottom: 20px;
 }
 .typing{
   margin-top: 20px;
-  color:#fff;
-  font-weight: 250;
+  color:#ccc7c7;
+  font-weight: 200!important;
   font-size: 16px;
   font-family: Montserrat, serif;
 }
 .caption{
   font-weight: 200;
-  color:aliceblue;
+  /* color:#e5e3e3; */
+  color:white;
   margin-top: 70px;
   font-size: 24px;
 }
 .ncpcType{
-  font-size: 28px;
+  font-size: 26px;
   margin-top: 26px;
-  color:#fff;
+  color:#e5e3e3;
   font-weight: 390;
   font-family:Montserrat, serif;
 }
 .countTxt{
-  color:#fff;
+  color:white;
   font-family: Montserrat, serif;
   font-weight:350;
-  font-size: 25px;
+  font-size: 23px;
 }
 .deptInfo{
-  color:#fff;
+  color:#ccc7c7;
   font-weight: 300;
   font-size: 16px;
   font-family: Montserrat, serif;

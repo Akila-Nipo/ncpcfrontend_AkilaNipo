@@ -7,13 +7,14 @@ import _203_contest from "../Assets/Images/dept/_203_contest.jpg";
 import codeElevate_302 from "../Assets/Images/dept/codeElevate_302.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBell} from "@fortawesome/free-solid-svg-icons";
-import SeeMoreNoticeCard from './SeeMoreNoticeCard';
+// import SeeMoreNoticeCard from './SeeMoreNoticeCard';
 function AboutSection(props) {
     return (
-        <Container fluid="true" className="text-center honorContainer mt-3">
+        <Container fluid="true" className="text-center honorContainer">
             <Row className="p-0 m-0">
-                <Col className="noticeDivLeft mt-3 p-0" md={8} lg={9} sm={12}>
-                <h3 className="noticeTitle text-center">About JU CSE</h3>
+                
+                <Col className="noticeDivLeft mt-2 p-0" md={7} lg={9} sm={12}>
+                {/* <h3 className="noticeTitle text-center text-white pt-3 pb-3">About JU CSE</h3> */}
                     <Carousel className="card-carousel" interval={6000}>
                   
                         <Carousel.Item>
@@ -36,16 +37,17 @@ function AboutSection(props) {
                     </Carousel>
                     
                     <p className="alumniDescription">
+                    <h3 className="jucseDescriptionTitle text-center mt-2">About JU CSE</h3>
                         <hr/>
                         The Department of Computer Science and Engineering, Jahangirnagar University, has been striving to cultivate visionary programmers who can lead the next tech wave. With a vision to empower students with programming skills, the department offers special facilities, including a dedicated lab just for competitive programmers.Apart from this, the department places a significant emphasis on research. Teachers actively support and encourage students to engage in programming and research pursuits, providing guidance and mentorship along the way.
                     </p>
                 </Col>
-                
-                <Col md={4} lg={3} sm={12} className="m-0 p-0" >
-                    <div className="noticeDivRight pb-2">
-                        <div className="noticeDivRightHeading mt-3">
+               
+                <Col md={5} lg={3} sm={12} className="m-0 p-0" >
+                    <Container fluid="true" className="noticeDivRight pb-2">
+                        <Container fluid="true" className="noticeDivRightHeading mt-2">
                             <h3 className="noticeTitle p-3"> <FontAwesomeIcon icon={faBell} beatFade size="l" /><span>     </span>Notice</h3>
-                        </div>
+                        </Container>
                         <a href="facebook.com/abc">1. Registration Rules</a>
                         <hr/>
                         <a href="facebook.com/abc">2. Accommodation</a>
@@ -54,11 +56,12 @@ function AboutSection(props) {
                         <hr/>
                         <a href="facebook.com/abc">4. Main Contest Date</a>
                         <hr/>
-                        {/* <a href="facebook.com/abc" className="seeMoreLink">See More...</a> */}
-                        <SeeMoreNoticeCard/>                       
-                    </div>
-                    <div className="carouselItemContainerSpeech pb-2 mt-5">
-                        <h5 className="noticeTitleSpeech mt-3 p-3">SPEECH</h5>
+                        <a href="facebook.com/abc" className="seeMoreLink">See More...</a>
+                        <hr/>
+                        {/* <SeeMoreNoticeCard/>                        */}
+                    </Container>
+                    <Container fluid="true" className="carouselItemContainerSpeech">
+                        <h5 className="noticeTitleSpeech p-3">SPEECH</h5>
                         <Carousel className='carouselVideo'>
                             <Carousel.Item>
                                 <iframe width="390" height="365" src="https://www.youtube.com/embed/UF8uR6Z6KLc?si=LyrWIMcVg5Hhjcrb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -69,7 +72,7 @@ function AboutSection(props) {
                                 <h6 className="whiteTitle text-black">JU CSE</h6>
                             </Carousel.Item>
                         </Carousel>
-                    </div>
+                    </Container>
                 </Col>
             </Row>
         </Container>

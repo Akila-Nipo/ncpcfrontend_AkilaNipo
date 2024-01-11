@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {Container} from "react-bootstrap";
 import Countdown from "./Countdown";
 import Typing from "./Typing";
 
@@ -61,7 +62,7 @@ const Birthday = ({ day, month }) => {
   }, [currentYear, day, isItBday, month]);
 
   return (
-    <div className="page">
+    <Container fluid="true" className="page">
       <div>
       <h5 className="ncpcType">
          NCPC 2023
@@ -70,6 +71,7 @@ const Birthday = ({ day, month }) => {
      
       <div className="typing">
        <Typing />
+       {/* Think | Strategize | Code */}
       </div>
       <Countdown countdownData={state}/>
       <div className="caption">
@@ -77,9 +79,9 @@ const Birthday = ({ day, month }) => {
         <h5 className="deptInfo">
           Department of Computer Science and Engineering
         </h5>
-        <h4 className="deptInfo text-white">Jahangirnagar University</h4>
+        <h4 className="deptInfo">Jahangirnagar University</h4>
       </div>
-    </div>
+    </Container>
   );
 };
 

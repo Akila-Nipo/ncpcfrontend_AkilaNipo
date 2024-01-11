@@ -21,6 +21,21 @@
         font-size: 10px!important;
     }
 
+    .honorContainer.carouselImg{
+        width:100%;
+        height:300px!important;
+    }
+
+    .DatesRow{ 
+        margin:2% 0 4% 0 !important;
+        padding:0!important;
+       
+     }
+     .Dates_Counts{
+        padding:0!important;
+        
+     }
+
 }
 
 @media (max-width: 771px) {
@@ -52,8 +67,63 @@
        font-size:14px;
        font-weight:250;
       }
+      .honorContainer .noticeDivLeft .card-carousel {
+      
+        margin: 2% 1% 1% 0;
+       
+      } 
 
+      .honorContainer .noticeDivLeft .alumniDescription{
+        margin: 2% 1% 1% 0;
     
+      }
+      .honorContainer .carouselImg{
+        height:250px;
+      }
+      .noticeDivLeft .noticeTitle{
+        margin: 0 1% 1% 0;
+      }
+
+      .noticeDivRight{
+        margin:0 0 4% 0;
+      }
+      .carouselItemContainerSpeech{
+        margin:4% 0 4% 0;
+      }
+      .titleDates{
+        font-size: 14px!important;
+        padding-top:10%!important;
+      }
+
+      .subTitleDates{
+        font-size: 12px;
+        font-weight: 350;
+      }
+      .titleH6{
+        font-size: 11px;
+      }
+   
+     /* .DatesRow{ 
+        margin:2% 0 3% 0 !important;
+        padding:0!important;
+       
+     }
+     .Dates_Counts{
+        padding:0!important;
+        margin:2%;
+        height:250px;
+     } */
+
+     .Dates_Counts{
+        height:250px;
+     }
+  
+     .App{
+        height:auto!important;
+     }
+     .importantDates{
+        font-size:24px!important;
+     }
 }
 
 @media (max-width: 225px) {
@@ -86,13 +156,13 @@
         color: rgba(0,0,0,1) !important;
         font-family: Roboto,serif;
         font-size: 15px!important;
-        font-weight: 500!important;
+        font-weight: 400!important;
         text-decoration: none;
         transition: 0.5s;
         display: flex;
         justify-content: left;
-        color:white!important;
-        background-color: #413c69!important;
+        color:silver!important;
+        background-color: #3a355d!important;
         padding: 5px 0 5px 35px;
     }
     .navLink:hover{
@@ -104,13 +174,13 @@
         color: rgba(0,0,0,1) !important;
         font-family: Roboto,serif;
         font-size: 15px!important;
-        font-weight: 500!important;
+        font-weight: 400!important;
         text-decoration: none;
         transition: 0.5s;
         display: flex;
         justify-content: left;
-        color:white!important;
-        background-color: #413c69;
+        color:silver!important;
+        background-color: #3a355d;
         padding: 5px 0 5px 35px;
 
     }
@@ -121,7 +191,7 @@
     }
     .ddMenu{
         display: flex!important;
-        background-color: #413c69!important;
+        background-color: #3a355d!important;
         border: none!important;
         justify-content: left;
         margin: 0!important;
@@ -174,8 +244,27 @@
         font-size:16px!important;
         font-weight: 200 !important;
        }
-       
-
+    
+       .honorContainer{
+        margin:3%!important;
+       }
+    .noticeDivLeft{
+        margin:0!important;
+    }
+    .noticeDivLeft .noticeTitle{
+       margin: 0 !important;  
+    } 
+    .honorContainer .noticeDivLeft .card-carousel {
+        margin: 0 !important;
+      } 
+      .honorContainer .noticeDivLeft .alumniDescription{
+        margin: 0 !important;
+      }
+    
+      .aboutNcpc{
+      margin:3% 3% 7% 3% !important;
+    }
+ 
 
     .contactBtn{
          width: 60% !important;
@@ -198,10 +287,47 @@
     .StrategyTitleBorder h6{
         font-size: 9px!important;
     }
+
+     /* .countRow{
+        height:570px;
+        background: url('../Images/dept/rsz_1logo_ncpc.jpg');
+     }
+     .ncpc_Counts{
+      margin:0%;
+    }
+
+    .mid{
+        margin-top:2%;
+        padding:4%;
+    } */
+
+    
     .App{
         height:auto!important;
+        background-color: white!important;
+    
+        /* background: url("../Images/dept/code_elevate_camp_edited.jpg") no-repeat fixed center;   */
     }
+    .titleDates{
+        font-size: 22px!important;
+        padding-top:10%!important;
+      }
+
+      .subTitleDates{
+        font-size: 16px;
+        font-weight: 380;
+      }
+      .titleH6{
+        font-size: 12px;
+      }
+      .DatesRow{ 
+        padding:0!important;
+     }
+     .Dates_Counts{
+        height:250px;
+        margin:4%;
+     }
+  
    
 }
-
 

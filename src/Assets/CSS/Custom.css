@@ -1,7 +1,11 @@
+.topBanner{
+    background-color: #1b182e;
+}
 .navBar{
     max-width: 100%;
     height: 60px;
     background-color: #1b182e;
+    /* background-color: #485059; */
     transition: 0.5s;
 }
 .nav{
@@ -9,13 +13,15 @@
 }
 
 .navLink{
-    color: white!important;
+    color: rgb(219, 219, 219)!important;
     font-family: Roboto,serif;
-    font-size: 18px!important;
+    font-size: 16px!important;
     font-weight: 400!important;
     text-decoration: none;
     transition: 0.5s;
     padding-top: 0;
+
+    
 }
 .ddBox a{
     margin-top: 0;
@@ -23,6 +29,7 @@
 
 .ddBoxScroll a{
     margin-top: 0;
+
 }
 .navBarScroll{
     position: fixed !important;
@@ -35,14 +42,16 @@
     transition: 0.5s;
 }
 .navLinkScroll{
-    color: rgba(0,0,0,1) !important;
+    /* color: rgba(0,0,0,6) !important; */
+    color: rgb(99, 99, 99)!important;
     font-family: Roboto,serif;
-    font-size: 18px!important;
+    font-size: 16px!important;
     font-weight: 400!important;
     text-decoration: none;
     transition: 0.5s;
 }
 .ddMenu{
+    
     font-family: Roboto,serif!important;
     font-weight: 400!important;
     background-color: rgba(0,0,0,0)!important;
@@ -54,15 +63,18 @@
     padding: 0!important;
     color: white!important;
     background-color: #413c69!important;
+    /* background-color: #616878!important; */
 }
 .navLink:hover{
     color:white !important;
     background-color: #413c69!important;
+    /* background-color: #616878!important; */
     padding: 18px;
 }
 .navLinkScroll:hover{
     color:white!important;
-    background-color: #413c69!important ;
+    background-color: #1b182e!important;
+    /* background-color: #485059!important; */
     padding: 18px;
 }
 .logoImg{
@@ -73,14 +85,15 @@
 
 .ddBox{
     background-color: #1b182e!important;
-    font-size: 18px;
+    /* background-color: #485059!important; */
+    font-size: 16px;
     font-weight: 400;
     transition: 0.5s;
     border-radius: 2px!important;
     border: none!important;
 }
 .ddBoxScroll{
-    background-color:white!important;
+   
     font-size: 18px!important;
     font-weight: 400!important;
     transition: 0.5s;
@@ -88,12 +101,13 @@
     border-radius: 2px!important;
     padding: 50px;
 }
+
 .carouselImg{
     width: 100%;
     height: 550px;
 }
 
-.logoContainer{
+/* .logoContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,6 +127,25 @@
     max-width: 120px;
 }
 
+.logoRightDiv{
+    display: flex;
+    justify-content: right;
+} */
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.logoLeftDiv img{
+    width: 35%;
+    height: auto;
+    max-width: 150px;
+}
+.logoRightDiv img{
+    width: 20%;
+    height: auto;
+    max-width: 120px;
+}
 .logoRightDiv{
     display: flex;
     justify-content: right;
@@ -153,6 +186,7 @@
     height: 100px;
     border-radius: 50%;
 }
+
 .card{
     height: 380px!important;
     border-radius: 0!important;
@@ -164,11 +198,10 @@
     background-color:rgb(0, 0, 0,0.5)!important;
     border: 2px solid rgb(210, 203, 203)!important;
     color: rgb(210, 203, 203)!important;
-    font-size: 18px!important;
+    font-size: 16px!important;
     font-family: Montserrat, serif!important;
     font-weight: 300!important;
-    border-radius:1%!important;
-    
+    border-radius:2%!important;
     
 }
 .contactBtn:hover{
@@ -233,7 +266,7 @@ Button{
     border-radius: 0!important;
 }
 .title{
-    font-size: 22px;
+    font-size: 19px!important;
     color: #1b182e!important;
     font-family: Montserrat, serif;
     font-weight: 500;
@@ -262,7 +295,6 @@ Button{
 }
 .honorContainer{
     background-color: white;
-  
 }
 
 .honorContainer .card{
@@ -271,7 +303,7 @@ Button{
     border:2px solid #cdcfd1!important;
     font-weight: 700!important;
     font-family:Montserrat, serif;
-    margin:2%;
+    margin:1%;
     width:auto!important;
     /* color:rgb(163, 163, 226)!important;  */
     color: rgba(0,0,0,0.4)!important;
@@ -280,26 +312,30 @@ Button{
 .honorContainer .card:hover{
     color:rgb(41, 41, 45)!important;
     font-weight:800!important;
-    border:1px solid rgb(143, 143, 143)!important;
+    /* border:1px solid rgb(143, 143, 143)!important; */
 }
 
-.card.titleSeeMoreNotice{
-    font-size: 22px!important;
+.titleSeeMoreNotice{
+    font-size: 18px!important;
     font-family: Montserrat, serif;
-    font-weight: 600!important;
+    font-weight: 500!important;
     
 }
 
 
 .honorContainer .noticeDivLeft .card-carousel {
     /* margin-left:1%; */
-    margin-right: 1%;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); */
-   
+    margin: 0 6% 1% 4%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); */  
   } 
+
+  .honorContainer .carouselImg{
+    height:490px;
+  }
   .honorContainer .noticeDivLeft .alumniDescription{
     /* margin-left:1%; */
-    margin-right: 1%;
+    margin-right: 6%;
+    margin-left: 4%;
     
   }
 .honorContainer .strategyWidth{
@@ -317,11 +353,12 @@ Button{
 }
 .noticeDivLeft .noticeTitle{
     background-color: #cdcfd1!important;
-    /* margin-left: 1%; */
-    margin-right: 1%;
+    /* background-color: #1b182e; */
+    margin-right: 6%;
+    margin-left: 4%;
     box-shadow: 0 0 2px rgba(50, 49, 49, 0.3)!important;
-    padding-top:2%;
-    padding-bottom: 1%;
+    /* padding-top:2%;
+    padding-bottom: 1%; */
 }
 
 .carouselCaptionDivLeftHonor{
@@ -332,53 +369,61 @@ Button{
     background-color: rgba(0, 0, 0, 0.5)!important;
 }
 .noticeDivRight{
+    margin:0 8% 0 0;
     background-color: rgb(255, 255, 255);
     color:rgb(22, 21, 21);
-    border-radius: .5%;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     /* padding: 0 2% 2% 2%; */
     /* margin:2%; */
-    box-shadow: 0 0 10px rgba(50, 49, 49, 0.3)!important;
-    
-  
+   
 }
 
 .carouselItemContainerSpeech{
     background-color:white;
-    color:silver;   
+    color:silver;  
+    margin-right:8%; 
     /* box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important; */
 }
 .noticeTitle{
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Montserrat, serif;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    padding:2%;
-    color: rgba(0,0,0,0.7)!important;
-    
+    color: silver!important;
+    /* padding:2%; */
+    /* color: rgba(0,0,0,0.5)!important; */
     
 }
 
+.jucseDescriptionTitle{
+    font-family: Montserrat, serif;
+    font-size: 20px;
+}
 
 .noticeTitleSpeech{
     
     /* padding:2%; */
     font-family: Montserrat, serif;
-    font-size: 25px;
+    font-size: 20px;
     /* margin-left:2%;
     margin-right:2%; */
-    font-weight: 400;
-    background-color: #cdcfd1; 
+    font-weight: 300;
+    background-color:#1b182e!important;
+    /* background-color: #cdcfd1;  */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    color: rgba(0,0,0,0.7)!important;
+    /* color: rgba(0,0,0,0.6)!important; */
+    color: silver!important;
 }
 
 .noticeDivRightHeading{
-    color: rgba(0,0,0,0.7)!important;
-    background-color: #cdcfd1; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: silver!important;
+    /* color: rgba(0,0,0,0.7)!important; */
+    /* background-color: #cdcfd1;  */
+    background-color: #1b182e;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     font-family: Montserrat, serif;
+   
     
 }
 
@@ -387,9 +432,9 @@ Button{
     justify-content: flex-start;
     text-decoration: none;
     color: rgba(54, 52, 52, 0.8)!important;
-    font-family: Roboto, serif;
+    font-family: Montserrat, serif !important;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     padding-left:3%;
 }
 
@@ -405,6 +450,7 @@ Button{
     transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
     text-decoration: none;
 }
+
 .seeMoreLink {
     color: blue!important;
     font-size: 16px;
@@ -513,7 +559,7 @@ Button{
     width: 100%;
     height: 250px;
     min-height: 250px; 
-    margin: 5px;
+    /* margin: 5px; */
     padding: 50px;
     border-radius: 2px;
     border:1px solid rgb(175, 190, 196);    
@@ -529,6 +575,7 @@ Button{
     padding: 0 0 5% 0;
  
 }
+
 .topImg{
     width: 30%;
     margin: 0 auto!important;
@@ -594,7 +641,7 @@ Button{
 }
 
 .supportImgJU{
-    max-width: 500px!important;
+    width:30%;
     height: auto;
 }
 
@@ -633,15 +680,23 @@ Button{
     margin-top:11%;
 
 }
+.StrategyCardsCol{
+    padding:0 4% 0 4%!important;
+}
+
+.StrategyCardsCol .card{
+    border-radius: 1%!important;
+    
+}
 
 .titleStrategy{
-    font-size: 22px!important;
+    font-size: 19px!important;
     color: rgba(0,0,0,0.7)!important; 
     font-family: Montserrat, serif;
     font-weight: 600!important;
 }
 .subTitleStrategy{
-    font-size: 17px;
+    font-size: 16px;
     font-family: Roboto, serif;
     font-weight: 500;
     color: rgba(0,0,0,0.4)!important;
@@ -651,7 +706,7 @@ Button{
     font-size: 18px;
     font-family: Montserrat, serif;
     font-weight: 200;
-   
+    margin:9% 0 9% 0;
 }
 
 
@@ -672,12 +727,12 @@ Button{
 
 
 .marquee {
-    padding:.5%;
+    padding:9px;
     white-space: nowrap;
-    animation: marquee 35s linear infinite; 
+    animation: marquee 30s linear infinite; 
     font-family: Roboto, serif;
-    font-weight: 500!important;
-    color: rgba(0,0,0,0.5)!important;
+    font-weight: 400!important;
+    color: rgba(0,0,0,0.6)!important;
     font-size: 14px;
   }
   .marquee:hover{
@@ -685,30 +740,24 @@ Button{
     cursor:pointer;
   }
   .marquee span:not(:last-child) {
-    margin-right: 50px; 
+    margin-right: 40px; 
   }
    
  
   /* CountdownTimer.css */
 .App{
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     width: 100%;
-    height: 700px; 
-     background-size: cover;
-     background: url("../Images/dept/codeElevate_302.jpg") no-repeat fixed center;  
-      
-}
-.overLayDatesTop{
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    background-color: rgba(0,0,0,0.4);
-}
-.importantDates{
-    background-color: rgba(0,0,0,0.4);
-    font-weight: 300!important;
-    font-size: 29px!important;
+    height: auto!important;  
     
+    
+}
+
+.importantDates{
+    
+    font-weight: 350!important;
+    font-size: 32px!important;
+    color:rgb(119, 116, 116)!important;
+    /* color:rgb(143, 143, 143)!important; */
 }
 
 .App h4{
@@ -719,9 +768,16 @@ Button{
     letter-spacing: 2px;
     
 }
+
 .ncpc_Counts{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 35.5%, rgb(255, 254, 254) 35.5%, rgb(255, 255, 255) 64.5%);
+    margin-left:30%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    /* background: url('../Images/dept/rsz_1logo_ncpc.jpg'); */
+    /* background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 35.5%, rgb(255, 254, 254) 35.5%, rgb(255, 255, 255) 64.5%); */
+}
+.ncpc_Counts:hover{
+    cursor:pointer;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); */
 }
 .ncpc_Counts h1{
     color:silver;
@@ -731,35 +787,74 @@ Button{
     font-weight: 250!important;
     font-size: 20px;
 }
-.ncpc_Counts:hover{
-    cursor:pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+.mid{
+    /* border:15px solid #1b182e; */
+    margin:7% 15% 15% 15%;
+    padding:16% 0 15% 0;
+    border-radius: 50%;
+    /* background-color: rgba(0,0,0,0.5); */
+    background-color: #1b182e;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6)!important;
+    color:white;
+}
+.mid:hover{
+    box-shadow: 0 4px 4px rgba(242, 242, 242, 0.3)!important;
+    transform: scale(1.04)!important;
+    background-color: rgba(27,24,46,0.8);
+    color:rgb(141, 139, 139)!important;
+}
+.mid h1{
+    color:silver!important;
+    font-weight:300;
+}
+.mid h3{
+    color:silver;
+    font-weight:300;
 }
 
 .timer-container {
-    background-color: #ffffff;
-    justify-content: center;
+    /* background-color: #ffffff; */
+    /* justify-content: center;
+    align-items: center; */
     font-family: Montserrat, serif;
-    padding:1%!important;
+    
     
   }
   
   .timer-circle {
     font-family: Montserrat, serif;
-    font-size: 25px;
-    color:#1b182e;
-    justify-content: center;
-    align-items: center;
+    font-size: 35px;
+    color:rgb(212, 209, 209);
+    /* justify-content: center;
+    align-items: center; */
+    
   }
+   
 
   .Dates_Counts{
-   background-color: #cdcfd1;
-   box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important;
+   /* background-color: #cdcfd1; */
+   background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%);
+   /* background: rgb(255, 253, 253) linear-gradient(to bottom, #cdcfd1 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%); */
+   box-shadow: 0 0 30px rgba(50, 49, 49, 0.5)!important;
+   margin:9%;
+   border-radius: 2%!important;
+   height:300px;
+
 }
 .Dates_Counts:hover{
-    background-color:rgb(143, 143, 143)!important;
-    cursor:pointer;
-    border:1px solid rgb(143, 143, 143)!important;
+    box-shadow: 0 4px 4px rgba(50, 49, 49, 0.3)!important;
+    /* background-color:rgb(143, 143, 143)!important; */
+    background: rgb(255, 253, 253) linear-gradient(to bottom, rgba(27,24,46,0.4) 29.5%, rgb(255, 254, 254) 29.5%, rgb(255, 255, 255) 69.5%);
+    color:rgb(140, 136, 136)!important;
+    /* border:1px solid rgb(143, 143, 143)!important; */
+    transform: scale(1.01)!important;
+    
+ }
+ .DatesRow{
+    margin:0 5% 4% 5%!important;
+    padding:2% 5% 0 5%;
+   
  }
 
   .DatesRow .ncpc_Counts:hover{
@@ -768,33 +863,36 @@ Button{
   .DatesRow .card{
     padding:10%;
     box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important; 
+    border-radius: 2%!important;
   }
   .DatesRow .card:hover{
     cursor:pointer!important;
  
   }
   .titleDates{
-    font-size: 22px!important;
+    font-size: 20px!important;
     color: rgba(0,0,0,0.7)!important; 
     font-family: Montserrat, serif;
-    font-weight: 350!important;
+    font-weight: 450!important;
+    padding-top:15%!important;
   }
   .subTitleDates{
     font-size: 16px;
     font-family: Montserrat, serif;
-    font-weight: 380;
+    font-weight: 400;
     color: #908d8d;
     
 }
   
   .titleH6{
-    color: rgba(0,0,0,0.4)!important;
+    
+    color: rgba(0,0,0,0.3)!important;
     font-family: Montserrat, serif;
   }
   
   .titleH6:hover{
-    color: #3b3939!important;
+    color:rgb(143, 143, 143)!important;
   }
   
-
  
+

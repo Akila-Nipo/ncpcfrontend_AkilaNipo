@@ -33,7 +33,7 @@ function Footer(props) {
             </Row>
             <Row className="m-0 p-0">
                 <Col className="footerCredit text-center">
-                    &copy; 2023 <a href="https://www.juniv.edu/department/cse" target="blank">Department of Computer Science and Engineering, Jahangirnagar University</a>
+                    &copy; 2024 <a href="https://www.juniv.edu/department/cse" target="blank">Department of Computer Science and Engineering, Jahangirnagar University</a>
                 </Col>
             </Row>
         </Container>

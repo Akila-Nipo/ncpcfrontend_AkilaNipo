@@ -1,8 +1,8 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import {Container, Dropdown, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBullhorn} from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faBullhorn} from "@fortawesome/free-solid-svg-icons";
 
 function TopMenu() {
     const [isScroll,setIsScroll] = useState(false);
@@ -74,11 +74,10 @@ function TopMenu() {
                </Navbar>
                <div className="marquee-container">
                <div className="marquee">
-                
-                <span> <FontAwesomeIcon icon={faBullhorn}/> Registration Starts</span>
-                <span><FontAwesomeIcon icon={faBullhorn}/>  Main Contest</span>
-                <span><FontAwesomeIcon icon={faBullhorn}/>  Seat Plan</span>  
-                <span><FontAwesomeIcon icon={faBullhorn}/>  Payment Deadline</span>
+                <span> Registration Begins</span>
+                <span>Main Contest Date and Schedule</span>
+                <span>Seat Plan List</span>  
+                <span>Payment Details</span>
               </div>
                    
                </div>

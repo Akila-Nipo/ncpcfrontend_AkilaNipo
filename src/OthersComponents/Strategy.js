@@ -16,13 +16,13 @@ function Strategy(props) {
             </Container>
             
             <Row className="mt-5 p-0 mx-0">
-                <Col className="m-0" lg={4} md={4} sm={6}>
+                <Col className="StrategyCardsCol m-0" lg={4} md={4} sm={6}>
                     <StrategyCard think={brain}/>
                 </Col>
-                <Col className="m-0" lg={4} md={4} sm={6}>
+                <Col className="StrategyCardsCol m-0" lg={4} md={4} sm={6}>
                     <AlgorithmCard strategize={graph}/>
                 </Col>
-                <Col className="m-0" lg={4} md={4} sm={6}>
+                <Col className="StrategyCardsCol m-0" lg={4} md={4} sm={6}>
                     <CodeCard code={coding}/>
                 </Col>
             </Row>

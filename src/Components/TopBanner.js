@@ -43,7 +43,7 @@ function TopBanner() {
                             </Carousel.Item>
                         </Carousel>
                     </Col>
-                    <Col md={5} lg={5} sm={12} className="m-0 p-0" >
+                    <Col md={5} lg={5} sm={12}>
                         <Count/>
                     </Col>
                 </Row>

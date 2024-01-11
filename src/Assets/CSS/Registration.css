@@ -1,9 +1,11 @@
 .registration {
     background-color: rgb(255, 255, 255);
     padding: 5% 12% 5% 12%;
+  
 }
 .formBorder{
-    box-shadow: 0 0 4px 4px rgba(57, 57, 57, 0.7);
+    
+    box-shadow: 0 0 20px rgba(50, 49, 49, 0.3)!important;
     background: rgb(255, 253, 253) linear-gradient(to bottom, #1b182e 12.5%, rgb(255, 254, 254) 12.5%, rgb(255, 255, 255) 87.5%);
 }
 .boldTitle{
@@ -16,21 +18,20 @@
 
 .form-control{
     margin-top:5px;
-    box-shadow: 0 0 0 1px rgb(199, 197, 197);
-    
+    box-shadow: 0 0 0 1px rgb(222, 221, 221);
+    font-weight:300!important;
     
 }
 .form-control:hover{
     box-shadow: 0 0 1px 1px skyblue !important;
     border:1px solid skyblue;
     
-    
 }
 .form-control:focus{
     box-shadow: 0 0 1px 1px skyblue !important;
-    border: 2px solid skyblue!important;
-    
+    border: 2px solid skyblue!important;   
 }
+
 .submitBtn{
     color: white;
     border: 1px solid black;
@@ -40,7 +41,7 @@
     font-weight: 700;
 }
 .formBorder{
-    border: 2px solid rgb(73, 71, 71);
+    /* border: 2px solid rgb(73, 71, 71); */
     padding: 5%;
     border-radius: 7px;
 }
@@ -65,6 +66,7 @@
 }
 .firstContestant hr{
     border:1px solid #1b182e; 
+   
 }
 .firstContestant h4{
     font-weight:bold;
@@ -75,11 +77,14 @@
       color: rgba(0,0,0,0.9);
       font-family: Montserrat, sans-serif, serif !important;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 400;
       margin-top: 1%;
   }
   
-
+  .firstContestant .title{
+    font-size: 29px!important;
+    margin-top:2%;
+  }
 
   .registration {
     width: 100%;
@@ -109,7 +114,7 @@
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  color:rgb(5, 5, 138);
+  color:#929292;
 }
 .firstContestant .gender{
     color: rgba(0,0,0,1);

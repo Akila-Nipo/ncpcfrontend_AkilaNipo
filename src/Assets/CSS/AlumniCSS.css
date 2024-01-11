@@ -1,6 +1,6 @@
 
 .alumniTitle{
-    font-size: 22px;
+    font-size: 20px;
     font-family: Montserrat, serif;
     font-weight: 500;
     margin-top: 29px;
@@ -13,15 +13,16 @@
     padding: 3px 1% 3px 1%;
     font-size: 16px;
     font-family: Roboto, serif;
-    font-weight: 400;
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.8);
     text-align: justify;
 }
 .alumniFullBanner{
     /* box-shadow: 0 0 2px rgb(48, 64, 87); */
-    margin:3%;
+    margin:6% 3% 3% 3%!important;
     background-color:#e7e8ec;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.3);
+    box-shadow: 0 4px 4px rgba(50, 49, 49, 0.3)!important;
 }
 .alumniColumn{
     padding-top: 7% !important;
@@ -33,12 +34,15 @@
     padding: 2% 7%;
 }
 .rowBackground{
-    background-color:#e7e8ec; 
-  
+    /* background-color:#e7e8ec;  */
+    background-color:rgb(243, 243, 243);
 }
 
 
 @media (max-width: 575px) {
+    .alumniFullBanner{
+        margin: 3% 3% 9% 3%!important;
+    }
     .carouselImgAlumni{
         width:100%;
         height:320px;
