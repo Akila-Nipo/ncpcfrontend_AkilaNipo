@@ -7,7 +7,6 @@ import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
 import {faAt} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faVenusMars} from "@fortawesome/free-solid-svg-icons";
-import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 import {faShirt} from "@fortawesome/free-solid-svg-icons";
 import {faIdCardClip} from "@fortawesome/free-solid-svg-icons";
 import {faImage} from "@fortawesome/free-solid-svg-icons";
@@ -22,34 +21,18 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faChalkboardUser} />   Coach Info</h4>
             <hr/>
-            <Row>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> First Name</label>
-                    <input
-                        type="text"
-                        placeholder="First Name"
-                        className="form-control"
-                        name="teacherName1"
-                        onChange={inputChange}
-                        value={"" === !data.teacherName1?"":data.teacherName1}
-
-                    />
-                </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} />  Last Name</label>
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                        className="form-control"
-                        name="teacherName2"
-                        onChange={inputChange}
-                        value={"" === !data.teacherName2?"":data.teacherName2}
-
-                    />
-                </Col>
-            </Row>
-            <Row>
+            <Row className="mx-0">
                 <Col>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Name</label>
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        className="form-control"
+                        name="teacherName"
+                        onChange={inputChange}
+                        value={"" === !data.teacherName?"":data.teacherName}
+
+                    />
                     <label htmlFor="x"><FontAwesomeIcon icon={faIdCardClip} />   Designation</label>
                     <select
                         className="form-control w-25"
@@ -104,15 +87,6 @@ function TeacherData({thirdCall,inputChange,postDataToBackend}) {
                         checked={data.teacherGender==="female"}
                     /> <label className="gender" htmlFor="female"> Female</label><br/>
 
-                    <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} /> NID/Birth Registration No</label><br/>
-                    <input
-                        type="text"
-                        className="form-control"
-                        name="teacherNid"
-                        onChange={inputChange}
-                        value={!data.teacherNid===""?"":data.teacherNid}
-
-                    />
                     <label htmlFor="available"><FontAwesomeIcon icon={faShirt} />    T-shirt Size</label><br/>
                     <select
                         id="available"

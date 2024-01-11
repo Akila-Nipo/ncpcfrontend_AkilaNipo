@@ -61,6 +61,7 @@ function RegiForm() {
         });
 
         axios.post('https://pc.cse.juniv.edu/api/addUser', formData)
+
             .then(response => {
                  console.log(response.data);
                  window.alert(response.data);

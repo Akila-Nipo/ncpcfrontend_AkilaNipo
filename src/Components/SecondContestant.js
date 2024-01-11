@@ -8,8 +8,6 @@ import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
 import {faAt} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faVenusMars} from "@fortawesome/free-solid-svg-icons";
-import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
-import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 import {faShirt} from "@fortawesome/free-solid-svg-icons";
 import {faImage} from "@fortawesome/free-solid-svg-icons";
 
@@ -22,34 +20,18 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} />    Team Member-2</h4>
             <hr/>
-            <Row>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> First Name</label>
-                    <input
-                        type="text"
-                        placeholder="First Name"
-                        className="form-control"
-                        name="secondUserName1"
-                        onChange={inputChange}
-                        value={!data.secondUserName1===""?"":data.secondUserName1}
-
-                    />
-                </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Last Name</label>
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                        className="form-control"
-                        name="secondUserName2"
-                        onChange={inputChange}
-                        value={!data.secondUserName2===""?"":data.secondUserName2}
-
-                    />
-                </Col>
-            </Row>
-            <Row>
+            <Row className="mx-0">
                 <Col>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} />Name</label>
+                    <input
+                        type="text"
+                        placeholder="Name"
+                        className="form-control"
+                        name="secondUserName"
+                        onChange={inputChange}
+                        value={!data.secondUserName===""?"":data.secondUserName}
+
+                    />
                     <label htmlFor="x"><FontAwesomeIcon icon={faAt} />   E-mail</label>
                     <input
                         type="email"
@@ -89,24 +71,6 @@ function SecondContestant({thirdCall,firstCall,inputChange}) {
                         onChange={inputChange}
                         checked={data.secondUserGender==="female"}
                     /> <label className="gender" htmlFor="female"> Female</label><br/>
-                    <label htmlFor="" ><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
-                    <input
-                        type="date"
-                        className="form-control"
-                        required="true"
-                        name="secondUserDob"
-                        onChange={inputChange}
-                        value={!data.secondUserDob===""?"":data.secondUserDob}
-                    />
-                    <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} />  NID/Birth Registration No</label><br/>
-                    <input
-                        type="text"
-                        className="form-control"
-                        name="secondUserNid"
-                        onChange={inputChange}
-                        value={!data.secondUserNid===""?"":data.secondUserNid}
-
-                    />
                     <label htmlFor="available"><FontAwesomeIcon icon={faShirt} />    T-shirt Size</label><br/>
                     <select
                         id="available"

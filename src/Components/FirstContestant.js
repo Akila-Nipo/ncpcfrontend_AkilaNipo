@@ -10,8 +10,6 @@ import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
 import {faAt} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faVenusMars} from "@fortawesome/free-solid-svg-icons";
-import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
-import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 import {faShirt} from "@fortawesome/free-solid-svg-icons";
 import {faImage} from "@fortawesome/free-solid-svg-icons";
 import items from "./Context/Universities";
@@ -63,32 +61,17 @@ function FirstContestant({secondCall,inputChange}) {
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} /> Team Member-1</h4>
             <hr/>
-            <Row className="m-0 p-0">
-                <Col md={6} sm={12} lg={6}>
+            <Row className="mx-0">
+                <Col>
                     <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> First Name</label>
                     <input
                         type="text"
                         placeholder="First Name"
                         className="form-control"
-                        name="firstUserName1"
+                        name="firstUserName"
                         onChange={inputChange}
-                        value={!data.firstUserName1===""?"":data.firstUserName1}
+                        value={!data.firstUserName===""?"":data.firstUserName}
                     />
-                </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Last Name</label>
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                        className="form-control"
-                        name="firstUserName2"
-                        onChange={inputChange}
-                        value={!data.firstUserName2===""?"":data.firstUserName2}
-                    />
-                </Col>
-            </Row>
-            <Row className="m-0 p-0">
-                <Col>
                     <label htmlFor="x"><FontAwesomeIcon icon={faAt} />   E-mail</label>
                     <input
                         type="email"
@@ -128,23 +111,6 @@ function FirstContestant({secondCall,inputChange}) {
                         onChange={inputChange}
                         checked={data.firstUserGender==="female"}
                     /> <label className="gender" htmlFor="female"> Female</label><br/>
-                    <label htmlFor="" className='dateofbirthcss'><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
-                    <input
-                        type="date"
-                        className="form-control"
-                        required="true"
-                        name="firstUserDob"
-                        onChange={inputChange}
-                        value={!data.firstUserDob===""?"":data.firstUserDob}
-                    />
-                    <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} />  NID/Birth Registration No</label><br/>
-                    <input
-                        type="text"
-                        className="form-control"
-                        name="firstUserNid"
-                        onChange={inputChange}
-                        value={!data.firstUserNid===""?"":data.firstUserNid}
-                    />
                     <label htmlFor="available"><FontAwesomeIcon icon={faShirt} />    T-shirt size</label><br/>
                     <select
                         id="available"
