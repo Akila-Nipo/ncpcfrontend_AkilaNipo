@@ -60,7 +60,7 @@ function RegiForm() {
             formData.append(key, value);
         });
 
-        axios.post('http://146.190.80.140:8080/addUser', formData)
+        axios.post('http://localhost:8080/api/addUser', formData)
             .then(response => {
                  console.log(response.data);
                  window.alert(response.data);

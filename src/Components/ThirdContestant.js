@@ -8,8 +8,6 @@ import {faFileSignature} from "@fortawesome/free-solid-svg-icons";
 import {faAt} from "@fortawesome/free-solid-svg-icons";
 import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faVenusMars} from "@fortawesome/free-solid-svg-icons";
-import {faCalendarDays} from "@fortawesome/free-solid-svg-icons";
-import {faCreditCard} from "@fortawesome/free-solid-svg-icons";
 import {faShirt} from "@fortawesome/free-solid-svg-icons";
 import {faImage} from "@fortawesome/free-solid-svg-icons";
 
@@ -21,34 +19,18 @@ function ThirdContestant({fourthCall,secondCall,inputChange}) {
             <hr/>
             <h4 className="title mb-4"><FontAwesomeIcon icon={faUser} />    Team Member-3</h4>
             <hr/>
-            <Row>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} />   First Name</label>
-                    <input
-                        type="text"
-                        placeholder="First Name"
-                        className="form-control"
-                        name="thirdUserName1"
-                        onChange={inputChange}
-                        value={!data.thirdUserName1===""?"":data.thirdUserName1}
-
-                    />
-                </Col>
-                <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} /> Last Name</label>
-                    <input
-                        type="text"
-                        placeholder="Last Name"
-                        className="form-control"
-                        name="thirdUserName2"
-                        onChange={inputChange}
-                        value={!data.thirdUserName2===""?"":data.thirdUserName2}
-
-                    />
-                </Col>
-            </Row>
-            <Row>
+            <Row className="px-0">
                 <Col>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faFileSignature} />   Name</label>
+                    <input
+                        type="text"
+                        placeholder="Name "
+                        className="form-control"
+                        name="thirdUserName"
+                        onChange={inputChange}
+                        value={!data.thirdUserName===""?"":data.thirdUserName}
+
+                    />
                     <label htmlFor="x"><FontAwesomeIcon icon={faAt} />   E-mail</label>
                     <input
                         type="email"
@@ -89,25 +71,6 @@ function ThirdContestant({fourthCall,secondCall,inputChange}) {
                         checked={data.thirdUserGender==="female"}
                     /> <label className="gender" htmlFor="female"> Female</label><br/>
 
-                    <label htmlFor="" className='dateofbirthcss'><FontAwesomeIcon icon={faCalendarDays} />  Date of Birth</label><br/>
-                    <input
-                        type="date"
-                        className="form-control"
-                        required="true"
-                        name="thirdUserDob"
-                        onChange={inputChange}
-                        value={!data.thirdUserDob===""?"":data.thirdUserDob}
-
-                    />
-                    <label htmlFor="pp"><FontAwesomeIcon icon={faCreditCard} /> NID/Birth Registration No</label><br/>
-                    <input
-                        type="text"
-                        className="form-control"
-                        name="thirdUserNid"
-                        onChange={inputChange}
-                        value={!data.thirdUserNid===""?"":data.thirdUserNid}
-
-                    />
                     <label htmlFor="available"><FontAwesomeIcon icon={faShirt} />    T-shirt Size</label><br/>
                     <select
                         id="available"
