@@ -10,7 +10,7 @@ function Strategy(props) {
     return (
         <Container fluid="true" className="mb-4">
             <Container fluid="true" className="StrategyBody text-center">
-                <Container fluid="true" className="StrategyTitleBorder mt-2">
+                <Container fluid="true" className="StrategyTitleBorder mt-5">
             {/* <h6>Brace yourselves, Programmers, for the National Programming Spectacle!</h6> */}
             <h2 className="StrategyTitleBorder2">NCPC 2023</h2>
             </Container>
