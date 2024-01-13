@@ -21,8 +21,8 @@
     /* box-shadow: 0 0 2px rgb(48, 64, 87); */
     margin:6% 3% 3% 3%!important;
     background-color:#e7e8ec;
-    box-shadow: 0 0 10px rgba(99, 99, 99, 0.3);
-    box-shadow: 0 4px 4px rgba(50, 49, 49, 0.3)!important;
+    /* box-shadow: 0 0 10px rgba(99, 99, 99, 0.3); */
+    box-shadow: 0 0 4px rgba(50, 49, 49, 0.3)!important;
 }
 .alumniColumn{
     padding-top: 7% !important;

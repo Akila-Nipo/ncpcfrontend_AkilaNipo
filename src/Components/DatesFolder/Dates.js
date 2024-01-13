@@ -45,21 +45,21 @@ const Dates = () => {
         
            <Container fluid="true" className='mid'>
                 <h1 className='text-center'><FontAwesomeIcon icon={faBuildingColumns}/></h1> <h3 className='text-center'>Universities</h3>
-                <CountdownTimer initialValue={0} targetValue={100} speed={600} />
+                <CountdownTimer initialValue={0} targetValue={100} speed={100} />
 
                 </Container>
             </Col>
             <Col className="DatesCol m-0 p-0" lg={4} md={4} sm={12}>
             <Container fluid="true" className='mid'>
               <h1 className='text-center'><FontAwesomeIcon icon={faPeopleGroup}/></h1><h3 className='text-center'>Teams</h3>
-              <CountdownTimer initialValue={0} targetValue={120} speed={600} />
+              <CountdownTimer initialValue={0} targetValue={120} speed={100} />
             </Container>
             </Col>
 
             <Col className="DatesCol m-0 p-0" lg={4} md={4} sm={12}>
             <Container fluid="true" className='mid'>
                <h1 className='text-center'><FontAwesomeIcon icon={faUser}/></h1><h3 className='text-center'>Contestants</h3>
-                <CountdownTimer initialValue={0} targetValue={300} speed={400} />
+                <CountdownTimer initialValue={0} targetValue={300} speed={70} />
              </Container>
             </Col>
             </Row>

@@ -2,7 +2,6 @@ import React from 'react';
 import {Col, Container, Row,Carousel} from "react-bootstrap";
 import _201 from "../Assets/Images/dept/lab_201.png";
 import green from "../Assets/Images/dept/green.png";
-import seminar from "../Assets/Images/dept/seminar.png";
 import _203_contest from "../Assets/Images/dept/_203_contest.jpg";
 import codeElevate_302 from "../Assets/Images/dept/codeElevate_302.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -29,9 +28,6 @@ function AboutSection(props) {
                         
                         <Carousel.Item>
                             <img className="carouselImg" src={_203_contest} alt=""/>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="carouselImg" src={seminar} alt=""/>
                         </Carousel.Item>
                         
                     </Carousel>
