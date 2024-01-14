@@ -4,7 +4,7 @@ import '../CountComponent/App.css';
 
 function Count(props) {
     return (
-        <Birthday day={70} month={0}/>
+        <Birthday day={49} month={0}/>
     );
 }
 

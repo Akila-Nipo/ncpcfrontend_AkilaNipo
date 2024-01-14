@@ -1,30 +1,18 @@
 // ChoyonSirCard.js
-import React, {Fragment, useState} from 'react';
+import React, {Fragment} from 'react';
 import { Card } from "react-bootstrap";
 
-function ChoyonSirCard({ choyon }) {
-    const [css, setCss] = useState({
-        sirWidth: 'choyonSir',
-        teacherDescription: 'teacherDescription'
-    });
+function ChoyonSirCard({ choyon ,name,post}) {
 
-    const changeDes = () => {
-        const updatedCss = {
-            sirWidth: css.sirWidth === 'choyonSir' ? 'choyonSirWidth' : 'choyonSir',
-            teacherDescription: css.teacherDescription === 'teacherDescription' ? 'teacherDescriptionShow' : 'teacherDescription'
-        };
-        setCss(updatedCss);
-    };
 
     return (
        <Fragment>
-           <Card className={css.sirWidth} onClick={changeDes}>
-               <Card.Body>
+           <Card className="h-100">
+               <Card.Body className="mt-3">
                    <img className="cardImg" src={choyon} alt="af" />
-                   <Card.Title className="title">Choyon Sir</Card.Title>
+                   <Card.Title className="cardTitle">{name}</Card.Title>
                    <Card.Text>
-                       <h5 className="subTitle">Professor</h5>
-                       <p className={css.teacherDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur, consequatur consequuntur deserunt dolor doloribus ducimus eius eligendi esse ipsum iure laborum minima odio, reprehenderit sunt, ullam ut vero?</p>
+                       <h5 className="subTitle">{post}</h5>
                    </Card.Text>
                </Card.Body>
            </Card>
