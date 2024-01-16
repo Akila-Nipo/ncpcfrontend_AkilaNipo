@@ -84,10 +84,10 @@ a {
 .type{
   margin-top:20px;
   color:white;
-  font-weight: 390;
+  font-weight: 500;
   font-size: 22px;
   font-family: Montserrat, serif;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
 }
 .typing{
   margin-top: 20px;
@@ -117,7 +117,7 @@ a {
   font-size: 23px;
 }
 .deptInfo{
-  color:#ccc7c7;
+  color:#fff;
   font-weight: 300;
   font-size: 16px;
   font-family: Montserrat, serif;

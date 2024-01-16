@@ -33,7 +33,7 @@ function FirstContestant({secondCall,inputChange}) {
         <div className="firstContestant mt-4">
             <Row className="m-0 p-0">
                 <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />Institute Name</label>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faBuildingColumns} />  Institute Name</label>
                     {Array.isArray(items) && (
                         <ReactSearchAutocomplete
                             items={items}
@@ -46,7 +46,7 @@ function FirstContestant({secondCall,inputChange}) {
 
                 </Col>
                 <Col md={6} sm={12} lg={6}>
-                    <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />Team Name</label>
+                    <label htmlFor="x"><FontAwesomeIcon icon={faPeopleGroup} />  Team Name</label>
                     <input
                         type="text"
                         placeholder="Team Name"
