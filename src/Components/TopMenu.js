@@ -55,7 +55,9 @@ function TopMenu() {
                        <Nav className="nav">
                            <Nav.Link ><Link to="/" className={css.navLink} >Home</Link></Nav.Link>
                            <Nav.Link ><Link to="about"  className={css.navLink} >About</Link></Nav.Link>
+                           <Nav.Link ><Link to="rules"  className={css.navLink} >Rules</Link></Nav.Link>
                            <Nav.Link ><Link to="registration"  className={css.navLink} >Registration</Link></Nav.Link>
+                           
                            <Dropdown
                                onMouseEnter={handleMouseEnter}
                                onMouseLeave={handleMouseLeave}
@@ -74,10 +76,10 @@ function TopMenu() {
                </Navbar>
                <div className="marquee-container">
                <div className="marquee">
-                <span> Registration Begins</span>
-                <span>Main Contest Date and Schedule</span>
-                <span>Seat Plan List</span>  
-                <span>Payment Details</span>
+                <span> Preliminary Registration starts from 17 January, 2024</span>
+                <span>Preliminary Registration ends on 31 January, 2024</span>
+                <span>Main Contest Date: 20 February, 2024</span>  
+        
               </div>
                    
                </div>

@@ -15,7 +15,7 @@ import TopMenu from "./Components/TopMenu";
 import CommitteePage from "./Pages/CommitteePage";
 import GalleryPage from './Pages/GalleryPage';
 import AboutPage from "./Pages/AboutPage";
-
+import Rules from './Pages/Rules';
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/registration" element={<Registration/>}/>
+        <Route path="/rules" element={<Rules/>}/>
         <Route path="/committee" element={<CommitteePage/>}/>
         <Route path="/gallery" element={<GalleryPage/>}/>
         <Route path="/about" element={<AboutPage/>}/>

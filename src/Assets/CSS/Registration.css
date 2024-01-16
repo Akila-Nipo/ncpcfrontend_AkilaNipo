@@ -72,6 +72,14 @@
     font-weight:bold;
     font-size:xx-large;
 }
+.firstContestant h3{
+    background-color: #1b182e;
+    margin:2% 0 2% 0;
+    padding:1%;
+    color:aliceblue;
+    font-family: Montserrat, sans-serif, serif !important;
+    font-weight: 300;
+}
 
   .firstContestant label {
       color: rgba(0,0,0,0.9);
@@ -101,7 +109,8 @@
     font-weight: 700;
 }
 .submitBtn:hover{
-    background-color: #413c69;
+    /* background-color: #413c69!important; */
+    background-color: darkgreen!important;
     color:white;
 }
 .formBorder{
@@ -128,4 +137,17 @@
 }
 .genderFix{
     margin-left: 30px;
+}
+
+.PaymentImg{
+    width:400px;
+    height:auto;
+    padding:5%;
+    border-radius: 1%;
+    border:1px solid rgb(191, 191, 194);
+}
+
+.PaymentImg:hover{
+    transform: scale(1.01)!important;
+    border:1px solid rgb(21, 45, 162);
 }

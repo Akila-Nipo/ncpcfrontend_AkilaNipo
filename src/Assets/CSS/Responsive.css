@@ -125,6 +125,16 @@
      .importantDates{
         font-size:24px!important;
      }
+     .logoLeftDiv img{
+        width: 40px;
+        height: auto;
+       
+    }
+    .logoRightDiv img{
+        width: 44px;
+        height: auto;
+        
+    }
 }
 
 @media (max-width: 225px) {
@@ -332,6 +342,36 @@
         background-color: #1b182e;
      }
    
+  
+    .logoLeftDiv img{
+        width: 40px;
+        height: auto;
+       
+    }
+    .logoRightDiv img{
+        width: 44px;
+        height: auto;
+        
+    }
+
+    .rulesImg {
+        width:300px!important;
+        height:10px!important;
+      }
+
+      .subtitleRules{
+        font-weight: 700!important;
+        font-size: 14px!important;
+      }
+      
+      .firstContestant h3{
+       font-size:16px;
+       font-weight: 300;
+    }
+    .PaymentImg{
+     width:100px!important;
+     margin:4%!important;
+    }
    
 }
 

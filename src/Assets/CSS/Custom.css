@@ -61,7 +61,7 @@
     font-family: Roboto,serif!important;
     font-weight: 300!important;
     background-color: rgba(0,0,0,0)!important;
-    width: 150px!important;
+    width: 130px!important;
     padding:0!important;
     border: none!important;
 }
@@ -143,12 +143,12 @@
     justify-content: space-between;   
 }
 .logoLeftDiv img{
-    width: 35%;
+    width: 25%;
     height: auto;
     max-width: 150px;
 }
 .logoRightDiv img{
-    width: 20%;
+    width: 25%;
     height: auto;
     max-width: 120px;
 }
@@ -910,4 +910,29 @@ Button{
   }
   
  
+  
+  .rulesImg {
+    width:400px!important;
+    height:auto;
+  }
+  
+  .titleRules{
+    font-size: 22px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    color: #5f5c5c;
+  }
+  
+  .subtitleRules{
+    font-size: 30px;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    color: #5f5c5c;
+  }
 
+  .RulesDescription{
+    font-weight:400;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    text-align: justify;
+}

@@ -11,7 +11,7 @@ import FormContext from "./Context/FormContext";
 function RegiForm() {
 
     const {data,setData,first,setFirst,second,setSecond,third,setThird,fourth,setFourth} = useContext(FormContext);
-
+    
     const inputChange = (e)=>{
         if (e.target === undefined) {
             setData((prevData) => {
